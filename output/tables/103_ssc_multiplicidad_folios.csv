@@ -1,0 +1,5 @@
+tabla,folios,promedio_filas_por_folio,mediana_filas_por_folio,maximo_filas_por_folio,folios_con_multiples_filas,porcentaje_folios_multiples
+personas_edad,126253,1.2520652974582782,1,8651,16719,13.24
+personas_sexo,126472,1.1389319375039535,1,7828,9434,7.46
+personas_tipo,99000,1.088838383838384,1,17,8554,8.64
+vehiculos,126472,1.700589853880701,2,11797,72780,57.55

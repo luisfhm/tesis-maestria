@@ -1,0 +1,6 @@
+tabla,fecha_min,fecha_max,anio_min,anio_max
+hechos,2018-01-01,2023-12-31,2018,2023
+personas_edad,2018-01-01,2023-12-31,2018,2023
+personas_sexo,2018-01-01,2023-12-31,2018,2023
+personas_tipo,2020-01-01,2023-12-31,2020,2023
+vehiculos,2018-01-01,2023-12-31,2018,2023

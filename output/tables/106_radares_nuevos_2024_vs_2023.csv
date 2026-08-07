@@ -1,0 +1,19 @@
+anio,tipo,num,num_disp,calle1,calle2,y,x,id,num_disp_2,distancia_2023_m,id_2023,tipo_2023,calle1_2023,calle2_2023,coincidencia
+2024,radar fijo,75,75,Viaducto Tlalpan,Av. El Farol,19.2855784,-99.1242186,075-SSC-XOC-EV-143.211,NA,2382.3168571452466,018-SSC-XOC-FC-124.142,radar fijo,Prol. División Del Norte,And. Tabachines,>100 m
+2024,radar fijo,56,56,Viaducto Tlalpan,Av. El Farol,19.285648,-99.123666,056-SSC-XOC-VE-119.190,NA,2366.084172390625,018-SSC-XOC-FC-124.142,radar fijo,Prol. División Del Norte,And. Tabachines,>100 m
+2024,radar fijo,68,68,Av. 606,Av. 583,19.453688,-99.075447,068-SSC-GAM-EV-143.158,NA,2107.4893661829055,JVEF008,radar fijo,Aun/Deportivo Israelita/Ing. Zapadores Y,Av. Del Conscripto,>100 m
+2024,radar fijo,67,67,Calle 13,Calle 15,19.3900162,-99.1860081,067-SSC-BEJ-EV-143.150,NA,1994.2922744928762,BFCF001,radar fijo,José María Izazaga Y,José María Pino Suárez,>100 m
+2024,radar fijo,63,63,Peniques,Rupias,19.451044,-99.096166,063-SSC-VCA-EV-119.246,NA,1825.151712675538,JVEF008,radar fijo,Aun/Deportivo Israelita/Ing. Zapadores Y,Av. Del Conscripto,>100 m
+2024,radar fijo,69,69,Av. H. Congreso De La Unión,Nte. 60-A,19.4561654,-99.1145699,069-SSC-GAM-EV-143.166,NA,1159.8873870235154,BFCF022,radar fijo,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,>100 m
+2024,radar fijo,70,70,Norte 37,Pablo R. Sidar,19.4392591,-99.0970018,070-SSC-VCA-EV-143.174,NA,1003.9845901419045,012-SSC-VCA-FC-124.94,radar fijo,Ote. 144,Ote. 146,>100 m
+2024,radar fijo,76,76,Antiguo Canal De Cuemanco,C.24,19.2976212,-99.0944934,076-SSC-XOC-EV-143.218,NA,863.0176186702967,004-SSC-XOC-FC-124.30,radar fijo,Cto. Cuemanco Nte.,Antiguo Canal De Cuemanco,>100 m
+2024,radar fijo,59,59,Sur 113,Sur 113-A,19.3697071,-99.1135417,059-SSC-ITZ-VE-119.214,NA,742.6302716232306,019-SSC-IZP-EV-124.150,radar fijo,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,>100 m
+2024,radar fijo,60,60,Estnógrafos,Fiscales,19.370079,-99.11295,060-SSC-IZT-VE-143.166,NA,668.2587553461416,019-SSC-IZP-EV-124.150,radar fijo,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,>100 m
+2024,radar fijo,79,79,Gerentes,Etnógrafos,19.375578,-99.101718,079-SSC-IZT-EV-143.246,NA,660.0372148559927,019-SSC-IZP-EV-124.150,radar fijo,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,>100 m
+2024,radar fijo,57,57,Playa Villa Del Mar,Playa Roqueta,19.381776,-99.129616,057-SSC-IZT-FC-119.198,NA,516.8249866639429,JFCF006,radar fijo,Eje 6 Sur Playa Pie De La Cuesta Y ,Eje 1 Ote. Andrés Molina Enríquez,>100 m
+2024,radar fijo,65,65,Pulacayo,Latacunga,19.4894549,-99.1298036,065-SSC-GAM-EV-143.134,NA,439.68504704594403,BFCF010,radar fijo,Av. Instituto Politécnico Nacional Y,Eje 5 Nte Montevideo,>100 m
+2024,radar fijo,64,64,Nezahualpilli,Nopaltzin,19.440507,-99.1675,064-SSC-MIH-EV-119.254,NA,397.83916525976184,NA,radar móvil,Ribera De San Cosme Y,Virginia Fabregas Direccion Oriente,>100 m
+2024,radar fijo,43,43,Av. Insurgentes Norte,Dr. Mariano Azuela,19.44648,-99.15362,043-SSC-CUH-FC-119.86,NA,364.4449641641296,NA,radar móvil,Av. Revolucion  Sentido Norte ,-,>100 m
+2024,radar fijo,78,78,Tenochtitlan,F.C. Hidalgo,19.4528992,-99.1279974,078-SSC-CUH-EV-143.232,NA,352.16030034021776,BFCF022,radar fijo,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,>100 m
+2024,radar fijo,47,47,Eje 1 Norte Mosqueta,Carlos J. Meneses,19.445911,-99.153179,047-SSC-CUH-FC-119.118,NA,350.1310900425378,NA,radar móvil,Av. Revolucion  Sentido Norte ,-,>100 m
+2024,radar fijo,74,74,Lieja,Cto. Interior Mtro. José Vasconcelos,19.42333,-99.176218,074-SSC-MIH-EV-143.206,NA,346.41770868914097,003-SSC-CUH-FC-124.22,radar fijo,Burdeos,Leija,>100 m

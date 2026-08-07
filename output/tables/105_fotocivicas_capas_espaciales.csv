@@ -1,0 +1,3 @@
+capa,observaciones,tipo_geometria,crs,variables
+puntos,113,POINT,WGS 84,geo_shape | ubi | no | via_princi | ubicacion | sentido | y | x
+lineas,27,LINESTRING,WGS 84,geo_shape | ubi | no | via_princi | ubicacion | sentido | y | x

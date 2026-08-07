@@ -1,0 +1,635 @@
+id_espacial,anio,tipo,id,calle1,calle2,lon,lat
+-99.01535_19.35214,2019,radar fijo,JFCF003,Eje 1 Oriente Canal de Miramontes,y Eje 9 Sur Taxqueña y Cerro de Teponaxtle,-99.015352,19.352139
+-99.01535_19.35214,2020,radar fijo,JFCF003,Eje 1 Oriente Canal de Miramontes,y Eje 9 Sur Taxqueña y Cerro de Teponaxtle,-99.015352,19.352139
+-99.01535_19.35214,2021,radar fijo,JFCF003,Eje 1 Oriente Canal de Miramontes,y Eje 9 Sur Taxqueña y Cerro de Teponaxtle,-99.015352,19.352139
+-99.01535_19.35214,2022,radar fijo,JFCF003,Eje 1 Oriente Canal De Miramontes Y Eje 9 Sur Taxqueña Y,Cerro De Teponaxtle,-99.015352,19.352139
+-99.02095_19.34538,2019,radar móvil,RVEM008,Entre Av. de las Palmas y,Eje 6 Sur,-99.02095196,19.34538085
+-99.04067_19.3433,2019,radar móvil,RVEM007,Entre Calle 39 y,Calle 17,-99.04066523,19.34330237
+-99.04228_19.38918,2023,radar fijo,008-SSC-IZP-EV-124.62,Gral. Juan Manuel Torre,Lic. Juan C. Doria,-99.0422815,19.389183
+-99.04228_19.38918,2024,radar fijo,008-SSC-IZP-EV-124.62,"Moctezuma Segunda Seccion, Venustiano Carranza",Lic. Juan C. Doria,-99.0422815,19.389183
+-99.04237_19.38874,2023,radar fijo,001-SSC-IZP-EV-124.6,Av. Telecomunicaciones,Emilio Azcárraga,-99.0423673,19.3887368
+-99.04237_19.38874,2024,radar fijo,001-SSC-IZP-EV-124.6,Av. Telecomunicaciones,Emilio Azcarraga,-99.0423673,19.3887368
+-99.04239_19.38894,2019,radar fijo,VVEF035,Eje 1 Nte. Mosqueta,y Soto,-99.0423924,19.3889366
+-99.04239_19.38894,2020,radar fijo,VVEF035,Eje 1 Nte. Mosqueta,y Soto,-99.0423924,19.3889366
+-99.04239_19.38894,2021,radar fijo,VVEF035,Eje 1 Nte. Mosqueta,y Soto,-99.0423924,19.3889366
+-99.04239_19.38894,2022,radar fijo,VVEF035,Eje 1 Nte. Mosqueta Y ,Soto,-99.0423924,19.3889366
+-99.04239_19.38894,2023,radar fijo,VVEF035,Eje 1 Nte. Mosqueta Y,Soto,-99.0423924,19.3889366
+-99.04916_19.36228,2019,radar fijo,JFCF009,Eje 6 Sur Av. Luis Méndez,y Carlos L Gracidas,-99.049156,19.362278
+-99.04916_19.36228,2019,radar fijo,JFCF016,Av. Constituyentes,y Gob. Gregorio Villa Gelati,-99.049156,19.362278
+-99.04916_19.36228,2020,radar fijo,JFCF009,Eje 6 Sur Av. Luis Méndez,y Carlos L Gracidas,-99.049156,19.362278
+-99.04916_19.36228,2020,radar fijo,JFCF016,Av. Constituyentes,y Gob. Gregorio Villa Gelati,-99.049156,19.362278
+-99.04916_19.36228,2021,radar fijo,JFCF009,Eje 6 Sur Av. Luis Méndez,y Carlos L Gracidas,-99.049156,19.362278
+-99.04916_19.36228,2021,radar fijo,JFCF016,Av. Constituyentes,y Gob. Gregorio Villa Gelati,-99.049156,19.362278
+-99.04916_19.36228,2022,radar fijo,JFCF009,Eje 6 Sur Av. Luis Méndez Y,Carlos L. Gracidas,-99.049156,19.362278
+-99.04916_19.36228,2022,radar fijo,JFCF016,Av. Constituyentes Y,Gob. Gregorio Villa Gelati,-99.049156,19.362278
+-99.04916_19.36228,2023,radar fijo,JFCF009,Eje 6 Sur Av. Luis Méndez Y,Carlos L. Gracidas,-99.049156,19.362278
+-99.04916_19.36228,2023,radar fijo,JFCF016,Av. Constituyentes Y ,Gob. Gregorio Villa Gelati,-99.049156,19.362278
+-99.04935_19.36222,2024,radar fijo,054-SSC-IZP-FC-119.174,Av. Genaro Estrada,G. Murillo,-99.049351,19.362216
+-99.05509_19.39602,2019,radar fijo,JVEF009,AUN /Gral. Juan Cabral,y Batalla de Celaya,-99.0550857,19.3960176
+-99.05509_19.39602,2020,radar fijo,JVEF009,AUN /Gral. Juan Cabral,y Batalla de Celaya,-99.0550857,19.3960176
+-99.05509_19.39602,2021,radar fijo,JVEF009,AUN /Gral. Juan Cabral,y Batalla de Celaya,-99.0550857,19.3960176
+-99.05509_19.39602,2022,radar fijo,JVEF009,Aun/Gral. Juan Cabral Y ,Batalla De Celaya,-99.0550857,19.3960176
+-99.05509_19.39602,2023,radar fijo,JVEF009,Aun/Gral. Juan Cabral Y ,Batalla De Celaya,-99.0550857,19.3960176
+-99.05647_19.3428,2019,radar fijo,RVEF013,Circuito Bicentenario Calz. Melchor Ocampo,y Nezahualpilli,-99.0564653,19.3427999
+-99.05647_19.3428,2020,radar fijo,RVEF013,Circuito Bicentenario Calz. Melchor Ocampo,y Nezahualpilli,-99.0564653,19.3427999
+-99.05647_19.3428,2021,radar fijo,RVEF013,Circuito Bicentenario Calz. Melchor Ocampo,y Nezahualpilli,-99.0564653,19.3427999
+-99.05647_19.3428,2022,radar fijo,RVEF013,Circuito Bicentenario Calz. Melchor Ocampo Y,Nezahualpilli,-99.0564653,19.3427999
+-99.05647_19.3428,2023,radar fijo,RVEF013,Circuito Bicentenario Calz. Melchor Ocampo Y,Nezahualpilli,-99.0564653,19.3427999
+-99.05671_19.34291,2023,radar fijo,040-SSC-IZP-EV-119.62,Tulipán,Rocío,-99.0567057,19.3429138
+-99.05671_19.34291,2024,radar fijo,040-SSC-IZP-EV-119.62,Tulipan ,Rocio,-99.0567057,19.3429138
+-99.05757_19.34292,2023,radar fijo,017-SSC-IZP-EV-124.134,Pensamiento,Pabellón,-99.0575707,19.3429176
+-99.05757_19.34292,2024,radar fijo,017-SSC-IZP-EV-124.134,Pensamiento,Pabellón,-99.0575707,19.3429176
+-99.05883_19.37646,2024,radar fijo,061-SSC-IZP-FC-119.230,Anillo Periférico,Calle 5 Sur,-99.058833,19.376464
+-99.05913_19.37652,2019,radar fijo,JFCF002,Eje 9 Sur Taxqueña,y Eje 1 Oriente Canal de Miramontes,-99.059128,19.376515
+-99.05913_19.37652,2020,radar fijo,JFCF002,Eje 9 Sur Taxqueña,y Eje 1 Oriente Canal de Miramontes,-99.059128,19.376515
+-99.05913_19.37652,2021,radar fijo,JFCF002,Eje 9 Sur Taxqueña,y Eje 1 Oriente Canal de Miramontes,-99.059128,19.376515
+-99.05913_19.37652,2022,radar fijo,JFCF002,Eje 9 Sur Taxqueña Y ,Eje 1 Oriente Canal De Miramontes,-99.059128,19.376515
+-99.05913_19.37652,2023,radar fijo,JFCF002,Eje 9 Sur Taxqueña Y ,Eje 1 Oriente Canal De Miramontes,-99.059128,19.376515
+-99.07545_19.45369,2024,radar fijo,068-SSC-GAM-EV-143.158,Av. 606,Av. 583,-99.075447,19.453688
+-99.07558_19.31872,2019,radar fijo,JFCF001,Eje 4 Ote. Canal Rio Churubusco,y Canal de Apatlaco,-99.075577,19.318721
+-99.07558_19.31872,2020,radar fijo,JFCF001,Eje 4 Ote. Canal Rio Churubusco,y Canal de Apatlaco,-99.075577,19.318721
+-99.07558_19.31872,2021,radar fijo,JFCF001,Eje 4 Ote. Canal Rio Churubusco,y Canal de Apatlaco,-99.075577,19.318721
+-99.07558_19.31872,2022,radar fijo,JFCF001,Eje 4 Ote. Canal Río Churubusco Y,Canal De Apatlaco,-99.075577,19.318721
+-99.07748_19.40877,2019,radar fijo,BFCF009,Calz Gral. Ignacio Zaragoza,y Viaducto,-99.077477,19.408772
+-99.07748_19.40877,2020,radar fijo,BFCF009,Calz Gral. Ignacio Zaragoza,y Viaducto,-99.077477,19.408772
+-99.07748_19.40877,2021,radar fijo,BFCF009,Calz Gral. Ignacio Zaragoza,y Viaducto,-99.077477,19.408772
+-99.07748_19.40877,2022,radar fijo,BFCF009,Calz. Gral. Ignacio Zaragoza,Y Viaducto,-99.077477,19.408772
+-99.07748_19.40877,2023,radar fijo,BFCF009,Calz. Gral. Ignacio Zaragoza Y,Viaducto,-99.077477,19.408772
+-99.08614_19.43757,2019,radar fijo,JVEF008,AUN / Deportivo Israelita /Ing. Zapadores,y Av. del Conscripto,-99.0861399,19.4375679
+-99.08614_19.43757,2020,radar fijo,JVEF008,AUN / Deportivo Israelita /Ing. Zapadores,y Av. del Conscripto,-99.0861399,19.4375679
+-99.08614_19.43757,2021,radar fijo,JVEF008,AUN / Deportivo Israelita /Ing. Zapadores,y Av. del Conscripto,-99.0861399,19.4375679
+-99.08614_19.43757,2022,radar fijo,JVEF008,Aun/Deportivo Israelita/Ing. Zapadores Y,Av. Del Conscripto,-99.0861399,19.4375679
+-99.08614_19.43757,2023,radar fijo,JVEF008,Aun/Deportivo Israelita/Ing. Zapadores Y,Av. Del Conscripto,-99.0861399,19.4375679
+-99.08621_19.35632,2023,radar fijo,026-SSC-IZP-FC-124.206,José Guadalupe Gómez,Rojo Gómez,-99.0862147,19.3563236
+-99.08621_19.35632,2024,radar fijo,026-SSC-IZP-FC-124.206,Jose Guadalupe Gomez,Rojo Gomez,-99.0862147,19.3563236
+-99.09449_19.29762,2024,radar fijo,076-SSC-XOC-EV-143.218,Antiguo Canal De Cuemanco,C.24,-99.0944934,19.2976212
+-99.09481_19.42809,2023,radar fijo,013-SSC-VCA-EV-124.102,Ote. 176,Ote. 178,-99.0948085,19.4280946
+-99.09481_19.42809,2024,radar fijo,013-SSC-VCA-EV-124.102,Ote. 176,Ote. 178,-99.0948085,19.4280946
+-99.09553_19.41976,2023,radar fijo,022-SSC-VCA-FC-124.174,Asistencia Pública,Calle 23,-99.095534,19.4197559
+-99.09553_19.41976,2024,radar fijo,022-SSC-VCA-FC-124.174,Asistencia Publica,Calle 23,-99.095534,19.4197559
+-99.09555_19.38012,2023,radar fijo,015-SSC-IZT-FC-124.118,Coca,Av. Canal De Apatlaco,-99.095546100000007,19.3801184
+-99.09555_19.38012,2024,radar fijo,015-SSC-IZT-FC-124.118,Coca,Av Canal De Apatlaco,-99.095546100000007,19.3801184
+-99.09567_19.37929,2019,radar fijo,JVEF010,AUN /   Fernando Alencastre,y Av. de los Constituyentes,-99.095667,19.37929
+-99.09567_19.37929,2020,radar fijo,JVEF010,AUN /   Fernando Alencastre,y Av. de los Constituyentes,-99.095667,19.37929
+-99.09567_19.37929,2021,radar fijo,JVEF010,AUN /   Fernando Alencastre,y Av. de los Constituyentes,-99.095667,19.37929
+-99.09567_19.37929,2022,radar fijo,JVEF010,Aun/Fernando Alencastre Y,Av. De Los Constituyentes,-99.095667,19.37929
+-99.09567_19.37929,2023,radar fijo,JVEF010,Aun/Fernando Alencastre Y,Av. De Los Constituyentes,-99.095667,19.37929
+-99.09568_19.37995,2019,radar fijo,JFCF011,Eje 3 Pte. Thiers,y Darwin,-99.095682,19.379954
+-99.09568_19.37995,2020,radar fijo,JFCF011,Eje 3 Pte. Thiers,y Darwin,-99.095682,19.379954
+-99.09568_19.37995,2021,radar fijo,JFCF011,Eje 3 Pte. Thiers,y Darwin,-99.095682,19.379954
+-99.09568_19.37995,2022,radar fijo,JFCF011,Eje 3 Pte. Thiers Y,Darwin,-99.095682,19.379954
+-99.09568_19.37995,2023,radar fijo,JFCF011,Eje 3 Pte. Thiers Y ,Darwin,-99.095682,19.379954
+-99.09587_19.41993,2019,radar fijo,RVEF011,Eje Central Lázaro Cárdenas ,y Fortuna,-99.095867,19.419933
+-99.09587_19.41993,2020,radar fijo,RVEF011,Eje Central Lázaro Cárdenas ,y Fortuna,-99.095867,19.419933
+-99.09587_19.41993,2021,radar fijo,RVEF011,Eje Central Lázaro Cárdenas ,y Fortuna,-99.095867,19.419933
+-99.09587_19.41993,2022,radar fijo,RVEF011,Eje Central Lázaro Cárdenas,Y Fortuna,-99.095867,19.419933
+-99.09617_19.45104,2024,radar fijo,063-SSC-VCA-EV-119.246,Peniques,Rupias,-99.096166,19.451044
+-99.09688_19.42001,2023,radar fijo,021-SSC-VCA-FC-124.166,Calle C,Calle B,-99.0968845,19.4200102
+-99.09688_19.42001,2024,radar fijo,021-SSC-VCA-FC-124.166,Calle C,Calle B,-99.0968845,19.4200102
+-99.0968_19.41991,2019,radar fijo,VVEF002,Anillo Periférico,y Embarcadero del Parque Ecológico de Xochimilco,-99.096795,19.419915
+-99.0968_19.41991,2020,radar fijo,VVEF002,Anillo Periférico,y Embarcadero del Parque Ecológico de Xochimilco,-99.096795,19.419915
+-99.0968_19.41991,2021,radar fijo,VVEF002,Anillo Periférico,y Embarcadero del Parque Ecológico de Xochimilco,-99.096795,19.419915
+-99.0968_19.41991,2022,radar fijo,VVEF002,Anillo Periférico Y,Y Embarcadero Del Parque Ecológico De Xochimilco,-99.096795,19.419915
+-99.0968_19.41991,2023,radar fijo,VVEF002,Anillo Periférico Y,Embarcadero Del Parque Ecológico De Xochimilco,-99.096795,19.419915
+-99.09775_19.40246,2023,radar fijo,005-SSC-IZT-FC-124.38,Avena,Añil,-99.0977499,19.4024604
+-99.09775_19.40246,2024,radar fijo,005-SSC-IZT-FC-124.38,Avena,Añil,-99.0977499,19.4024604
+-99.09777_19.41273,2019,radar móvil,NA,Entre Calle 9 y,Av. 12,-99.09777259,19.41272707
+-99.09782_19.47863,2019,radar fijo,JFCF020,Calz Gral. Ignacio Zaragoza,y Circuito Bicentenario Boulevard Puerto Aéreo,-99.097819,19.478628
+-99.09782_19.47863,2020,radar fijo,JFCF020,Calz Gral. Ignacio Zaragoza,y Circuito Bicentenario Boulevard Puerto Aéreo,-99.097819,19.478628
+-99.09782_19.47863,2021,radar fijo,JFCF020,Calz Gral. Ignacio Zaragoza,y Circuito Bicentenario Boulevard Puerto Aéreo,-99.097819,19.478628
+-99.09782_19.47863,2022,radar fijo,JFCF020,Calz. Ignacio Zaragoza Y,Circuito Bicentenario Boulevard Puerto Aéreo Oriente,-99.097819,19.478628
+-99.09788_19.47843,2023,radar fijo,025-SSC-GAM-FC-124.198,Río Guadalupe,Eje 5 Norte,-99.0978776,19.4784257
+-99.09788_19.47843,2024,radar fijo,025-SSC-GAM-FC-124.198,Rio Guadalupe,Eje 5 Norte,-99.0978776,19.4784257
+-99.097_19.43926,2024,radar fijo,070-SSC-VCA-EV-143.174,Norte 37,Pablo R. Sidar,-99.0970018,19.4392591
+-99.09801_19.47964,2023,radar fijo,014-SSC-GAM-FC-124.110,Río Guadalupe,Eje 5 Norte,-99.0980104,19.4796439
+-99.09801_19.47964,2024,radar fijo,014-SSC-GAM-FC-124.110,Rio Guadalupe,Eje 5 Norte,-99.0980104,19.4796439
+-99.10172_19.37558,2024,radar fijo,079-SSC-IZT-EV-143.246,Gerentes,Etnógrafos,-99.101718,19.375578
+-99.1019_19.42273,2019,radar fijo,RVEF040,Eje Central Lázaro Cárdenas,y Toribio Medina,-99.101904,19.422735
+-99.1019_19.42273,2020,radar fijo,RVEF040,Eje Central Lázaro Cárdenas,y Toribio Medina,-99.101904,19.422735
+-99.1019_19.42273,2021,radar fijo,RVEF040,Eje Central Lázaro Cárdenas,y Toribio Medina,-99.101904,19.422735
+-99.1021_19.29468,2023,radar fijo,004-SSC-XOC-FC-124.30,Cto. Cuemanco Nte.,Antiguo Canal De Cuemanco,-99.1021011,19.2946796
+-99.1021_19.29468,2024,radar fijo,004-SSC-XOC-FC-124.30,Cto. Cuemanco Nte,Antiguo Canal De Cuemanco,-99.1021011,19.2946796
+-99.10296_19.43216,2023,radar fijo,012-SSC-VCA-FC-124.94,Ote. 144,Ote. 146,-99.1029554,19.4321581
+-99.10296_19.43216,2024,radar fijo,012-SSC-VCA-FC-124.94,Ote. 144,Ote.146,-99.1029554,19.4321581
+-99.10742_19.37306,2023,radar fijo,019-SSC-IZP-EV-124.150,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,-99.1074164,19.3730611
+-99.10742_19.37306,2024,radar fijo,019-SSC-IZP-EV-124.150,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,-99.1074164,19.3730611
+-99.11295_19.37008,2024,radar fijo,060-SSC-IZT-VE-143.166,Estnógrafos,Fiscales,-99.11295,19.370079
+-99.11354_19.36971,2024,radar fijo,059-SSC-ITZ-VE-119.214,Sur 113,Sur 113-A,-99.1135417,19.3697071
+-99.11457_19.45617,2024,radar fijo,069-SSC-GAM-EV-143.166,Av. H. Congreso De La Unión,Nte. 60-A,-99.1145699,19.4561654
+-99.11476_19.26593,2019,radar fijo,JFCF008,Av. Guadalupe I. Ramírez,y Prol. División del Norte,-99.114759,19.265928
+-99.11476_19.26593,2019,radar fijo,JFCF025,Eje 8 Sur Ermita Iztapalapa ,y Eje 5 Ote Av. Rojo Gómez,-99.114759,19.265928
+-99.11476_19.26593,2020,radar fijo,JFCF008,Av. Guadalupe I. Ramírez,y Prol. División del Norte,-99.114759,19.265928
+-99.11476_19.26593,2020,radar fijo,JFCF025,Eje 8 Sur Ermita Iztapalapa ,y Eje 5 Ote Av. Rojo Gómez,-99.114759,19.265928
+-99.11476_19.26593,2021,radar fijo,JFCF008,Av. Guadalupe I. Ramírez,y Prol. División del Norte,-99.114759,19.265928
+-99.11476_19.26593,2021,radar fijo,JFCF025,Eje 8 Sur Ermita Iztapalapa ,y Eje 5 Ote Av. Rojo Gómez,-99.114759,19.265928
+-99.11476_19.26593,2022,radar fijo,JFCF008,Av. Guadalupe I. Ramírez Y,Prol. División Del Norte,-99.114759,19.265928
+-99.11476_19.26593,2022,radar fijo,JFCF025,Eje 8 Sur Ermita Iztapalapa Y,Eje 5 Ote. Av. Rojo Gómez,-99.114759,19.265928
+-99.11488_19.26596,2023,radar fijo,018-SSC-XOC-FC-124.142,Prol. División Del Norte,And. Tabachines,-99.1148805,19.2659594
+-99.11488_19.26596,2024,radar fijo,018-SSC-XOC-FC-124.142,Prol. División Del Norte,And. Tabachines,-99.1148805,19.2659594
+-99.11806_19.42156,2023,radar fijo,030-SSC-VCA-EV-124.238,Congreso De La Unión,Sur 103,-99.1180633,19.4215583
+-99.11806_19.42156,2024,radar fijo,030-SSC-VCA-EV-124.238, Congreso De La Union,Sur 103,-99.1180633,19.4215583
+-99.11849_19.42152,2019,radar fijo,RVEF003,Av. Calzada Ignacio Zaragoza,y Azcárraga Vidaurreta,-99.1184883,19.4215211
+-99.11849_19.42152,2020,radar fijo,RVEF003,Av. Calzada Ignacio Zaragoza,y Azcárraga Vidaurreta,-99.1184883,19.4215211
+-99.11849_19.42152,2021,radar fijo,RVEF003,Av. Calzada Ignacio Zaragoza,y Azcárraga Vidaurreta,-99.1184883,19.4215211
+-99.118_19.46588,2019,radar móvil,NA,Entre Gran Canal y ,Eje 1 Oriente,-99.11799625,19.46587838
+-99.11972_19.4056,2019,radar fijo,VVEF004,Eje 8 Sur Ermita Iztapalapa,y Rocío,-99.1197212,19.4056047
+-99.11972_19.4056,2020,radar fijo,VVEF004,Eje 8 Sur Ermita Iztapalapa,y Rocío,-99.1197212,19.4056047
+-99.11972_19.4056,2021,radar fijo,VVEF004,Eje 8 Sur Ermita Iztapalapa,y Rocío,-99.1197212,19.4056047
+-99.11972_19.4056,2022,radar fijo,VVEF004,Eje 8 Sur Ermita Iztapalapa Y,Rocío,-99.1197212,19.4056047
+-99.11972_19.4056,2023,radar fijo,VVEF011,Viaducto Río De La Piedad Y ,1Ro. De Mayo,-99.1197212,19.4056047
+-99.12045_19.4805,2019,radar móvil,NA,Entre Calle Hernández y ,Eje 2 Norte,-99.12044598,19.48050419
+-99.12308_19.44267,2019,radar móvil,NA,Entre Av. del Trabajo y,Congreso de la Unión,-99.12308368,19.44266897
+-99.12367_19.28565,2024,radar fijo,056-SSC-XOC-VE-119.190,Viaducto Tlalpan,Av. El Farol,-99.123666,19.285648
+-99.12383_19.46794,2019,radar móvil,NA,Entre Calz. de los Misterios y ,Vallejo,-99.12382632,19.46793879
+-99.12422_19.28558,2024,radar fijo,075-SSC-XOC-EV-143.211,Viaducto Tlalpan,Av. El Farol,-99.1242186,19.2855784
+-99.12472_19.45242,2024,radar fijo,048-SSC-VCA-FC-119.126,Av. Canal Del Norte,Aluminio,-99.1247242,19.4524216
+-99.12475_19.45209,2019,radar fijo,BFCF022,"Eje 1 Oriente Av. del Trabajo, Eje 2 Norte Canal del Norte",y Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2019,radar fijo,BFCF023,"Eje 1 Oriente Av. del Trabajo, Eje 2 Norte Canal del Norte",y Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2019,radar fijo,BFCF024,Eje 2 Norte Canal del Norte,y Av. Circunvalación y Eje 1 Oriente Av. del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2019,radar fijo,BFCF025,Eje 2 Norte Canal del Norte,y Av. Circunvalación y Eje 1 Oriente Av. del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2020,radar fijo,BFCF022,"Eje 1 Oriente Av. del Trabajo, Eje 2 Norte Canal del Norte",y Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2020,radar fijo,BFCF023,"Eje 1 Oriente Av. del Trabajo, Eje 2 Norte Canal del Norte",y Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2020,radar fijo,BFCF024,Eje 2 Norte Canal del Norte,y Av. Circunvalación y Eje 1 Oriente Av. del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2020,radar fijo,BFCF025,Eje 2 Norte Canal del Norte,y Av. Circunvalación y Eje 1 Oriente Av. del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2021,radar fijo,BFCF022,"Eje 1 Oriente Av. del Trabajo, Eje 2 Norte Canal del Norte",y Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2021,radar fijo,BFCF023,"Eje 1 Oriente Av. del Trabajo, Eje 2 Norte Canal del Norte",y Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2021,radar fijo,BFCF024,Eje 2 Norte Canal del Norte,y Av. Circunvalación y Eje 1 Oriente Av. del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2021,radar fijo,BFCF025,Eje 2 Norte Canal del Norte,y Av. Circunvalación y Eje 1 Oriente Av. del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2022,radar fijo,BFCF022,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2022,radar fijo,BFCF023,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2022,radar fijo,BFCF024,Eje 2 Norte Canal Del Norte Y Av. Circunvalación Y ,Eje 1 Oriente Av. Del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2022,radar fijo,BFCF025,Eje 2 Norte Canal Del Norte Y Av. Circunvalación Y ,Eje 1 Oriente Av. Del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2023,radar fijo,BFCF022,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2023,radar fijo,BFCF023,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,-99.124752,19.452092
+-99.12475_19.45209,2023,radar fijo,BFCF024,Eje 2 Norte Canal Del Norte Y Av. Circunvalación Y ,Eje 1 Oriente Av. Del Trabajo,-99.124752,19.452092
+-99.12475_19.45209,2023,radar fijo,BFCF025,Eje 2 Norte Canal Del Norte Y Av. Circunvalación Y ,Eje 1 Oriente Av. Del Trabajo,-99.124752,19.452092
+-99.12493_19.46865,2024,radar fijo,049-SSC-GAM-FC-119.134,Av. Ing. Alfredo Robles Dominguez,Progreso,-99.1249302,19.4686543
+-99.12494_19.46847,2019,radar fijo,BFCF029,Calzada de Misterios,y Eje 3 Norte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2019,radar fijo,BFCF033,Calzada de Misterios,y Eje 3 Norte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2019,radar fijo,BFCF034,Calz Gral. Mariano Escobedo,y Av. Marina Nacional,-99.124941,19.468471
+-99.12494_19.46847,2020,radar fijo,BFCF029,Calzada de Misterios,y Eje 3 Norte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2020,radar fijo,BFCF033,Calzada de Misterios,y Eje 3 Norte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2020,radar fijo,BFCF034,Calz Gral. Mariano Escobedo,y Av. Marina Nacional,-99.124941,19.468471
+-99.12494_19.46847,2020,radar fijo,BFCF014,Calz Gral. Mariano Escobedo,y Av. Marina Nacional,-99.124941,19.468471
+-99.12494_19.46847,2021,radar fijo,BFCF029,Calzada de Misterios,y Eje 3 Norte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2021,radar fijo,BFCF033,Calzada de Misterios,y Eje 3 Norte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2021,radar fijo,BFCF034,Calz Gral. Mariano Escobedo,y Av. Marina Nacional,-99.124941,19.468471
+-99.12494_19.46847,2021,radar fijo,BFCF014,Calz Gral. Mariano Escobedo,y Av. Marina Nacional,-99.124941,19.468471
+-99.12494_19.46847,2022,radar fijo,BFCF029,Calzada De Misterios Y,Eje 3 Nte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2022,radar fijo,BFCF033,Calzada De Misterios Y,Eje 3 Nte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2022,radar fijo,BFCF034,Calz. Gral. Mariano Escobedo Y,Av. Marina Nacional,-99.124941,19.468471
+-99.12494_19.46847,2022,radar fijo,BFCF014,Calz. Gral. Mariano Escobedo Y,Av. Marina Nacional,-99.124941,19.468471
+-99.12494_19.46847,2023,radar fijo,BFCF029,Calzada De Misterios Y,Eje 3 Nte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2023,radar fijo,BFCF033,Calzada De Misterios Y,Eje 3 Nte Av. Alfredo Robles Domínguez,-99.124941,19.468471
+-99.12494_19.46847,2023,radar fijo,BFCF034,Calz. Gral. Mariano Escobedo Y,Av. Marina Nacional,-99.124941,19.468471
+-99.12494_19.46847,2023,radar fijo,BFCF014,Calz. Gral. Mariano Escobedo Y ,Av. Marina Nacional,-99.124941,19.468471
+-99.12733_19.45262,2019,radar fijo,RVEF019,Av. Constituyentes ,y Camino de los Toros,-99.1273266,19.4526233
+-99.12733_19.45262,2020,radar fijo,RVEF019,Av. Constituyentes ,y Camino de los Toros,-99.1273266,19.4526233
+-99.12733_19.45262,2021,radar fijo,RVEF019,Av. Constituyentes ,y Camino de los Toros,-99.1273266,19.4526233
+-99.12756_19.40904,2019,radar móvil,RVEM003,Entre Eje 2 Oriente y ,Eje 1 Oriente,-99.12756371,19.4090391
+-99.128_19.4529,2024,radar fijo,078-SSC-CUH-EV-143.232,Tenochtitlan,F.C. Hidalgo,-99.1279974,19.4528992
+-99.12944_19.45708,2020,radar móvil,RVEM002,Calzada De Los Misterios Y ,Calle Arrigo Boito Dirección Sur,-99.12944,19.45708
+-99.12944_19.45708,2021,radar móvil,RVEM002,Calzada De Los Misterios Y ,Calle Arrigo Boito Dirección Sur,-99.12944,19.45708
+-99.12944_19.45708,2022,radar móvil,RVEM002,Calzada De Los Misterios Y ,Calle Arrigo Boito Dirección Sur,-99.12944,19.45708
+-99.12944_19.45708,2023,radar móvil,NA,Calzada De Los Misterios Y ,Calle Arrigo Boito Dirección Sur,-99.12944,19.45708
+-99.12949_19.3814,2019,radar fijo,JFCF026,Av. Aquiles Serdán ,y Av. Tezozomoc,-99.129493,19.381404
+-99.12949_19.3814,2020,radar fijo,JFCF026,Av. Aquiles Serdán ,y Av. Tezozomoc,-99.129493,19.381404
+-99.12949_19.3814,2021,radar fijo,JFCF026,Av. Aquiles Serdán ,y Av. Tezozomoc,-99.129493,19.381404
+-99.12949_19.3814,2022,radar fijo,JFCF026,Av. Aquiles Serdán Y,Av. Tezozomoc,-99.129493,19.381404
+-99.12951_19.4565,2024,radar fijo,077-SSC-CUH-EV-143.225,Berlioz,Arrigo Boito,-99.1295139,19.4565017
+-99.12962_19.38178,2024,radar fijo,057-SSC-IZT-FC-119.198,Playa Villa Del Mar,Playa Roqueta,-99.129616,19.381776
+-99.1298_19.48945,2024,radar fijo,065-SSC-GAM-EV-143.134,Pulacayo,Latacunga,-99.1298036,19.4894549
+-99.12993_19.37712,2019,radar fijo,JFCF006,Eje 6 Sur Playa Pie de la Cuesta,y Eje 1 Ote. Andrés Molina Enríquez,-99.129933,19.377115
+-99.12993_19.37712,2019,radar fijo,JFCF014,José María Pino Suárez,y Venustiano Carranza,-99.129933,19.377115
+-99.12993_19.37712,2020,radar fijo,JFCF006,Eje 6 Sur Playa Pie de la Cuesta,y Eje 1 Ote. Andrés Molina Enríquez,-99.129933,19.377115
+-99.12993_19.37712,2020,radar fijo,JFCF014,José María Pino Suárez,y Venustiano Carranza,-99.129933,19.377115
+-99.12993_19.37712,2021,radar fijo,JFCF006,Eje 6 Sur Playa Pie de la Cuesta,y Eje 1 Ote. Andrés Molina Enríquez,-99.129933,19.377115
+-99.12993_19.37712,2021,radar fijo,JFCF014,José María Pino Suárez,y Venustiano Carranza,-99.129933,19.377115
+-99.12993_19.37712,2022,radar fijo,JFCF006,Eje 6 Sur Playa Pie De La Cuesta Y,Eje 1 Ote. Andrés Molina Enríquez,-99.129933,19.377115
+-99.12993_19.37712,2023,radar fijo,JFCF006,Eje 6 Sur Playa Pie De La Cuesta Y ,Eje 1 Ote. Andrés Molina Enríquez,-99.129933,19.377115
+-99.13004_19.37712,2024,radar fijo,053-SSC-IZT-FC-119.166,Playa Caleta,Av. Andrés Molina Enriquez,-99.130041,19.377117
+-99.13117_19.42357,2019,radar fijo,BFCF004,Circuito Bicentenario Maestro José Vasconcelos,y Av. Benjamín Franklin,-99.131166,19.423568
+-99.13117_19.42357,2020,radar fijo,BFCF004,Circuito Bicentenario Maestro José Vasconcelos,y Av. Benjamín Franklin,-99.131166,19.423568
+-99.13117_19.42357,2020,radar fijo,BFCF035,Circuito Bicentenario Maestro José Vasconcelos,y Av. Benjamín Franklin,-99.131166,19.423568
+-99.13117_19.42357,2021,radar fijo,BFCF004,Circuito Bicentenario Maestro José Vasconcelos,y Av. Benjamín Franklin,-99.131166,19.423568
+-99.13117_19.42357,2021,radar fijo,BFCF035,Circuito Bicentenario Maestro José Vasconcelos,y Av. Benjamín Franklin,-99.131166,19.423568
+-99.13117_19.42357,2022,radar fijo,BFCF004,Circuito Bicentenario Maestro José Vasconcelos Y ,Av. Benjamín Franklin,-99.131166,19.423568
+-99.13117_19.42357,2022,radar fijo,BFCF035,Circuito Bicentenario Maestro José Vasconcelos Y,Av. Benjamín Franklin,-99.131166,19.423568
+-99.13117_19.42357,2023,radar fijo,BFCF035,Circuito Bicentenario Maestro José Vasconcelos Y,Av. Benjamín Franklin,-99.131166,19.423568
+-99.13145_19.42357,2024,radar fijo,041-SSC-CUH-FC-119.70,Xocongo,San Antonio Abad,-99.1314475,19.4235698
+-99.1323_19.43099,2019,radar fijo,JFCF021,Av. Cuitláhuac ,y Av. Jardín,-99.132297,19.430987
+-99.1323_19.43099,2020,radar fijo,JFCF021,Av. Cuitláhuac ,y Av. Jardín,-99.132297,19.430987
+-99.1323_19.43099,2021,radar fijo,JFCF021,Av. Cuitláhuac ,y Av. Jardín,-99.132297,19.430987
+-99.1323_19.43099,2022,radar fijo,JFCF021,Av. Cuitláhuac Y ,Av. Jardín,-99.132297,19.430987
+-99.13283_19.4766,2023,radar fijo,035-SSC-GAM-EV-119.22,Pte. 112,Pte. 116,-99.1328328,19.4765952
+-99.13283_19.4766,2024,radar fijo,035-SSC-GAM-EV-119.22,Pte 112,Pte. 116,-99.1328328,19.4765952
+-99.13292_19.42592,2019,radar fijo,BFCF030,Eje 9 Sur Miguel Ángel de Quevedo,y Av. Universidad,-99.132917,19.425918
+-99.13292_19.42592,2020,radar fijo,BFCF030,Eje 9 Sur Miguel Ángel de Quevedo,y Av. Universidad,-99.132917,19.425918
+-99.13292_19.42592,2020,radar fijo,BFCF031,Eje 9 Sur Miguel Ángel de Quevedo,y Av. Universidad,-99.132917,19.425918
+-99.13292_19.42592,2021,radar fijo,BFCF030,Eje 9 Sur Miguel Ángel de Quevedo,y Av. Universidad,-99.132917,19.425918
+-99.13292_19.42592,2021,radar fijo,BFCF031,Eje 9 Sur Miguel Ángel de Quevedo,y Av. Universidad,-99.132917,19.425918
+-99.13292_19.42592,2022,radar fijo,BFCF030,Eje 9 Sur Miguel Ángel De Quevedo Y,Av. Universidad,-99.132917,19.425918
+-99.13292_19.42592,2022,radar fijo,BFCF031,Eje 9 Sur Miguel Ángel De Quevedo Y ,Av. Universidad,-99.132917,19.425918
+-99.13292_19.42592,2023,radar fijo,BFCF030,Eje 9 Sur Miguel Ángel De Quevedo Y,Av. Universidad,-99.132917,19.425918
+-99.13292_19.42592,2023,radar fijo,BFCF031,Eje 9 Sur Miguel Ángel De Quevedo Y,Av. Universidad,-99.132917,19.425918
+-99.13341_19.49109,2024,radar fijo,044-SSC-GAM-FC-119.94,Av. Montevideo ,Manizales,-99.1334139,19.491094
+-99.13357_19.49119,2019,radar fijo,BFCF010,Av. Instituto Politécnico Nacional ,y Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2019,radar fijo,BFCF011,Av. Instituto Politécnico Nacional ,y Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2020,radar fijo,BFCF010,Av. Instituto Politécnico Nacional ,y Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2020,radar fijo,BFCF011,Av. Instituto Politécnico Nacional ,y Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2021,radar fijo,BFCF010,Av. Instituto Politécnico Nacional ,y Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2021,radar fijo,BFCF011,Av. Instituto Politécnico Nacional ,y Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2022,radar fijo,BFCF010,Av. Instituto Politécnico Nacional ,Y Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2022,radar fijo,BFCF011,Av. Instituto Politécnico Nacional ,Y Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2023,radar fijo,BFCF010,Av. Instituto Politécnico Nacional Y,Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13357_19.49119,2023,radar fijo,BFCF011,Av. Instituto Politécnico Nacional Y,Eje 5 Nte Montevideo,-99.133574,19.491188
+-99.13398_19.48218,2019,radar fijo,VVEF007,Av. Paseo de la Reforma ,e Ignacio Allende,-99.133978,19.482184
+-99.13398_19.48218,2020,radar fijo,VVEF007,Av. Paseo de la Reforma ,e Ignacio Allende,-99.133978,19.482184
+-99.13398_19.48218,2021,radar fijo,VVEF007,Av. Paseo de la Reforma ,e Ignacio Allende,-99.133978,19.482184
+-99.13398_19.48218,2022,radar fijo,VVEF007,Av. Paseo De La Reforma E,Ignacio Allende,-99.133978,19.482184
+-99.13398_19.48218,2023,radar fijo,VVEF007,Av. Paseo De La Reforma E,Ignacio Allende,-99.133978,19.482184
+-99.13398_19.48828,2019,radar fijo,RVEF030,Av. Paseo de la Reforma ,y Estela de Luz,-99.133981,19.488276
+-99.13398_19.48828,2020,radar fijo,RVEF030,Av. Paseo de la Reforma ,y Estela de Luz,-99.133981,19.488276
+-99.13398_19.48828,2021,radar fijo,RVEF030,Av. Paseo de la Reforma ,y Estela de Luz,-99.133981,19.488276
+-99.13398_19.48828,2022,radar fijo,RVEF030,Av. Paseo De La Reforma Y,Estela De Luz,-99.133981,19.488276
+-99.13398_19.48828,2023,radar fijo,RVEF030,Av. Paseo De La Reforma Y,Estela De Luz,-99.133981,19.488276
+-99.13401_19.48811,2023,radar fijo,020-SSC-GAM-FC-124.158,Colector 13,Av. Ricarte,-99.134014,19.4881075
+-99.13401_19.48811,2024,radar fijo,020-SSC-GAM-FC-124.158,Colector 13,Av Ricarte,-99.134014,19.4881075
+-99.13652_19.40364,2019,radar móvil,RVEM012,Entre Calle Fernando Ramírez y ,Viaducto,-99.13651924,19.40364022
+-99.13669_19.40282,2019,radar móvil,NA,Entre Viaducto y,Eje 5 Sur,-99.13669481,19.40281915
+-99.13692_19.34111,2024,radar fijo,052-SSC-COY-FC-119.158,Canal De Miramontes,Cerro De La Juvencia,-99.136915,19.341108
+-99.13703_19.44592,2019,radar fijo,RVEF016,Eje 5 Av. Montevideo,y Pulacayo,-99.137033,19.445922
+-99.13703_19.44592,2020,radar fijo,RVEF016,Eje 5 Av. Montevideo,y Pulacayo,-99.137033,19.445922
+-99.13703_19.44592,2021,radar fijo,RVEF016,Eje 5 Av. Montevideo,y Pulacayo,-99.137033,19.445922
+-99.13703_19.44592,2022,radar fijo,RVEF016,Eje 5 Av. Montevideo Y,Pulacayo,-99.137033,19.445922
+-99.13703_19.44592,2023,radar fijo,RVEF016,Eje 5 Av. Montevideo Y,Pulacayo,-99.137033,19.445922
+-99.13737_19.34113,2019,radar fijo,JFCF012,Eje 1 Ote. Andrés Molina Enríquez,y Eje 5 Sur Playa Villa del Mar,-99.137371,19.341127
+-99.13737_19.34113,2020,radar fijo,JFCF012,Eje 1 Ote. Andrés Molina Enríquez,y Eje 5 Sur Playa Villa del Mar,-99.137371,19.341127
+-99.13737_19.34113,2021,radar fijo,JFCF012,Eje 1 Ote. Andrés Molina Enríquez,y Eje 5 Sur Playa Villa del Mar,-99.137371,19.341127
+-99.13737_19.34113,2022,radar fijo,JFCF012,Eje 1 Ote. Andrés Molina Enríquez Y,Eje 5 Sur Playa Villa Del Mar,-99.137371,19.341127
+-99.13737_19.34113,2023,radar fijo,JFCF012,Eje 1 Ote. Andrés Molina Enríquez Y ,Eje 5 Sur Playa Villa Del Mar,-99.137371,19.341127
+-99.13739_19.3406,2023,radar fijo,016-SSC-COY-FC-124.126,Calzada Taxqueña,Cerro San Antonio,-99.1373936,19.3406041
+-99.13739_19.3406,2024,radar fijo,016-SSC-COY-FC-124.126,Calzada Taxqueña,Cerro San Antonio,-99.1373936,19.3406041
+-99.13739_19.34097,2019,radar fijo,JFCF013,Jose Maria Izazaga,y Eje Central Lázaro Cárdenas,-99.137389,19.340973
+-99.13739_19.34097,2020,radar fijo,JFCF013,Jose Maria Izazaga,y Eje Central Lázaro Cárdenas,-99.137389,19.340973
+-99.13739_19.34097,2021,radar fijo,JFCF013,Jose Maria Izazaga,y Eje Central Lázaro Cárdenas,-99.137389,19.340973
+-99.13739_19.34097,2022,radar fijo,JFCF013,José María Izazaga Y,Eje Central Lázaro Cárdenas,-99.137389,19.340973
+-99.13739_19.34097,2023,radar fijo,JFCF013,José María Izazaga Y ,Eje Central Lázaro Cárdenas,-99.137389,19.340973
+-99.13786_19.45452,2023,radar fijo,024-SSC-CUH-FC-124.190,Esq. Eje Central,Florencio Constantino,-99.1378576,19.4545243
+-99.13786_19.45452,2024,radar fijo,024-SSC-CUH-FC-124.190,Esq. Eje Central,Florencio Constantino,-99.1378576,19.4545243
+-99.13825_19.45557,2020,radar móvil,RVEM001,Eje 2 Norte Manuel Gonzalez Y,Calle Lerdo Dirección Poniente,-99.13825,19.45557
+-99.13825_19.45557,2021,radar móvil,RVEM001,Eje 2 Norte Manuel Gonzalez Y,Calle Lerdo Dirección Poniente,-99.13825,19.45557
+-99.13825_19.45557,2022,radar móvil,RVEM001,Eje 2 Norte Manuel Gonzalez Y,Calle Lerdo Dirección Poniente,-99.13825,19.45557
+-99.13825_19.45557,2023,radar móvil,NA,Eje 2 Norte Manuel Gonzalez Y,Calle Lerdo Dirección Poniente,-99.13825,19.45557
+-99.13826_19.45472,2019,radar fijo,JFCF029,Eje Central ,y Margarita Maza de Juarez,-99.138265,19.454718
+-99.13826_19.45472,2020,radar fijo,JFCF029,Eje Central ,y Margarita Maza de Juarez,-99.138265,19.454718
+-99.13826_19.45472,2021,radar fijo,JFCF029,Eje Central ,y Margarita Maza de Juarez,-99.138265,19.454718
+-99.13826_19.45472,2022,radar fijo,JFCF029,Eje Central Y,Margarita Maza De Juárez,-99.138265,19.454718
+-99.1382_19.32012,2023,radar fijo,006-SSC-COY-EV-124.46,Benito Juárez,Caliz,-99.1382003,19.3201172
+-99.1382_19.32012,2024,radar fijo,006-SSC-COY-EV-124.46,Benito Juarez ,Caliz,-99.1382003,19.3201172
+-99.1384_19.44956,2019,radar fijo,JFCF007,Eje Central Lázaro Cárdenas,y Av. Ricardo Flores Magón,-99.138399,19.449558
+-99.1384_19.44956,2019,radar fijo,JFCF015,Av. Instituto Politécnico Nacional,y Av. Ricarte,-99.138399,19.449558
+-99.1384_19.44956,2020,radar fijo,JFCF007,Eje Central Lázaro Cárdenas,y Av. Ricardo Flores Magón,-99.138399,19.449558
+-99.1384_19.44956,2020,radar fijo,JFCF015,Av. Instituto Politécnico Nacional,y Av. Ricarte,-99.138399,19.449558
+-99.1384_19.44956,2021,radar fijo,JFCF007,Eje Central Lázaro Cárdenas,y Av. Ricardo Flores Magón,-99.138399,19.449558
+-99.1384_19.44956,2021,radar fijo,JFCF015,Av. Instituto Politécnico Nacional,y Av. Ricarte,-99.138399,19.449558
+-99.1384_19.44956,2022,radar fijo,JFCF007,Eje Central Lázaro Cárdenas Y,Av. Ricardo Flores Magón,-99.138399,19.449558
+-99.1384_19.44956,2022,radar fijo,JFCF015,Av. Instituto Politécnico Nacional Y,Av. Ricarte,-99.138399,19.449558
+-99.1384_19.44956,2023,radar fijo,JFCF007,Eje Central Lázaro Cárdenas Y,Av. Ricardo Flores Magón,-99.138399,19.449558
+-99.1391_19.44391,2019,radar fijo,BFCF019,Eje 1 Poniente Guerrero,y Eje 2 Norte Manuel González,-99.139101,19.443908
+-99.1391_19.44391,2020,radar fijo,BFCF019,Eje 1 Poniente Guerrero,y Eje 2 Norte Manuel González,-99.139101,19.443908
+-99.1391_19.44391,2021,radar fijo,BFCF019,Eje 1 Poniente Guerrero,y Eje 2 Norte Manuel González,-99.139101,19.443908
+-99.1391_19.44391,2022,radar fijo,BFCF019,Eje 1 Poniente Guerrero Y,Eje 2 Norte Manuel González,-99.139101,19.443908
+-99.1391_19.44391,2023,radar fijo,BFCF019,Eje 1 Poniente Guerrero Y ,Eje 2 Norte Manuel González,-99.139101,19.443908
+-99.13923_19.44475,2019,radar móvil,RVEM002,Entre Av. Paseo de la Reforma y,Circuito Bicentenario,-99.139229,19.44475278
+-99.13935_19.3194,2020,radar móvil,NA,Calzada De Tlalpan Y ,Calle Elvira Dirección Norte,-99.13935,19.3194
+-99.13935_19.3194,2021,radar móvil,NA,Calzada De Tlalpan Y ,Calle Elvira Dirección Norte,-99.13935,19.3194
+-99.13935_19.3194,2022,radar móvil,NA,Calzada De Tlalpan Y ,Calle Elvira Dirección Norte,-99.13935,19.3194
+-99.13935_19.3194,2023,radar móvil,NA,Calzada De Tlalpan Y ,Calle Elvira Dirección Norte,-99.13935,19.3194
+-99.13935_19.38422,2020,radar móvil,RVEM005,Calzada De Tlalpan Y,Calle Elvira Direccion Norte,-99.13935,19.38422
+-99.13935_19.38422,2021,radar móvil,RVEM007,Calzada De Tlalpan Y,Calle Elvira Direccion Norte,-99.13935,19.38422
+-99.13935_19.38422,2022,radar móvil,RVEM007,Calzada De Tlalpan Y,Calle Elvira Direccion Norte,-99.13935,19.38422
+-99.13935_19.38422,2023,radar móvil,NA,Calzada De Tlalpan Y,Calle Elvira Direccion Norte,-99.13935,19.38422
+-99.13944_19.44426,2024,radar fijo,042-SSC-CUH-FC-119.78,Eje 1 Norte,Jaime Nuno,-99.1394375,19.4442594
+-99.13952_19.46785,2023,radar fijo,010-SSC-GAM-EV-124.78,Debussy,Meyeber,-99.1395186,19.4678526
+-99.13952_19.46785,2024,radar fijo,010-SSC-GAM-EV-124.78,Debussy,Meyeber,-99.1395186,19.4678526
+-99.13963_19.38265,2019,radar móvil,RVEM011,Entre Eje 5 Sur y ,Viaducto,-99.13962792,19.38264887
+-99.13984_19.32876,2019,radar fijo,RVEF012,Circuito Bicentenario Av. Río Consulado,y Cantón,-99.1398364,19.3287573
+-99.13984_19.32876,2020,radar fijo,RVEF012,Circuito Bicentenario Av. Río Consulado,y Cantón,-99.1398364,19.3287573
+-99.13984_19.32876,2021,radar fijo,RVEF012,Circuito Bicentenario Av. Río Consulado,y Cantón,-99.1398364,19.3287573
+-99.13984_19.32876,2022,radar fijo,RVEF012,Circuito Bicentenario Av. Río Consulado Y,Cantón,-99.1398364,19.3287573
+-99.13984_19.32876,2023,radar fijo,RVEF012,Circuito Bicentenario Av. Río Consulado Y ,Cantón,-99.1398364,19.3287573
+-99.14041_19.44413,2024,radar fijo,045-SSC-CUH-FC-119.102,Av. Paseo De La Reforma,C. De Galeana,-99.1404099,19.4441318
+-99.14069_19.43592,2019,radar fijo,RVEF007,Eje 3 Sur José Peón,y Contreras y José María Bustillos,-99.1406917,19.4359178
+-99.14069_19.43592,2020,radar fijo,RVEF007,Eje 3 Sur José Peón,y Contreras y José María Bustillos,-99.1406917,19.4359178
+-99.14069_19.43592,2021,radar fijo,RVEF007,Eje 3 Sur José Peón,y Contreras y José María Bustillos,-99.1406917,19.4359178
+-99.14069_19.43592,2022,radar fijo,RVEF007,Eje 3 Sur José Peón Contreras Y,José María Bustillos,-99.1406917,19.4359178
+-99.14115_19.40735,2019,radar fijo,VVEF005,Av. Ejército Nacional,y Calle Luis Vives,-99.1411463,19.4073524
+-99.14115_19.40735,2020,radar fijo,VVEF005,Av. Ejército Nacional,y Calle Luis Vives,-99.1411463,19.4073524
+-99.14115_19.40735,2021,radar fijo,VVEF005,Av. Ejército Nacional,y Calle Luis Vives,-99.1411463,19.4073524
+-99.14115_19.40735,2022,radar fijo,VVEF005,Av. Ejército Nacional Y,Calle Luis Vives,-99.1411463,19.4073524
+-99.14115_19.40735,2023,radar fijo,VVEF005,Av. Ejército Nacional Y,Calle Luis Vives,-99.1411463,19.4073524
+-99.14187_19.42658,2019,radar fijo,JFCF022,Eje Central Lázaro Cárdenas,y Avenida Hidalgo,-99.141868,19.426584
+-99.14187_19.42658,2020,radar fijo,JFCF022,Eje Central Lázaro Cárdenas,y Avenida Hidalgo,-99.141868,19.426584
+-99.14187_19.42658,2021,radar fijo,JFCF022,Eje Central Lázaro Cárdenas,y Avenida Hidalgo,-99.141868,19.426584
+-99.14187_19.42658,2022,radar fijo,JFCF022,Eje Central Lázaro Cárdenas Y,Avenida Hidalgo,-99.141868,19.426584
+-99.14187_19.42658,2023,radar fijo,JFCF022,Eje Central Lázaro Cárdenas Y ,Avenida Hidalgo,-99.141868,19.426584
+-99.1418_19.40727,2023,radar fijo,032-SSC-CUH-EV-124.254,Simón Bolivar,José María Bustillos,-99.1418025,19.4072699
+-99.1418_19.40727,2024,radar fijo,032-SSC-CUH-EV-124.254,Simon Bolivar,Jose Maria Bustillos,-99.1418025,19.4072699
+-99.14194_19.42648,2024,radar fijo,058-SSC-CUH-FC-119.206,Eje Central Lázaro Cárdenas,Cjón. Igualdad,-99.1419395,19.4264773
+-99.1432_19.48667,2019,radar fijo,VVEF033,Calz. Ignacio Zaragoza,y Anselmo de la Portilla,-99.143201,19.486666
+-99.1432_19.48667,2020,radar fijo,VVEF033,Calz. Ignacio Zaragoza,y Anselmo de la Portilla,-99.143201,19.486666
+-99.1432_19.48667,2021,radar fijo,VVEF033,Calz. Ignacio Zaragoza,y Anselmo de la Portilla,-99.143201,19.486666
+-99.1432_19.48667,2022,radar fijo,VVEF033,Av. Chapultepec Y,Guaymas,-99.143201,19.486666
+-99.14331_19.30704,2023,radar fijo,007-SSC-COY-EV-124.54,Hidalgo ,Tlamanalco,-99.1433099,19.3070388
+-99.14331_19.30704,2024,radar fijo,007-SSC-COY-EV-124.54,Hidalgo ,Tlamanalco,-99.1433099,19.3070388
+-99.14339_19.48687,2023,radar fijo,033-SSC-GAM-EV-119.6,Boyaca,Salama,-99.1433887,19.4868701
+-99.14339_19.48687,2024,radar fijo,033-SSC-GAM-EV-119.6,Boyaca,Salama,-99.1433887,19.4868701
+-99.14407_19.44478,2019,radar fijo,VVEF008,Av. Oceanía,y Pablo R. Sidar,-99.1440693,19.4447801
+-99.14407_19.44478,2020,radar fijo,VVEF008,Av. Oceanía,y Pablo R. Sidar,-99.1440693,19.4447801
+-99.14407_19.44478,2021,radar fijo,VVEF008,Av. Oceanía,y Pablo R. Sidar,-99.1440693,19.4447801
+-99.14407_19.44478,2022,radar fijo,VVEF008,Av. Oceanía Y,Pablo R. Sidar,-99.1440693,19.4447801
+-99.14407_19.44478,2023,radar fijo,VVEF008,Av. Oceanía Y ,Pablo R. Sidar,-99.1440693,19.4447801
+-99.14422_19.44478,2024,radar fijo,073-SSC-CUH-EV-143.198,Soto,7A C. De Zarco,-99.1442176,19.444778
+-99.14453_19.35447,2019,radar fijo,RVEF018,Circuito Bicentenario Instituto Técnico Industrial,y Calle Eligio Ancona,-99.1445281,19.3544699
+-99.14453_19.35447,2020,radar fijo,RVEF018,Circuito Bicentenario Instituto Técnico Industrial,y Calle Eligio Ancona,-99.1445281,19.3544699
+-99.14453_19.35447,2021,radar fijo,RVEF018,Circuito Bicentenario Instituto Técnico Industrial,y Calle Eligio Ancona,-99.1445281,19.3544699
+-99.14464_19.40712,2019,radar fijo,RVEF021,Av. Insurgentes Nte.,y Pte. 112,-99.144644,19.40712
+-99.14464_19.40712,2020,radar fijo,RVEF021,Av. Insurgentes Nte.,y Pte. 112,-99.144644,19.40712
+-99.14464_19.40712,2021,radar fijo,RVEF021,Av. Insurgentes Nte.,y Pte. 112,-99.144644,19.40712
+-99.14464_19.40712,2022,radar fijo,RVEF021,Av. Insurgentes Nte. Y ,Pte. 112,-99.144644,19.40712
+-99.14465_19.40598,2023,radar fijo,009-SSC-CUH-EV-124.70,José Peón Contreras,Toribio Medina,-99.144651,19.4059829
+-99.14465_19.40598,2024,radar fijo,009-SSC-CUH-EV-124.70,Jose Peon Contreras,Toribio Medina,-99.144651,19.4059829
+-99.14473_19.46981,2019,radar fijo,RVEF034,Av. Revolución,y Calle 13,-99.1447284,19.4698112
+-99.14473_19.46981,2020,radar fijo,RVEF034,Av. Revolución,y Calle 13,-99.1447284,19.4698112
+-99.14473_19.46981,2021,radar fijo,RVEF034,Av. Revolución,y Calle 13,-99.1447284,19.4698112
+-99.14473_19.46981,2022,radar fijo,RVEF034,Av. Revolución Y,Calle 13,-99.1447284,19.4698112
+-99.14473_19.46981,2023,radar fijo,RVEF034,Av. Revolución Y,Calle 13,-99.1447284,19.4698112
+-99.14501_19.40393,2019,radar móvil,NA,Entre Eje Central Lázaro Cárdenas y ,Av. Doctor José María Vértiz,-99.14500651,19.40393467
+-99.14505_19.45625,2019,radar fijo,JFCF010,Eje 4 Pte. Av. Revolución,y Av. Barranca del Muerto,-99.145048,19.456251
+-99.14505_19.45625,2020,radar fijo,JFCF010,Eje 4 Pte. Av. Revolución,y Av. Barranca del Muerto,-99.145048,19.456251
+-99.14505_19.45625,2021,radar fijo,JFCF010,Eje 4 Pte. Av. Revolución,y Av. Barranca del Muerto,-99.145048,19.456251
+-99.14505_19.45625,2022,radar fijo,JFCF010,Eje 4 Pte. Av. Revolución Y ,Av. Barranca Del Muerto,-99.145048,19.456251
+-99.14505_19.45625,2023,radar fijo,JFCF010,Eje 4 Pte. Av. Revolución Y,Av. Barranca Del Muerto,-99.145048,19.456251
+-99.14613_19.45657,2024,radar fijo,066-SSC-CUH-EV-143.142,Calz. Gral. Ignacio Zaragoza,Guerrero,-99.1461344,19.4565683
+-99.14615_19.42717,2019,radar móvil,NA,Entre Av. Cuauhtémoc y ,Av. Dr. José María Vértiz,-99.14614616,19.42717175
+-99.14636_19.45655,2019,radar fijo,VVEF006,Circuito Bicentenario Av. Río Consulado ,y Av. Congreso de la Unión,-99.1463572,19.4565453
+-99.14636_19.45655,2020,radar fijo,VVEF006,Circuito Bicentenario Av. Río Consulado ,y Av. Congreso de la Unión,-99.1463572,19.4565453
+-99.14636_19.45655,2021,radar fijo,VVEF006,Circuito Bicentenario Av. Río Consulado ,y Av. Congreso de la Unión,-99.1463572,19.4565453
+-99.14636_19.45655,2022,radar fijo,VVEF006,Circuito Bicentenario Av. Río Consulado Y,Avenida Congreso De La Unión,-99.1463572,19.4565453
+-99.14636_19.45655,2023,radar fijo,VVEF006,Circuito Bicentenario Av. Río Consulado Y,Avenida Congreso De La Unión,-99.1463572,19.4565453
+-99.1485_19.45712,2019,radar móvil,RVEM005,Entre Florencio Constantino y ,Av. Insurgentes,-99.14849566,19.45711779
+-99.14922_19.43798,2019,radar móvil,NA,Entre Av. Guerrero y ,Av. Insurgentes,-99.14922168,19.43797642
+-99.14923_19.40699,2024,radar fijo,046-SSC-CUH-FC-119.110,C. Dr. José María Vértiz,Dr. Andrade,-99.149233,19.406994
+-99.14943_19.40686,2019,radar fijo,BFCF017,Eje 3 Sur (Dr. Morones Prieto) ,y Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2019,radar fijo,BCFC003,Escuela Médico Militar - José Antonio Torres Xocongo,y Fray Servando Teresa de Mier,-99.149428,19.406861
+-99.14943_19.40686,2020,radar fijo,BFCF017,Eje 3 Sur (Dr. Morones Prieto) ,y Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2020,radar fijo,BFCF018,Eje 3 Sur (Dr. Morones Prieto) ,y Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2020,radar fijo,BCFC003,Escuela Médico Militar - José Antonio Torres Xocongo,y Fray Servando Teresa de Mier,-99.149428,19.406861
+-99.14943_19.40686,2021,radar fijo,BFCF017,Eje 3 Sur (Dr. Morones Prieto) ,y Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2021,radar fijo,BFCF018,Eje 3 Sur (Dr. Morones Prieto) ,y Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2021,radar fijo,BCFC003,Escuela Médico Militar - José Antonio Torres Xocongo,y Fray Servando Teresa de Mier,-99.149428,19.406861
+-99.14943_19.40686,2022,radar fijo,BFCF017,Eje 3 Sur (Dr. Morones Prieto) Y,Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2022,radar fijo,BFCF018,Eje 3 Sur (Dr. Morones Prieto) Y ,Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2022,radar fijo,BCFC003,Escuela Médico Militar-José Antonio Torres Xocongo Y,Fray Servando Teresa De Mier,-99.149428,19.406861
+-99.14943_19.40686,2023,radar fijo,BFCF017,Eje 3 Sur (Dr. Morones Prieto) Y,Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2023,radar fijo,BFCF018,Eje 3 Sur (Dr. Morones Prieto) Y,Dr. José Ma. Vértiz,-99.149428,19.406861
+-99.14943_19.40686,2023,radar fijo,BFCF003,Escuela Médico Militar-José Antonio Torres Xocongo Y,Fray Servando Teresa De Mier,-99.149428,19.406861
+-99.14963_19.43652,2023,radar fijo,011-SSC-CUH-FC-124.86,Ignacio Mariscal,Tomás Alva Edison,-99.1496257,19.43651959
+-99.14963_19.43652,2024,radar fijo,011-SSC-CUH-FC-124.86,Ignacio Mariscal,Tomas Alva Edison,-99.1496257,19.43651959
+-99.14_19.44414,2019,radar fijo,BFCF006,Eje 1 Norte Mosqueta - Paseo de la Reforma ,y Eje Central Lázaro Cárdenas,-99.140003,19.444137
+-99.14_19.44414,2019,radar fijo,BFCF016,Paseo de la Reforma,y Eje Central Lázaro Cárdenas y Eje 1 Norte Mosqueta,-99.140003,19.444137
+-99.14_19.44414,2020,radar fijo,BFCF006,Eje 1 Norte Mosqueta - Paseo de la Reforma ,y Eje Central Lázaro Cárdenas,-99.140003,19.444137
+-99.14_19.44414,2020,radar fijo,BFCF016,Paseo de la Reforma,y Eje Central Lázaro Cárdenas y Eje 1 Norte Mosqueta,-99.140003,19.444137
+-99.14_19.44414,2020,radar fijo,BFCF005,Eje 1 Norte Mosqueta,Y Paseo de la Reforma y Eje Central,-99.140003,19.444137
+-99.14_19.44414,2021,radar fijo,BFCF006,Eje 1 Norte Mosqueta - Paseo de la Reforma ,y Eje Central Lázaro Cárdenas,-99.140003,19.444137
+-99.14_19.44414,2021,radar fijo,BFCF016,Paseo de la Reforma,y Eje Central Lázaro Cárdenas y Eje 1 Norte Mosqueta,-99.140003,19.444137
+-99.14_19.44414,2021,radar fijo,BFCF005,Eje 1 Norte Mosqueta,Y Paseo de la Reforma y Eje Central,-99.140003,19.444137
+-99.14_19.44414,2022,radar fijo,BFCF005,Eje 1 Norte Mosqueta - Paseo De La Reforma Y ,Eje Central Lázaro Cárdenas,-99.140003,19.444137
+-99.14_19.44414,2022,radar fijo,BFCF006,Eje 1 Norte Mosqueta - Paseo De La Reforma Y ,Eje Central Lázaro Cárdenas,-99.140003,19.444137
+-99.14_19.44414,2022,radar fijo,BFCF016,Paseo De La Reforma Y Eje Central Lázaro Cárdenas,Y Eje 1 Norte Mosqueta,-99.140003,19.444137
+-99.14_19.44414,2023,radar fijo,BFCF005,Eje 1 Norte Mosqueta - Paseo De La Reforma Y,Eje Central Lázaro Cárdenas,-99.140003,19.444137
+-99.14_19.44414,2023,radar fijo,BFCF006,Eje 1 Norte Mosqueta - Paseo De La Reforma Y,Eje Central Lázaro Cárdenas,-99.140003,19.444137
+-99.14_19.44414,2023,radar fijo,BFCF016,Paseo De La Reforma Y Eje Central Lázaro Cárdenas Y ,Eje 1 Norte Mosqueta,-99.140003,19.444137
+-99.15026_19.49435,2019,radar fijo,RVEF008,Eje 1 Nte. José Antonio Álzate ,y Naranjo,-99.1502647,19.4943507
+-99.15026_19.49435,2020,radar fijo,RVEF008,Eje 1 Nte. José Antonio Álzate ,y Naranjo,-99.1502647,19.4943507
+-99.15026_19.49435,2021,radar fijo,RVEF008,Eje 1 Nte. José Antonio Álzate ,y Naranjo,-99.1502647,19.4943507
+-99.15026_19.49435,2022,radar fijo,RVEF008,Eje 1 Nte. José Antonio Alzáte Y ,Naranjo,-99.1502647,19.4943507
+-99.15026_19.49435,2023,radar fijo,RVEF008,Eje 1 Nte. José Antonio Alzáte Y ,Naranjo,-99.1502647,19.4943507
+-99.15043_19.49447,2023,radar fijo,034-SSC-GAM-EV-119.14,Norte 31-A,Norte 23-A,-99.1504302,19.4944705
+-99.15043_19.49447,2024,radar fijo,034-SSC-GAM-EV-119.14,Norte 31-A,Norte 23-A,-99.1504302,19.4944705
+-99.15173_19.50841,2019,radar fijo,VVEF003,Anillo Periférico Canal de Garay,y Lebrija,-99.151726,19.5084073
+-99.15173_19.50841,2020,radar fijo,VVEF003,Anillo Periférico Canal de Garay,y Lebrija,-99.151726,19.5084073
+-99.15173_19.50841,2021,radar fijo,VVEF003,Anillo Periférico Canal de Garay,y Lebrija,-99.151726,19.5084073
+-99.15173_19.50841,2022,radar fijo,VVEF003,Circuito Bicentenario Instituto Técnico Industrial Y ,Calle Eligio Ancona,-99.151726,19.5084073
+-99.1517_19.50792,2023,radar fijo,029-SSC-GAM-FC-124.230,Margarita Maza De Juárez,Av. Miguel Othon De Mendizabal Ote.,-99.1517019,19.5079152
+-99.1517_19.50792,2024,radar fijo,029-SSC-GAM-FC-124.230,Margarita Maza De Jaurez,Av. Miguel Othon De Mendizabal Ote,-99.1517019,19.5079152
+-99.15243_19.34343,2020,radar móvil,RVEM009,Miguel Angel De Quevedo Y,Calle Inglaterra Direccion Oriente,-99.15243,19.34343
+-99.15243_19.34343,2021,radar móvil,RVEM012,Miguel Angel De Quevedo Y,Calle Inglaterra Direccion Oriente,-99.15243,19.34343
+-99.15243_19.34343,2022,radar móvil,RVEM012,Miguel Angel De Quevedo Y,Calle Inglaterra Direccion Oriente,-99.15243,19.34343
+-99.15243_19.34343,2023,radar móvil,NA,Miguel Angel De Quevedo Y,Calle Inglaterra Direccion Oriente,-99.15243,19.34343
+-99.15318_19.44591,2024,radar fijo,047-SSC-CUH-FC-119.118,Eje 1 Norte Mosqueta,Carlos J. Meneses,-99.153179,19.445911
+-99.15362_19.44648,2024,radar fijo,043-SSC-CUH-FC-119.86,Av. Insurgentes Norte,Dr. Mariano Azuela,-99.15362,19.44648
+-99.15412_19.49525,2019,radar móvil,NA,Entre Eje Central y ,Calle Chosica,-99.1541153,19.49524818
+-99.15418_19.49519,2019,radar móvil,RVEM006,Entre Eje 5 Norte y,Eje 4 Norte,-99.15418114,19.49518622
+-99.15563_19.42533,2019,radar fijo,RVEF017,Eje 5 Av. Montevideo,y Nte. 31-A,-99.1556279,19.4253317
+-99.15563_19.42533,2020,radar fijo,RVEF017,Eje 5 Av. Montevideo,y Nte. 31-A,-99.1556279,19.4253317
+-99.15563_19.42533,2021,radar fijo,RVEF017,Eje 5 Av. Montevideo,y Nte. 31-A,-99.1556279,19.4253317
+-99.15563_19.42533,2023,radar fijo,VVEF012 ,Avenida Chapultepec Y,Guaymas,-99.1556279,19.4253317
+-99.15571_19.44385,2020,radar móvil,NA,Av. Revolucion  Sentido Norte ,-,-99.15571,19.44385
+-99.15571_19.44385,2021,radar móvil,NA,Av. Revolucion  Sentido Norte ,-,-99.15571,19.44385
+-99.15571_19.44385,2022,radar móvil,NA,Av. Revolucion  Sentido Norte ,-,-99.15571,19.44385
+-99.15571_19.44385,2023,radar móvil,NA,Av. Revolucion  Sentido Norte ,-,-99.15571,19.44385
+-99.1557_19.44038,2020,radar móvil,NA,Ribera De San Cosme Y ,Puente De Alvarado Sentido Oriente,-99.1557,19.44038
+-99.1557_19.44038,2021,radar móvil,NA,Ribera De San Cosme Y ,Puente De Alvarado Sentido Oriente,-99.1557,19.44038
+-99.1557_19.44038,2022,radar móvil,NA,Ribera De San Cosme Y ,Puente De Alvarado Sentido Oriente,-99.1557,19.44038
+-99.1557_19.44038,2023,radar móvil,NA,Ribera De San Cosme Y ,Puente De Alvarado Sentido Oriente,-99.1557,19.44038
+-99.15585_19.43978,2019,radar móvil,NA,Entre Circuito Bicentenario y,Av. Insurgentes,-99.15585038,19.43977992
+-99.15889_19.47367,2019,radar fijo,VVEF031,Calz. Vallejo,y Cuauhtémoc,-99.15889,19.473673
+-99.15889_19.47367,2020,radar fijo,VVEF031,Calz. Vallejo,y Cuauhtémoc,-99.15889,19.473673
+-99.15889_19.47367,2021,radar fijo,VVEF031,Calz. Vallejo,y Cuauhtémoc,-99.15889,19.473673
+-99.15889_19.47367,2022,radar fijo,VVEF031,Av. Constituyentes Y ,Camino De Los Toros,-99.15889,19.473673
+-99.15952_19.47357,2023,radar fijo,023-SSC-AZC-FC-124.182,Calle C,Calle B,-99.15952,19.473573
+-99.15952_19.47357,2024,radar fijo,023-SSC-AZC-FC-124.182,Calle C,Calle B,-99.15952,19.473573
+-99.15955_19.44182,2020,radar móvil,RVEM006,Ribera De San Cosme Y ,Jaime Torres Bodet Sentido Poniente,-99.15955,19.44182
+-99.15955_19.44182,2021,radar móvil,RVEM008,Ribera De San Cosme Y ,Jaime Torres Bodet Sentido Poniente,-99.15955,19.44182
+-99.15955_19.44182,2022,radar móvil,RVEM008,Ribera De San Cosme Y ,Jaime Torres Bodet Sentido Poniente,-99.15955,19.44182
+-99.15955_19.44182,2023,radar móvil,NA,Ribera De San Cosme Y ,Jaime Torres Bodet Sentido Poniente,-99.15955,19.44182
+-99.15955_19.44724,2019,radar fijo,VVEF001,Av.608,y Av. 508,-99.159553,19.447244
+-99.15955_19.44724,2020,radar fijo,VVEF001,Av.608,y Av. 508,-99.159553,19.447244
+-99.15955_19.44724,2021,radar fijo,VVEF001,Av.608,y Av. 508,-99.159553,19.447244
+-99.15955_19.44724,2022,radar fijo,VVEF001,Av. 608 Y ,Av. 508,-99.159553,19.447244
+-99.15955_19.44724,2023,radar fijo,VVEF001 ,Av. 608 Y,Av.508,-99.159553,19.447244
+-99.1596_19.44728,2024,radar fijo,062-SSC-CUH-EV-119.238,Sabino,Naranjo,-99.1596012,19.4472752
+-99.16049_19.44205,2020,radar móvil,NA,Av. Ribera De San Cosme Sentido Poniente  ,-,-99.16049,19.44205
+-99.16049_19.44205,2021,radar móvil,NA,Av. Ribera De San Cosme Sentido Poniente  ,-,-99.16049,19.44205
+-99.16049_19.44205,2022,radar móvil,NA,Av. Ribera De San Cosme Sentido Poniente  ,-,-99.16049,19.44205
+-99.16049_19.44205,2023,radar móvil,NA,Av. Ribera De San Cosme Sentido Poniente  ,-,-99.16049,19.44205
+-99.16075_19.51192,2019,radar fijo,RVEF023,Eje 2 Nte. Manuel González,y Calle General Ignacio Zaragoza,-99.160748,19.511921
+-99.16075_19.51192,2020,radar fijo,RVEF023,Eje 2 Nte. Manuel González,y Calle General Ignacio Zaragoza,-99.160748,19.511921
+-99.16075_19.51192,2021,radar fijo,RVEF023,Eje 2 Nte. Manuel González,y Calle General Ignacio Zaragoza,-99.160748,19.511921
+-99.16075_19.51192,2022,radar fijo,RVEF023,Eje 2 Nte. Manuel González Y,Calle General Ignacio Zaragoza,-99.160748,19.511921
+-99.16075_19.51192,2023,radar fijo,RVEF023,Eje 2 Nte. Manuel González Y,Calle General Ignacio Zaragoza,-99.160748,19.511921
+-99.16137_19.47309,2019,radar móvil,NA,Entre Av. Ceylan y ,Mariano Escobedo,-99.16136803,19.47308722
+-99.16334_19.42911,2019,radar móvil,RVEM001,Entre Calle Niza y ,Glorieta de Colón,-99.16333787,19.42910974
+-99.16395_19.45334,2023,radar fijo,VVEF009 ,"Circuito Bicentenario,Instituto Técnico Industrial Y",Calle Eligio Ancona,-99.163946,19.45334
+-99.16396_19.45305,2024,radar fijo,071-SSC-CUH-EV-143.182,Eligio Ancona,Segunda Cda. De La Séptima Del Nogal,-99.1639617,19.4530477
+-99.1654_19.4435,2020,radar móvil,RVEM003,Ribera De San Cosme Y,Virginia Fabregas Direccion Oriente,-99.1654,19.4435
+-99.1654_19.4435,2021,radar móvil,RVEM004,Ribera De San Cosme Y,Virginia Fabregas Direccion Oriente,-99.1654,19.4435
+-99.1654_19.4435,2022,radar móvil,RVEM004,Ribera De San Cosme Y,Virginia Fabregas Direccion Oriente,-99.1654,19.4435
+-99.1654_19.4435,2023,radar móvil,NA,Ribera De San Cosme Y,Virginia Fabregas Direccion Oriente,-99.1654,19.4435
+-99.1675_19.44051,2024,radar fijo,064-SSC-MIH-EV-119.254,Nezahualpilli,Nopaltzin,-99.1675,19.440507
+-99.16848_19.40591,2019,radar móvil,RVEM004,Entre Av. Insurgentes y ,Circuito Bicentenario,-99.16848004,19.40591492
+-99.17037_19.47032,2020,radar móvil,RVEM004,Eje 3 Norte Av. Cuitlahuac Y  ,Calle Piñon Sentido Poniente,-99.17037,19.47032
+-99.17037_19.47032,2021,radar móvil,RVEM005,Eje 3 Norte Av. Cuitlahuac Y  ,Calle Piñon Sentido Poniente,-99.17037,19.47032
+-99.17037_19.47032,2022,radar móvil,RVEM005,Eje 3 Norte Av. Cuitlahuac Y  ,Calle Piñon Sentido Poniente,-99.17037,19.47032
+-99.17037_19.47032,2023,radar móvil,NA,Eje 3 Norte Av. Cuitlahuac Y  ,Calle Piñon Sentido Poniente,-99.17037,19.47032
+-99.17042_19.34554,2020,radar móvil,RVEM012,Alfredo Robles Dominguez Sentido Poniente ,-,-99.17042,19.34554
+-99.17042_19.34554,2021,radar móvil,NA,Alfredo Robles Dominguez Sentido Poniente ,-,-99.17042,19.34554
+-99.17042_19.34554,2022,radar móvil,NA,Alfredo Robles Dominguez Sentido Poniente ,-,-99.17042,19.34554
+-99.17042_19.34554,2023,radar móvil,NA,Alfredo Robles Dominguez Sentido Poniente ,-,-99.17042,19.34554
+-99.17042_19.34555,2020,radar móvil,RVEM011,Miguel Ángel De Quevedo Y ,Calle Delta Dirección Oriente,-99.17042,19.34555
+-99.17042_19.34555,2021,radar móvil,NA,Miguel Ángel De Quevedo Y ,Calle Delta Dirección Oriente,-99.17042,19.34555
+-99.17042_19.34555,2022,radar móvil,NA,Miguel Ángel De Quevedo Y ,Calle Delta Dirección Oriente,-99.17042,19.34555
+-99.17042_19.34555,2023,radar móvil,NA,Miguel Ángel De Quevedo Y ,Calle Delta Dirección Oriente,-99.17042,19.34555
+-99.17043_19.34556,2020,radar móvil,NA,Miguel Angel De Quevedo Y ,Calle Delta,-99.17043,19.34556
+-99.17043_19.34556,2021,radar móvil,NA,Miguel Angel De Quevedo Y ,Calle Delta,-99.17043,19.34556
+-99.17043_19.34556,2022,radar móvil,NA,Miguel Angel De Quevedo Y ,Calle Delta,-99.17043,19.34556
+-99.17043_19.34556,2023,radar móvil,NA,Miguel Angel De Quevedo Y ,Calle Delta,-99.17043,19.34556
+-99.17111_19.34548,2019,radar móvil,NA,Entre Av. Melchor Ocampo y ,Calle Cerro del Sombrero,-99.17111108,19.34547587
+-99.17361_19.42141,2023,radar fijo,003-SSC-CUH-FC-124.22,Burdeos,Leija,-99.1736078,19.4214147
+-99.17361_19.42141,2024,radar fijo,003-SSC-CUH-FC-124.22,Burdeos,Leija,-99.1736078,19.4214147
+-99.17393_19.42132,2019,radar fijo,BFCF026,Chapultepec - Sonora ,y Lieja,-99.173931,19.421324
+-99.17393_19.42132,2020,radar fijo,BFCF026,Chapultepec - Sonora ,y Lieja,-99.173931,19.421324
+-99.17393_19.42132,2021,radar fijo,BFCF026,Chapultepec - Sonora ,y Lieja,-99.173931,19.421324
+-99.17393_19.42132,2022,radar fijo,BFCF026,Chapultepec-Sonora Y,Lieja,-99.173931,19.421324
+-99.17473_19.42996,2019,radar fijo,JFCF018,Calz. Gral. Ignacio Zaragoza,y Circuito Bicentenario Boulevard Puerto Aéreo,-99.174731,19.429957
+-99.17473_19.42996,2020,radar fijo,JFCF018,Calz. Gral. Ignacio Zaragoza,y Circuito Bicentenario Boulevard Puerto Aéreo,-99.174731,19.429957
+-99.17473_19.42996,2021,radar fijo,JFCF018,Calz. Gral. Ignacio Zaragoza,y Circuito Bicentenario Boulevard Puerto Aéreo,-99.174731,19.429957
+-99.17473_19.42996,2022,radar fijo,JFCF018,Calz. Gral. Ignacio Zaragoza Y,Circuito Bicentenario Boulevard Puerto Aéreo,-99.174731,19.429957
+-99.1754_19.42358,2019,radar fijo,VVEF032,Calz. Vallejo ,y Calle Pino Suárez,-99.175399,19.423585
+-99.1754_19.42358,2020,radar fijo,VVEF032,Calz. Vallejo ,y Calle Pino Suárez,-99.175399,19.423585
+-99.1754_19.42358,2021,radar fijo,VVEF032,Calz. Vallejo ,y Calle Pino Suárez,-99.175399,19.423585
+-99.1754_19.42358,2022,radar fijo,VVEF032,Viaducto Río De La Piedad Y,Primero De Mayo,-99.175399,19.423585
+-99.17612_19.40597,2020,radar móvil,RVEM010,Eje 3 Sur Av. Baja California Y,Choapan Direccion Poniente,-99.17612,19.40597
+-99.17612_19.40597,2021,radar móvil,NA,Eje 3 Sur Av. Baja California Y,Choapan Direccion Poniente,-99.17612,19.40597
+-99.17612_19.40597,2022,radar móvil,NA,Eje 3 Sur Av. Baja California Y,Choapan Direccion Poniente,-99.17612,19.40597
+-99.17612_19.40597,2023,radar móvil,NA,Eje 3 Sur Av. Baja California Y,Choapan Direccion Poniente,-99.17612,19.40597
+-99.17622_19.42333,2024,radar fijo,074-SSC-MIH-EV-143.206,Lieja,Cto. Interior Mtro. José Vasconcelos,-99.176218,19.42333
+-99.18013_19.34687,2019,radar fijo,BFCF007,Insurgentes Buenavista,y Eje 1 Norte,-99.180131,19.346874
+-99.18013_19.34687,2019,radar fijo,BFBF008,Eje 1 Norte - Insurgentes ,y Buenavista,-99.180131,19.346874
+-99.18013_19.34687,2020,radar fijo,BFCF007,Insurgentes Buenavista,y Eje 1 Norte,-99.180131,19.346874
+-99.18013_19.34687,2020,radar fijo,BFBF008,Eje 1 Norte - Insurgentes ,y Buenavista,-99.180131,19.346874
+-99.18013_19.34687,2020,radar fijo,BFCF021,Eje 1 Norte - Insurgentes ,y Buenavista,-99.180131,19.346874
+-99.18013_19.34687,2021,radar fijo,BFCF007,Insurgentes Buenavista,y Eje 1 Norte,-99.180131,19.346874
+-99.18013_19.34687,2021,radar fijo,BFBF008,Eje 1 Norte - Insurgentes ,y Buenavista,-99.180131,19.346874
+-99.18013_19.34687,2021,radar fijo,BFCF021,Eje 1 Norte - Insurgentes ,y Buenavista,-99.180131,19.346874
+-99.18013_19.34687,2022,radar fijo,BFCF007,Insurgentes Buenavista ,Y Eje 1 Norte,-99.180131,19.346874
+-99.18013_19.34687,2022,radar fijo,BFCF008,Eje 1 Norte-Insurgentes Y,Buenavista,-99.180131,19.346874
+-99.18013_19.34687,2022,radar fijo,BFCF021,Eje 1 Norte-Insurgentes Y,Buenavista,-99.180131,19.346874
+-99.18013_19.34687,2023,radar fijo,BFCF007,Insurgentes Buenavista Y,Eje 1 Norte,-99.180131,19.346874
+-99.18013_19.34687,2023,radar fijo,BFCF008,Eje 1 Norte-Insurgentes Y,Buenavista,-99.180131,19.346874
+-99.18013_19.34687,2023,radar fijo,BFCF021,Eje 1 Norte-Insurgentes Y,Buenavista,-99.180131,19.346874
+-99.18069_19.34661,2019,radar fijo,JFCF024,Eje 3 Oriente Ing. Eduardo Molina,y Eje 5 Norte San Juan de Aragón,-99.180692,19.346607
+-99.18069_19.34661,2020,radar fijo,JFCF024,Eje 3 Oriente Ing. Eduardo Molina,y Eje 5 Norte San Juan de Aragón,-99.180692,19.346607
+-99.18069_19.34661,2021,radar fijo,JFCF024,Eje 3 Oriente Ing. Eduardo Molina,y Eje 5 Norte San Juan de Aragón,-99.180692,19.346607
+-99.18069_19.34661,2022,radar fijo,JFCF024,Eje 3 Oriente Ing. Edurado Molina Y,Eje 5 Norte San Juan De Aragón,-99.180692,19.346607
+-99.18078_19.34643,2024,radar fijo,050-SSC-COY-FC-119.142,Av. Miguel Ángel De Quevedo,Oxtopulco,-99.180784,19.346434
+-99.18242_19.44815,2019,radar fijo,JFCF027,Av. Ejército Nacional Mexicano ,y Anillo Periférico Boulevard Manuel Ávila Camacho,-99.182418,19.448148
+-99.18242_19.44815,2019,radar fijo,JFCF035,Eje 5 Sur,y Anillo Periferico Oriente,-99.182418,19.448148
+-99.18242_19.44815,2020,radar fijo,JFCF027,Av. Ejército Nacional Mexicano ,y Anillo Periférico Boulevard Manuel Ávila Camacho,-99.182418,19.448148
+-99.18242_19.44815,2020,radar fijo,JFCF035,Eje 5 Sur,y Anillo Periferico Oriente,-99.182418,19.448148
+-99.18242_19.44815,2021,radar fijo,JFCF027,Av. Ejército Nacional Mexicano ,y Anillo Periférico Boulevard Manuel Ávila Camacho,-99.182418,19.448148
+-99.18242_19.44815,2021,radar fijo,JFCF035,Eje 5 Sur,y Anillo Periferico Oriente,-99.182418,19.448148
+-99.18242_19.44815,2022,radar fijo,JFCF027,Av. Ejército Nacional Mexicano Y,Anillo Periférico Boulevard Manuel Ávila Camacho,-99.182418,19.448148
+-99.18242_19.44815,2022,radar fijo,JFCF035,Eje 5 Sur Y,Anillo Periférico Oriente,-99.182418,19.448148
+-99.18242_19.44815,2023,radar fijo,JFCF035,Eje 5 Sur Y ,Anillo Periférico Oriente,-99.182418,19.448148
+-99.18273_19.4486,2024,radar fijo,051-SSC-MIH-FC-119.150,Calz. Gral. Mariano Escobedo,Lago Como,-99.182727,19.448604
+-99.18426_19.4083,2023,radar fijo,031-SSC-MIH-FC-124.246,General José Morán,Gral. Benjamín Hill,-99.1842578,19.408298
+-99.18426_19.4083,2024,radar fijo,031-SSC-MIH-FC-124.246,General José Morán,Gral. Benjamin Hill,-99.1842578,19.408298
+-99.1842_19.40796,2019,radar fijo,BFCF001,José María Izazaga ,y José María Pino Suárez,-99.184197,19.407957
+-99.1842_19.40796,2020,radar fijo,BFCF001,José María Izazaga ,y José María Pino Suárez,-99.184197,19.407957
+-99.1842_19.40796,2020,radar fijo,BFCF002,José María Izazaga ,y José María Pino Suárez,-99.184197,19.407957
+-99.1842_19.40796,2021,radar fijo,BFCF001,José María Izazaga ,y José María Pino Suárez,-99.184197,19.407957
+-99.1842_19.40796,2021,radar fijo,BFCF002,José María Izazaga ,y José María Pino Suárez,-99.184197,19.407957
+-99.1842_19.40796,2022,radar fijo,BFCF001,José María Izazaga Y,José María Pino Suárez,-99.184197,19.407957
+-99.1842_19.40796,2022,radar fijo,BCFC002,José María Izazaga Y ,José María Pino Suárez,-99.184197,19.407957
+-99.1842_19.40796,2023,radar fijo,BFCF001,José María Izazaga Y,José María Pino Suárez,-99.184197,19.407957
+-99.1842_19.40796,2023,radar fijo,BCFC002,José María Izazaga Y,José María Pino Suárez,-99.184197,19.407957
+-99.18494_19.39982,2019,radar móvil,NA,Entre Benjamin Franklin y ,Viaducto,-99.18494133,19.39982408
+-99.18557_19.45202,2019,radar fijo,RVEF002,Fray Servando Teresa de Mier ,y Cucurpe,-99.1855748,19.4520233
+-99.18557_19.45202,2020,radar fijo,RVEF002,Fray Servando Teresa de Mier ,y Cucurpe,-99.1855748,19.4520233
+-99.18557_19.45202,2021,radar fijo,RVEF002,Fray Servando Teresa de Mier ,y Cucurpe,-99.1855748,19.4520233
+-99.18557_19.45202,2022,radar fijo,RVEF002,Fray Servando Teresa De Mier Y ,Cucurpe,-99.1855748,19.4520233
+-99.18601_19.39002,2024,radar fijo,067-SSC-BEJ-EV-143.150,Calle 13,Calle 15,-99.1860081,19.3900162
+-99.18911_19.36328,2019,radar fijo,JFCF028,Av. Marina Nacional,y Felipe Carrillo Puerto,-99.189106,19.363279
+-99.18911_19.36328,2020,radar fijo,JFCF028,Av. Marina Nacional,y Felipe Carrillo Puerto,-99.189106,19.363279
+-99.18911_19.36328,2021,radar fijo,JFCF028,Av. Marina Nacional,y Felipe Carrillo Puerto,-99.189106,19.363279
+-99.18911_19.36328,2022,radar fijo,JFCF028,Av. Marina Nacional Y,Felipe Carrillo Puerto,-99.189106,19.363279
+-99.18911_19.36328,2023,radar fijo,JFCF028,Av. Marina Nacional Y,Felipe Carrillo Puerto,-99.189106,19.363279
+-99.18911_19.36345,2024,radar fijo,055-SSC-BEJ-FC-119.182,Barranca Del Muerto,José María Velasco,-99.18911,19.363455
+-99.1891_19.47305,2023,radar fijo,002-SSC-AZC-EV-124.14,Camino A Nextengo,Aquiles Elourdy,-99.1890999,19.4730521
+-99.1891_19.47305,2024,radar fijo,002-SSC-AZC-EV-124.14,Camino A Nextengo,Aquiles Elourdy,-99.1890999,19.4730521
+-99.1898_19.41302,2019,radar fijo,RVEF001,Av. Chapultepec ,y Guaymas,-99.189798,19.413017
+-99.1898_19.41302,2020,radar fijo,RVEF001,Av. Chapultepec ,y Guaymas,-99.189798,19.413017
+-99.1898_19.41302,2021,radar fijo,RVEF001,Av. Chapultepec ,y Guaymas,-99.189798,19.413017
+-99.19011_19.34454,2020,radar móvil,RVEM008,Av. Revolución Y ,Calle Rafael Checa,-99.19011,19.34454
+-99.19011_19.34454,2021,radar móvil,RVEM011,Av. Revolución Y ,Calle Rafael Checa,-99.19011,19.34454
+-99.19011_19.34454,2022,radar móvil,RVEM011,Av. Revolución Y ,Calle Rafael Checa,-99.19011,19.34454
+-99.19011_19.34454,2023,radar móvil,NA,Av. Revolución Y ,Calle Rafael Checa,-99.19011,19.34454
+-99.19208_19.33868,2019,radar móvil,NA,Entre Av. La Paz y ,Eje 10 Sur,-99.19208303,19.33867808
+-99.19322_19.35939,2019,radar fijo,JVEF013,AUN / Gobernador José Ceballos,y Av. Constituyentes,-99.1932155,19.3593912
+-99.19322_19.35939,2020,radar fijo,JVEF013,AUN / Gobernador José Ceballos,y Av. Constituyentes,-99.1932155,19.3593912
+-99.19322_19.35939,2021,radar fijo,JVEF013,AUN / Gobernador José Ceballos,y Av. Constituyentes,-99.1932155,19.3593912
+-99.19322_19.35939,2022,radar fijo,JVEF013,Aun/Gobernador José Ceballos Y,Av. Constituyentes,-99.1932155,19.3593912
+-99.19322_19.35939,2023,radar fijo,JVEF013,Aun/Gobernador José Ceballos Y,Av. Constituyentes,-99.1932155,19.3593912
+-99.19363_19.35915,2023,radar fijo,038-SSC-AOB-EV-119.46,Calzada De Las Águilas,Cóndor,-99.1936347,19.3591454
+-99.19363_19.35915,2024,radar fijo,038-SSC-AOB-EV-119.46,Calzada De Las Aguilas,Cóndor,-99.1936347,19.3591454
+-99.19371_19.35921,2023,radar fijo,036-SSC-AOB-EV-119.30,Etna,Calzada De Las Águilas,-99.1937067,19.3592101
+-99.19371_19.35921,2024,radar fijo,036-SSC-AOB-EV-119.30,Etna,Calzada De Las Águilas,-99.1937067,19.3592101
+-99.19379_19.43811,2019,radar móvil,RVEM009,Entre Arquimides y ,Lago Victoria,-99.19378713,19.43811197
+-99.19381_19.43811,2019,radar móvil,RVEM010,Entre Lago Victoria y ,Moliere,-99.19381295,19.43811197
+-99.19384_19.35941,2019,radar fijo,JVEF014,AUN / Av. Ejército Nacional,y Miguel de Cervantes Saavedra,-99.193844,19.359411
+-99.19384_19.35941,2020,radar fijo,JVEF014,AUN / Av. Ejército Nacional,y Miguel de Cervantes Saavedra,-99.193844,19.359411
+-99.19384_19.35941,2021,radar fijo,JVEF014,AUN / Av. Ejército Nacional,y Miguel de Cervantes Saavedra,-99.193844,19.359411
+-99.19384_19.35941,2022,radar fijo,JVEF014,Aun/Av. Ejército Nacional Y,Miguel De Cervantes Saavedra,-99.193844,19.359411
+-99.19384_19.35941,2023,radar fijo,JVEF014 ,Aun/Av. Ejército Nacional Y,Miguel De Cervantes Saavedra,-99.193844,19.359411
+-99.19424_19.48965,2023,radar fijo,027-SSC-AZC-FC-124.214,Cristóbal Colón,Av. 16 De Septiembre,-99.1942383,19.4896537
+-99.19424_19.48965,2024,radar fijo,027-SSC-AZC-FC-124.214,Cristobal Colon,Av. 16 De Septiembre,-99.1942383,19.4896537
+-99.19441_19.48968,2019,radar fijo,RVEF014,Viaducto Río de la Piedad,y 1ro de Mayo,-99.194411,19.489679
+-99.19441_19.48968,2020,radar fijo,RVEF014,Viaducto Río de la Piedad,y 1ro de Mayo,-99.194411,19.489679
+-99.19441_19.48968,2021,radar fijo,RVEF014,Viaducto Río de la Piedad,y 1ro de Mayo,-99.194411,19.489679
+-99.19732_19.4383,2020,radar móvil,RVEM007,Av. Ejercito Nacional Mexicano Y ,Anatole France Direccion Poniete,-99.19732,19.4383
+-99.19732_19.4383,2021,radar móvil,RVEM010,Av. Ejercito Nacional Mexicano Y ,Anatole France Direccion Poniete,-99.19732,19.4383
+-99.19732_19.4383,2022,radar móvil,RVEM010,Av. Ejercito Nacional Mexicano Y ,Anatole France Direccion Poniete,-99.19732,19.4383
+-99.19732_19.4383,2023,radar móvil,NA,Av. Ejercito Nacional Mexicano Y ,Anatole France Direccion Poniete,-99.19732,19.4383
+-99.19739_19.43825,2020,radar móvil,NA,Av. Ejercito Nacional Mexicano Y ,Anatole France Direccion Poniente,-99.19739,19.43825
+-99.19739_19.43825,2021,radar móvil,NA,Av. Ejercito Nacional Mexicano Y ,Anatole France Direccion Poniente,-99.19739,19.43825
+-99.19739_19.43825,2022,radar móvil,NA,Av. Ejercito Nacional Mexicano Y ,Anatole France Direccion Poniente,-99.19739,19.43825
+-99.19739_19.43825,2023,radar móvil,NA,Av. Ejercito Nacional Mexicano Y ,Anatole France Direccion Poniente,-99.19739,19.43825
+-99.19993_19.35424,2022,radar fijo,RVEF041,Periférico 2P Ajusco Entre Etna Y ,"Calz. De Las Águilas, Sentido Norte-Sur",-99.199933,19.354244
+-99.19993_19.35424,2022,radar fijo,RVEF042,Periférico 2P Calz. Sta. Catarina Entre Barranca Pilares ,Y Rincón Atlamaya Sentido Norte-Sur,-99.199933,19.354244
+-99.19993_19.35424,2022,radar fijo,RVEF043,Periférico 2P Cerrada De Las Flores Entre Calle Calz. De Las Águilas Y ,"Cóndor, Sentido Sur-Norte",-99.199933,19.354244
+-99.20078_19.35031,2019,radar fijo,JVEF012,AUN / Av. Río Becerra ,y 11 de Abril,-99.200777,19.350306
+-99.20078_19.35031,2020,radar fijo,JVEF012,AUN / Av. Río Becerra ,y 11 de Abril,-99.200777,19.350306
+-99.20078_19.35031,2021,radar fijo,JVEF012,AUN / Av. Río Becerra ,y 11 de Abril,-99.200777,19.350306
+-99.20078_19.35031,2022,radar fijo,RVEF044,Periférico 2P Calz. Sta. Catarina Entre Hermenegildo Galeana Y ,"León Felipe, Sentido Sur-Norte",-99.200777,19.350306
+-99.20078_19.35031,2022,radar fijo,JVEF012,Aun/Av. Río Becerra Y,11 De Abril,-99.200777,19.350306
+-99.20078_19.35031,2023,radar fijo,JVEF012,Aun/Av. Río Becerra Y,11 De Abril,-99.200777,19.350306
+-99.20101_19.35009,2023,radar fijo,039-SSC-AOB-EV-119.54,Hermenegildo Galeana,León Felipe,-99.2010128,19.3500941
+-99.20101_19.35009,2024,radar fijo,039-SSC-AOB-EV-119.54,Hermenegildo Galeana,León Felipe,-99.2010128,19.3500941
+-99.20113_19.35022,2023,radar fijo,037-SSC-AOB-EV-119.38,Barranca Pilares,Rincón Atlamaya,-99.2011302,19.3502218
+-99.20113_19.35022,2024,radar fijo,037-SSC-AOB-EV-119.38,Barranca Pilares,Rincón Atlamaya,-99.2011302,19.3502218
+-99.20225_19.40629,2023,radar fijo,VVEF010 ,Avenida Constituyentes Y,Camino De Los Toros,-99.2022534,19.4062947
+-99.20227_19.40622,2024,radar fijo,072-SSC-MIH-EV-143.190,Sur 128,2A Privada Constituyentes,-99.2022738,19.4062228
+-99.20273_19.34316,2019,radar fijo,JVEF011,AUN /  Calle 16,y Av. San Antonio,-99.2027342,19.3431643
+-99.20273_19.34316,2020,radar fijo,JVEF011,AUN /  Calle 16,y Av. San Antonio,-99.2027342,19.3431643
+-99.20273_19.34316,2021,radar fijo,JVEF011,AUN /  Calle 16,y Av. San Antonio,-99.2027342,19.3431643
+-99.20273_19.34316,2022,radar fijo,JVEF011,Aun/Calle 16 Y,Av. San Antonio,-99.2027342,19.3431643
+-99.20273_19.34316,2023,radar fijo,JVEF011,Aun/Calle 16 Y,Av. San Antonio,-99.2027342,19.3431643
+-99.21352_19.43895,2019,radar fijo,JFCF023,Eje 2 Norte Manuel González,y Eje Central Lázaro Cárdenas,-99.213515,19.438951
+-99.21352_19.43895,2020,radar fijo,JFCF023,Eje 2 Norte Manuel González,y Eje Central Lázaro Cárdenas,-99.213515,19.438951
+-99.21352_19.43895,2021,radar fijo,JFCF023,Eje 2 Norte Manuel González,y Eje Central Lázaro Cárdenas,-99.213515,19.438951
+-99.21352_19.43895,2022,radar fijo,JFCF023,Eje 2 Norte Manuel González Y,Eje Central Lázaro Cárdenas,-99.213515,19.438951
+-99.21354_19.43898,2023,radar fijo,028-SSC-MIH-FC-124.222,Periférico Boulevard Manuel Ávila Camacho,Juan Racine,-99.2135412,19.4389827
+-99.21354_19.43898,2024,radar fijo,028-SSC-MIH-FC-124.222,Periferico Blvrd Manuel Avila Camacho,Juan Racine,-99.2135412,19.4389827

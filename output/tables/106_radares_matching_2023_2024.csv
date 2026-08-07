@@ -1,0 +1,80 @@
+anio,tipo,num,num_disp,calle1,calle2,y,x,id,num_disp_2,distancia_2023_m,id_2023,tipo_2023,calle1_2023,calle2_2023,coincidencia
+2024,radar fijo,1,1,Av. Telecomunicaciones,Emilio Azcarraga,19.3887368,-99.0423673,001-SSC-IZP-EV-124.6,NA,0,001-SSC-IZP-EV-124.6,radar fijo,Av. Telecomunicaciones,Emilio Azcárraga,≤10 m
+2024,radar fijo,2,2,Camino A Nextengo,Aquiles Elourdy,19.4730521,-99.1890999,002-SSC-AZC-EV-124.14,NA,0,002-SSC-AZC-EV-124.14,radar fijo,Camino A Nextengo,Aquiles Elourdy,≤10 m
+2024,radar fijo,3,3,Burdeos,Leija,19.4214147,-99.1736078,003-SSC-CUH-FC-124.22,NA,0,003-SSC-CUH-FC-124.22,radar fijo,Burdeos,Leija,≤10 m
+2024,radar fijo,4,4,Cto. Cuemanco Nte,Antiguo Canal De Cuemanco,19.2946796,-99.1021011,004-SSC-XOC-FC-124.30,NA,0,004-SSC-XOC-FC-124.30,radar fijo,Cto. Cuemanco Nte.,Antiguo Canal De Cuemanco,≤10 m
+2024,radar fijo,5,5,Avena,Añil,19.4024604,-99.0977499,005-SSC-IZT-FC-124.38,NA,0,005-SSC-IZT-FC-124.38,radar fijo,Avena,Añil,≤10 m
+2024,radar fijo,6,6,Benito Juarez ,Caliz,19.3201172,-99.1382003,006-SSC-COY-EV-124.46,NA,0,006-SSC-COY-EV-124.46,radar fijo,Benito Juárez,Caliz,≤10 m
+2024,radar fijo,7,7,Hidalgo ,Tlamanalco,19.3070388,-99.1433099,007-SSC-COY-EV-124.54,NA,0,007-SSC-COY-EV-124.54,radar fijo,Hidalgo ,Tlamanalco,≤10 m
+2024,radar fijo,8,8,"Moctezuma Segunda Seccion, Venustiano Carranza",Lic. Juan C. Doria,19.389183,-99.0422815,008-SSC-IZP-EV-124.62,NA,0,008-SSC-IZP-EV-124.62,radar fijo,Gral. Juan Manuel Torre,Lic. Juan C. Doria,≤10 m
+2024,radar fijo,9,9,Jose Peon Contreras,Toribio Medina,19.4059829,-99.144651,009-SSC-CUH-EV-124.70,NA,0,009-SSC-CUH-EV-124.70,radar fijo,José Peón Contreras,Toribio Medina,≤10 m
+2024,radar fijo,10,10,Debussy,Meyeber,19.4678526,-99.1395186,010-SSC-GAM-EV-124.78,NA,0,010-SSC-GAM-EV-124.78,radar fijo,Debussy,Meyeber,≤10 m
+2024,radar fijo,11,11,Ignacio Mariscal,Tomas Alva Edison,19.43651959,-99.1496257,011-SSC-CUH-FC-124.86,NA,0,011-SSC-CUH-FC-124.86,radar fijo,Ignacio Mariscal,Tomás Alva Edison,≤10 m
+2024,radar fijo,12,12,Ote. 144,Ote.146,19.4321581,-99.1029554,012-SSC-VCA-FC-124.94,NA,0,012-SSC-VCA-FC-124.94,radar fijo,Ote. 144,Ote. 146,≤10 m
+2024,radar fijo,13,13,Ote. 176,Ote. 178,19.4280946,-99.0948085,013-SSC-VCA-EV-124.102,NA,0,013-SSC-VCA-EV-124.102,radar fijo,Ote. 176,Ote. 178,≤10 m
+2024,radar fijo,14,14,Rio Guadalupe,Eje 5 Norte,19.4796439,-99.0980104,014-SSC-GAM-FC-124.110,NA,0,014-SSC-GAM-FC-124.110,radar fijo,Río Guadalupe,Eje 5 Norte,≤10 m
+2024,radar fijo,15,15,Coca,Av Canal De Apatlaco,19.3801184,-99.095546100000007,015-SSC-IZT-FC-124.118,NA,0,015-SSC-IZT-FC-124.118,radar fijo,Coca,Av. Canal De Apatlaco,≤10 m
+2024,radar fijo,16,16,Calzada Taxqueña,Cerro San Antonio,19.3406041,-99.1373936,016-SSC-COY-FC-124.126,NA,0,016-SSC-COY-FC-124.126,radar fijo,Calzada Taxqueña,Cerro San Antonio,≤10 m
+2024,radar fijo,17,17,Pensamiento,Pabellón,19.3429176,-99.0575707,017-SSC-IZP-EV-124.134,NA,0,017-SSC-IZP-EV-124.134,radar fijo,Pensamiento,Pabellón,≤10 m
+2024,radar fijo,18,18,Prol. División Del Norte,And. Tabachines,19.2659594,-99.1148805,018-SSC-XOC-FC-124.142,NA,0,018-SSC-XOC-FC-124.142,radar fijo,Prol. División Del Norte,And. Tabachines,≤10 m
+2024,radar fijo,19,19,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,19.3730611,-99.1074164,019-SSC-IZP-EV-124.150,NA,0,019-SSC-IZP-EV-124.150,radar fijo,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,≤10 m
+2024,radar fijo,20,20,Colector 13,Av Ricarte,19.4881075,-99.134014,020-SSC-GAM-FC-124.158,NA,0,020-SSC-GAM-FC-124.158,radar fijo,Colector 13,Av. Ricarte,≤10 m
+2024,radar fijo,21,21,Calle C,Calle B,19.4200102,-99.0968845,021-SSC-VCA-FC-124.166,NA,0,021-SSC-VCA-FC-124.166,radar fijo,Calle C,Calle B,≤10 m
+2024,radar fijo,22,22,Asistencia Publica,Calle 23,19.4197559,-99.095534,022-SSC-VCA-FC-124.174,NA,0,022-SSC-VCA-FC-124.174,radar fijo,Asistencia Pública,Calle 23,≤10 m
+2024,radar fijo,23,23,Calle C,Calle B,19.473573,-99.15952,023-SSC-AZC-FC-124.182,NA,0,023-SSC-AZC-FC-124.182,radar fijo,Calle C,Calle B,≤10 m
+2024,radar fijo,24,24,Esq. Eje Central,Florencio Constantino,19.4545243,-99.1378576,024-SSC-CUH-FC-124.190,NA,0,024-SSC-CUH-FC-124.190,radar fijo,Esq. Eje Central,Florencio Constantino,≤10 m
+2024,radar fijo,25,25,Rio Guadalupe,Eje 5 Norte,19.4784257,-99.0978776,025-SSC-GAM-FC-124.198,NA,0,025-SSC-GAM-FC-124.198,radar fijo,Río Guadalupe,Eje 5 Norte,≤10 m
+2024,radar fijo,26,26,Jose Guadalupe Gomez,Rojo Gomez,19.3563236,-99.0862147,026-SSC-IZP-FC-124.206,NA,0,026-SSC-IZP-FC-124.206,radar fijo,José Guadalupe Gómez,Rojo Gómez,≤10 m
+2024,radar fijo,27,27,Cristobal Colon,Av. 16 De Septiembre,19.4896537,-99.1942383,027-SSC-AZC-FC-124.214,NA,0,027-SSC-AZC-FC-124.214,radar fijo,Cristóbal Colón,Av. 16 De Septiembre,≤10 m
+2024,radar fijo,28,28,Periferico Blvrd Manuel Avila Camacho,Juan Racine,19.4389827,-99.2135412,028-SSC-MIH-FC-124.222,NA,0,028-SSC-MIH-FC-124.222,radar fijo,Periférico Boulevard Manuel Ávila Camacho,Juan Racine,≤10 m
+2024,radar fijo,29,29,Margarita Maza De Jaurez,Av. Miguel Othon De Mendizabal Ote,19.5079152,-99.1517019,029-SSC-GAM-FC-124.230,NA,0,029-SSC-GAM-FC-124.230,radar fijo,Margarita Maza De Juárez,Av. Miguel Othon De Mendizabal Ote.,≤10 m
+2024,radar fijo,30,30, Congreso De La Union,Sur 103,19.4215583,-99.1180633,030-SSC-VCA-EV-124.238,NA,0,030-SSC-VCA-EV-124.238,radar fijo,Congreso De La Unión,Sur 103,≤10 m
+2024,radar fijo,31,31,General José Morán,Gral. Benjamin Hill,19.408298,-99.1842578,031-SSC-MIH-FC-124.246,NA,0,031-SSC-MIH-FC-124.246,radar fijo,General José Morán,Gral. Benjamín Hill,≤10 m
+2024,radar fijo,32,32,Simon Bolivar,Jose Maria Bustillos,19.4072699,-99.1418025,032-SSC-CUH-EV-124.254,NA,0,032-SSC-CUH-EV-124.254,radar fijo,Simón Bolivar,José María Bustillos,≤10 m
+2024,radar fijo,33,33,Boyaca,Salama,19.4868701,-99.1433887,033-SSC-GAM-EV-119.6,NA,0,033-SSC-GAM-EV-119.6,radar fijo,Boyaca,Salama,≤10 m
+2024,radar fijo,34,34,Norte 31-A,Norte 23-A,19.4944705,-99.1504302,034-SSC-GAM-EV-119.14,NA,0,034-SSC-GAM-EV-119.14,radar fijo,Norte 31-A,Norte 23-A,≤10 m
+2024,radar fijo,35,35,Pte 112,Pte. 116,19.4765952,-99.1328328,035-SSC-GAM-EV-119.22,NA,0,035-SSC-GAM-EV-119.22,radar fijo,Pte. 112,Pte. 116,≤10 m
+2024,radar fijo,36,36,Etna,Calzada De Las Águilas,19.3592101,-99.1937067,036-SSC-AOB-EV-119.30,NA,0,036-SSC-AOB-EV-119.30,radar fijo,Etna,Calzada De Las Águilas,≤10 m
+2024,radar fijo,37,37,Barranca Pilares,Rincón Atlamaya,19.3502218,-99.2011302,037-SSC-AOB-EV-119.38,NA,0,037-SSC-AOB-EV-119.38,radar fijo,Barranca Pilares,Rincón Atlamaya,≤10 m
+2024,radar fijo,38,38,Calzada De Las Aguilas,Cóndor,19.3591454,-99.1936347,038-SSC-AOB-EV-119.46,NA,0,038-SSC-AOB-EV-119.46,radar fijo,Calzada De Las Águilas,Cóndor,≤10 m
+2024,radar fijo,39,39,Hermenegildo Galeana,León Felipe,19.3500941,-99.2010128,039-SSC-AOB-EV-119.54,NA,0,039-SSC-AOB-EV-119.54,radar fijo,Hermenegildo Galeana,León Felipe,≤10 m
+2024,radar fijo,40,40,Tulipan ,Rocio,19.3429138,-99.0567057,040-SSC-IZP-EV-119.62,NA,0,040-SSC-IZP-EV-119.62,radar fijo,Tulipán,Rocío,≤10 m
+2024,radar fijo,41,41,Xocongo,San Antonio Abad,19.4235698,-99.1314475,041-SSC-CUH-FC-119.70,NA,29.55281341752221,BFCF035,radar fijo,Circuito Bicentenario Maestro José Vasconcelos Y,Av. Benjamín Franklin,25–50 m
+2024,radar fijo,42,42,Eje 1 Norte,Jaime Nuno,19.4442594,-99.1394375,042-SSC-CUH-FC-119.78,NA,52.53147908757641,BFCF019,radar fijo,Eje 1 Poniente Guerrero Y ,Eje 2 Norte Manuel González,50–100 m
+2024,radar fijo,43,43,Av. Insurgentes Norte,Dr. Mariano Azuela,19.44648,-99.15362,043-SSC-CUH-FC-119.86,NA,364.4449641641296,NA,radar móvil,Av. Revolucion  Sentido Norte ,-,>100 m
+2024,radar fijo,44,44,Av. Montevideo ,Manizales,19.491094,-99.1334139,044-SSC-GAM-FC-119.94,NA,19.759739581548565,BFCF010,radar fijo,Av. Instituto Politécnico Nacional Y,Eje 5 Nte Montevideo,10–25 m
+2024,radar fijo,45,45,Av. Paseo De La Reforma,C. De Galeana,19.4441318,-99.1404099,045-SSC-CUH-FC-119.102,NA,42.71526809825151,BFCF005,radar fijo,Eje 1 Norte Mosqueta - Paseo De La Reforma Y,Eje Central Lázaro Cárdenas,25–50 m
+2024,radar fijo,46,46,C. Dr. José María Vértiz,Dr. Andrade,19.406994,-99.149233,046-SSC-CUH-FC-119.110,NA,25.213990495820017,BFCF017,radar fijo,Eje 3 Sur (Dr. Morones Prieto) Y,Dr. José Ma. Vértiz,25–50 m
+2024,radar fijo,47,47,Eje 1 Norte Mosqueta,Carlos J. Meneses,19.445911,-99.153179,047-SSC-CUH-FC-119.118,NA,350.1310900425378,NA,radar móvil,Av. Revolucion  Sentido Norte ,-,>100 m
+2024,radar fijo,48,48,Av. Canal Del Norte,Aluminio,19.4524216,-99.1247242,048-SSC-VCA-FC-119.126,NA,36.58793091147497,BFCF022,radar fijo,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,25–50 m
+2024,radar fijo,49,49,Av. Ing. Alfredo Robles Dominguez,Progreso,19.4686543,-99.1249302,049-SSC-GAM-FC-119.134,NA,20.31446749475844,BFCF029,radar fijo,Calzada De Misterios Y,Eje 3 Nte Av. Alfredo Robles Domínguez,10–25 m
+2024,radar fijo,50,50,Av. Miguel Ángel De Quevedo,Oxtopulco,19.346434,-99.180784,050-SSC-COY-FC-119.142,NA,84.10898788710696,BFCF007,radar fijo,Insurgentes Buenavista Y,Eje 1 Norte,50–100 m
+2024,radar fijo,51,51,Calz. Gral. Mariano Escobedo,Lago Como,19.448604,-99.182727,051-SSC-MIH-FC-119.150,NA,59.983333813879895,JFCF035,radar fijo,Eje 5 Sur Y ,Anillo Periférico Oriente,50–100 m
+2024,radar fijo,52,52,Canal De Miramontes,Cerro De La Juvencia,19.341108,-99.136915,052-SSC-COY-FC-119.158,NA,47.94154925568569,JFCF012,radar fijo,Eje 1 Ote. Andrés Molina Enríquez Y ,Eje 5 Sur Playa Villa Del Mar,25–50 m
+2024,radar fijo,53,53,Playa Caleta,Av. Andrés Molina Enriquez,19.377117,-99.130041,053-SSC-IZT-FC-119.166,NA,11.343321279897715,JFCF006,radar fijo,Eje 6 Sur Playa Pie De La Cuesta Y ,Eje 1 Ote. Andrés Molina Enríquez,10–25 m
+2024,radar fijo,54,54,Av. Genaro Estrada,G. Murillo,19.362216,-99.049351,054-SSC-IZP-FC-119.174,NA,21.597489520925215,JFCF009,radar fijo,Eje 6 Sur Av. Luis Méndez Y,Carlos L. Gracidas,10–25 m
+2024,radar fijo,55,55,Barranca Del Muerto,José María Velasco,19.363455,-99.18911,055-SSC-BEJ-FC-119.182,NA,19.479406999309976,JFCF028,radar fijo,Av. Marina Nacional Y,Felipe Carrillo Puerto,10–25 m
+2024,radar fijo,56,56,Viaducto Tlalpan,Av. El Farol,19.285648,-99.123666,056-SSC-XOC-VE-119.190,NA,2366.084172390625,018-SSC-XOC-FC-124.142,radar fijo,Prol. División Del Norte,And. Tabachines,>100 m
+2024,radar fijo,57,57,Playa Villa Del Mar,Playa Roqueta,19.381776,-99.129616,057-SSC-IZT-FC-119.198,NA,516.8249866639429,JFCF006,radar fijo,Eje 6 Sur Playa Pie De La Cuesta Y ,Eje 1 Ote. Andrés Molina Enríquez,>100 m
+2024,radar fijo,58,58,Eje Central Lázaro Cárdenas,Cjón. Igualdad,19.4264773,-99.1419395,058-SSC-CUH-FC-119.206,NA,13.990650916904817,JFCF022,radar fijo,Eje Central Lázaro Cárdenas Y ,Avenida Hidalgo,10–25 m
+2024,radar fijo,59,59,Sur 113,Sur 113-A,19.3697071,-99.1135417,059-SSC-ITZ-VE-119.214,NA,742.6302716232306,019-SSC-IZP-EV-124.150,radar fijo,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,>100 m
+2024,radar fijo,60,60,Estnógrafos,Fiscales,19.370079,-99.11295,060-SSC-IZT-VE-143.166,NA,668.2587553461416,019-SSC-IZP-EV-124.150,radar fijo,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,>100 m
+2024,radar fijo,61,61,Anillo Periférico,Calle 5 Sur,19.376464,-99.058833,061-SSC-IZP-FC-119.230,NA,31.48805562753918,JFCF002,radar fijo,Eje 9 Sur Taxqueña Y ,Eje 1 Oriente Canal De Miramontes,25–50 m
+2024,radar fijo,62,62,Sabino,Naranjo,19.4472752,-99.1596012,062-SSC-CUH-EV-119.238,NA,6.125036727868692,VVEF001 ,radar fijo,Av. 608 Y,Av.508,≤10 m
+2024,radar fijo,63,63,Peniques,Rupias,19.451044,-99.096166,063-SSC-VCA-EV-119.246,NA,1825.151712675538,JVEF008,radar fijo,Aun/Deportivo Israelita/Ing. Zapadores Y,Av. Del Conscripto,>100 m
+2024,radar fijo,64,64,Nezahualpilli,Nopaltzin,19.440507,-99.1675,064-SSC-MIH-EV-119.254,NA,397.83916525976184,NA,radar móvil,Ribera De San Cosme Y,Virginia Fabregas Direccion Oriente,>100 m
+2024,radar fijo,65,65,Pulacayo,Latacunga,19.4894549,-99.1298036,065-SSC-GAM-EV-143.134,NA,439.68504704594403,BFCF010,radar fijo,Av. Instituto Politécnico Nacional Y,Eje 5 Nte Montevideo,>100 m
+2024,radar fijo,66,66,Calz. Gral. Ignacio Zaragoza,Guerrero,19.4565683,-99.1461344,066-SSC-CUH-EV-143.142,NA,23.523130932981953,VVEF006,radar fijo,Circuito Bicentenario Av. Río Consulado Y,Avenida Congreso De La Unión,10–25 m
+2024,radar fijo,67,67,Calle 13,Calle 15,19.3900162,-99.1860081,067-SSC-BEJ-EV-143.150,NA,1994.2922744928762,BFCF001,radar fijo,José María Izazaga Y,José María Pino Suárez,>100 m
+2024,radar fijo,68,68,Av. 606,Av. 583,19.453688,-99.075447,068-SSC-GAM-EV-143.158,NA,2107.4893661829055,JVEF008,radar fijo,Aun/Deportivo Israelita/Ing. Zapadores Y,Av. Del Conscripto,>100 m
+2024,radar fijo,69,69,Av. H. Congreso De La Unión,Nte. 60-A,19.4561654,-99.1145699,069-SSC-GAM-EV-143.166,NA,1159.8873870235154,BFCF022,radar fijo,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,>100 m
+2024,radar fijo,70,70,Norte 37,Pablo R. Sidar,19.4392591,-99.0970018,070-SSC-VCA-EV-143.174,NA,1003.9845901419045,012-SSC-VCA-FC-124.94,radar fijo,Ote. 144,Ote. 146,>100 m
+2024,radar fijo,71,71,Eligio Ancona,Segunda Cda. De La Séptima Del Nogal,19.4530477,-99.1639617,071-SSC-CUH-EV-143.182,NA,32.38601964250718,VVEF009 ,radar fijo,"Circuito Bicentenario,Instituto Técnico Industrial Y",Calle Eligio Ancona,25–50 m
+2024,radar fijo,72,72,Sur 128,2A Privada Constituyentes,19.4062228,-99.2022738,072-SSC-MIH-EV-143.190,NA,8.239235747262013,VVEF010 ,radar fijo,Avenida Constituyentes Y,Camino De Los Toros,≤10 m
+2024,radar fijo,73,73,Soto,7A C. De Zarco,19.444778,-99.1442176,073-SSC-CUH-EV-143.198,NA,15.568397977157764,VVEF008,radar fijo,Av. Oceanía Y ,Pablo R. Sidar,10–25 m
+2024,radar fijo,74,74,Lieja,Cto. Interior Mtro. José Vasconcelos,19.42333,-99.176218,074-SSC-MIH-EV-143.206,NA,346.41770868914097,003-SSC-CUH-FC-124.22,radar fijo,Burdeos,Leija,>100 m
+2024,radar fijo,75,75,Viaducto Tlalpan,Av. El Farol,19.2855784,-99.1242186,075-SSC-XOC-EV-143.211,NA,2382.3168571452466,018-SSC-XOC-FC-124.142,radar fijo,Prol. División Del Norte,And. Tabachines,>100 m
+2024,radar fijo,76,76,Antiguo Canal De Cuemanco,C.24,19.2976212,-99.0944934,076-SSC-XOC-EV-143.218,NA,863.0176186702967,004-SSC-XOC-FC-124.30,radar fijo,Cto. Cuemanco Nte.,Antiguo Canal De Cuemanco,>100 m
+2024,radar fijo,77,77,Berlioz,Arrigo Boito,19.4565017,-99.1295139,077-SSC-CUH-EV-143.225,NA,64.45933316683316,NA,radar móvil,Calzada De Los Misterios Y ,Calle Arrigo Boito Dirección Sur,50–100 m
+2024,radar fijo,78,78,Tenochtitlan,F.C. Hidalgo,19.4528992,-99.1279974,078-SSC-CUH-EV-143.232,NA,352.16030034021776,BFCF022,radar fijo,"Eje 1 Oriente Av. Del Trabajo, Eje 2 Norte Canal Del Norte Y",Av. Circunvalación,>100 m
+2024,radar fijo,79,79,Gerentes,Etnógrafos,19.375578,-99.101718,079-SSC-IZT-EV-143.246,NA,660.0372148559927,019-SSC-IZP-EV-124.150,radar fijo,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,>100 m

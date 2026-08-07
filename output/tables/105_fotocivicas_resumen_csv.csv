@@ -1,0 +1,5 @@
+archivo,tamano_bytes,filas_muestra,columnas,estado
+cursos_en_linea_fotocivicas_07_22.csv,14638506,1000,8,ok
+cursos_presenciales_fotocivicas__07_22.csv,40597730,1000,12,ok
+infractores_fotocivicas_taller_presencial.csv,164,6,3,ok
+fotocivicas-ubicacion.csv,14686,140,6,ok

@@ -1,0 +1,6 @@
+tabla,observaciones,columnas,folios_unicos,folios_faltantes,filas_duplicadas_por_folio
+hechos,134079,26,126472,1,7606
+personas_edad,158077,23,126253,0,31824
+personas_sexo,144044,24,126472,1,17571
+personas_tipo,107795,24,99000,0,8795
+vehiculos,215079,26,126472,2,88605

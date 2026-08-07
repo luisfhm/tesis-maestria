@@ -1,0 +1,11 @@
+variable,observaciones,valores_unicos,faltantes,porcentaje_faltantes
+anio,639,6,0,0
+tipo,639,2,0,0
+num,639,108,65,10.17
+num_disp,639,105,18,2.82
+calle1,639,298,0,0
+calle2,639,276,0,0
+y,639,196,5,0.78
+x,639,195,5,0.78
+id,639,195,57,8.92
+num_disp_2,639,12,597,93.43

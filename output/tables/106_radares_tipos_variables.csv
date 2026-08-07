@@ -1,0 +1,11 @@
+variable,clase
+anio,integer
+tipo,character
+num,integer
+num_disp,character
+calle1,character
+calle2,character
+y,numeric
+x,numeric
+id,character
+num_disp_2,integer
