@@ -1,0 +1,21 @@
+ids,tipos,calle1,calle2,distancia_anterior_m,distancia_historica_m,anio_historico_cercano,ids_historicos,tipos_historicos,calle1_historica,calle2_historica,rango_historico,clasificacion_100m
+004-SSC-XOC-FC-124.30,radar fijo,Cto. Cuemanco Nte.,Antiguo Canal De Cuemanco,3448.219921370266,3448.219921370266,2019,JFCF008 | JFCF025,radar fijo,Av. Guadalupe I. Ramírez,y Prol. División del Norte,>1000 m,nueva_historica_candidata
+026-SSC-IZP-FC-124.206,radar fijo,José Guadalupe Gómez,Rojo Gómez,2728.2752691377186,2728.2752691377186,2019,JVEF010,radar fijo,AUN /   Fernando Alencastre,y Av. de los Constituyentes,>1000 m,nueva_historica_candidata
+002-SSC-AZC-EV-124.14,radar fijo,Camino A Nextengo,Aquiles Elourdy,1988.8192982899336,1922.4086102680394,2019,RVEF014,radar fijo,Viaducto Río de la Piedad,y 1ro de Mayo,>1000 m,nueva_historica_candidata
+VVEF010,radar fijo,Avenida Constituyentes Y,Camino De Los Toros,1904.676641169968,1504.450453532091,2019,RVEF001,radar fijo,Av. Chapultepec ,y Guaymas,>1000 m,nueva_historica_candidata
+007-SSC-COY-EV-124.54,radar fijo,Hidalgo,Tlamanalco,1429.6503481068316,1429.6503481068316,2020,,radar móvil,Calzada De Tlalpan Y ,Calle Elvira Dirección Norte,>1000 m,nueva_historica_candidata
+019-SSC-IZP-EV-124.150,radar fijo,Esq. Eje 6 Sur Trabajadoras Sociales,Geografos,1413.2822078692082,1413.2822078692082,2019,JVEF010,radar fijo,AUN /   Fernando Alencastre,y Av. de los Constituyentes,>1000 m,nueva_historica_candidata
+005-SSC-IZT-FC-124.38,radar fijo,Avena,Añil,1934.0022028853325,1136.0388101144533,2019,,radar móvil,Entre Calle 9 y,Av. 12,>1000 m,nueva_historica_candidata
+012-SSC-VCA-FC-124.94,radar fijo,Ote. 144,Ote. 146,1501.1832375102697,1048.5208430303544,2019,RVEF040,radar fijo,Eje Central Lázaro Cárdenas,y Toribio Medina,>1000 m,nueva_historica_candidata
+013-SSC-VCA-EV-124.102,radar fijo,Ote. 176,Ote. 178,909.9166587136898,909.9166587136898,2019,RVEF011,radar fijo,Eje Central Lázaro Cárdenas ,y Fortuna,500–1000 m,nueva_historica_candidata
+VVEF009,radar fijo,"Circuito Bicentenario,Instituto Técnico Industrial Y",Calle Eligio Ancona,817.0859564856246,817.0859564856246,2019,VVEF001,radar fijo,Av.608,y Av. 508,500–1000 m,nueva_historica_candidata
+035-SSC-GAM-EV-119.22,radar fijo,Pte. 112,Pte. 116,629.9920978783402,629.9920978787975,2019,VVEF007,radar fijo,Av. Paseo de la Reforma ,e Ignacio Allende,500–1000 m,nueva_historica_candidata
+010-SSC-GAM-EV-124.78,radar fijo,Debussy,Meyeber,588.1641111026624,588.1641111026624,2019,RVEF034,radar fijo,Av. Revolución,y Calle 13,500–1000 m,nueva_historica_candidata
+011-SSC-CUH-FC-124.86,radar fijo,Ignacio Mariscal,Tomás Alva Edison,767.4907692033444,166.68879759329675,2019,,radar móvil,Entre Av. Guerrero y ,Av. Insurgentes,100–250 m,nueva_historica_candidata
+006-SSC-COY-EV-124.46,radar fijo,Benito Juárez,Caliz,144.513264819358,144.513264819358,2020,,radar móvil,Calzada De Tlalpan Y ,Calle Elvira Dirección Norte,100–250 m,nueva_historica_candidata
+009-SSC-CUH-EV-124.70,radar fijo,José Peón Contreras,Toribio Medina,125.82568451797177,125.82568451797175,2019,RVEF021,radar fijo,Av. Insurgentes Nte.,y Pte. 112,100–250 m,nueva_historica_candidata
+017-SSC-IZP-EV-124.134,radar fijo,Pensamiento,Pabellón,116.83110286005098,116.83110286010881,2019,RVEF013,radar fijo,Circuito Bicentenario Calz. Melchor Ocampo,y Nezahualpilli,100–250 m,nueva_historica_candidata
+014-SSC-GAM-FC-124.110,radar fijo,Río Guadalupe,Eje 5 Norte,114.19359168985515,114.19359168984496,2019,JFCF020,radar fijo,Calz Gral. Ignacio Zaragoza,y Circuito Bicentenario Boulevard Puerto Aéreo,100–250 m,nueva_historica_candidata
+030-SSC-VCA-EV-124.238,radar fijo,Congreso De La Unión,Sur 103,1393.4020209362698,44.806922319244336,2019,RVEF003,radar fijo,Av. Calzada Ignacio Zaragoza,y Azcárraga Vidaurreta,25–50 m,reaparicion_historica
+027-SSC-AZC-FC-124.214,radar fijo,Cristóbal Colón,Av. 16 De Septiembre,3294.1065435347427,18.337877260518965,2019,RVEF014,radar fijo,Viaducto Río de la Piedad,y 1ro de Mayo,10–25 m,reaparicion_historica
+VVEF012,radar fijo,Avenida Chapultepec Y,Guaymas,1451.13877575614,0,2019,RVEF017,radar fijo,Eje 5 Av. Montevideo,y Nte. 31-A,≤10 m,reaparicion_historica
