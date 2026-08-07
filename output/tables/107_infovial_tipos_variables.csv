@@ -1,0 +1,14 @@
+archivo,variable,clase
+201601_velocidad_limpio.csv,id,numeric
+201601_velocidad_limpio.csv,fecha,POSIXct/POSIXt
+201601_velocidad_limpio.csv,vialidad,character
+201601_velocidad_limpio.csv,sentido,character
+201601_velocidad_limpio.csv,ubicacion,character
+201601_velocidad_limpio.csv,velocidad,numeric
+201701_clasificacion_limpio.csv,fecha,Date
+201701_clasificacion_limpio.csv,hora,hms/difftime
+201701_clasificacion_limpio.csv,id,character
+201701_clasificacion_limpio.csv,vialidad,character
+201701_clasificacion_limpio.csv,sentido,character
+201701_clasificacion_limpio.csv,tipo_vehiculo,character
+201701_clasificacion_limpio.csv,cantidad,numeric

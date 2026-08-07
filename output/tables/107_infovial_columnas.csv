@@ -1,0 +1,14 @@
+archivo,posicion,variable
+201601_velocidad_limpio.csv,1,id
+201601_velocidad_limpio.csv,2,fecha
+201601_velocidad_limpio.csv,3,vialidad
+201601_velocidad_limpio.csv,4,sentido
+201601_velocidad_limpio.csv,5,ubicacion
+201601_velocidad_limpio.csv,6,velocidad
+201701_clasificacion_limpio.csv,1,fecha
+201701_clasificacion_limpio.csv,2,hora
+201701_clasificacion_limpio.csv,3,id
+201701_clasificacion_limpio.csv,4,vialidad
+201701_clasificacion_limpio.csv,5,sentido
+201701_clasificacion_limpio.csv,6,tipo_vehiculo
+201701_clasificacion_limpio.csv,7,cantidad

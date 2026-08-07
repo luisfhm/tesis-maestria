@@ -1,0 +1,4 @@
+variable,clase
+Año,numeric
+Tipo de vehiculo,character
+Numero de registro,character

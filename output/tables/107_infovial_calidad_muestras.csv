@@ -1,0 +1,14 @@
+archivo,variable,valores_unicos,faltantes,porcentaje_faltantes
+201601_velocidad_limpio.csv,id,2000,0,0
+201601_velocidad_limpio.csv,fecha,6,0,0
+201601_velocidad_limpio.csv,vialidad,26,0,0
+201601_velocidad_limpio.csv,sentido,4,0,0
+201601_velocidad_limpio.csv,ubicacion,335,0,0
+201601_velocidad_limpio.csv,velocidad,1475,0,0
+201701_clasificacion_limpio.csv,fecha,1,0,0
+201701_clasificacion_limpio.csv,hora,1,0,0
+201701_clasificacion_limpio.csv,id,26,0,0
+201701_clasificacion_limpio.csv,vialidad,332,0,0
+201701_clasificacion_limpio.csv,sentido,4,0,0
+201701_clasificacion_limpio.csv,tipo_vehiculo,6,0,0
+201701_clasificacion_limpio.csv,cantidad,338,0,0

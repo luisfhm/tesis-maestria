@@ -1,0 +1,15 @@
+variable,valor,vehiculos,porcentaje
+tarjeta_circulacion,ERROR DE BUSQUEDA,4,0.03
+tarjeta_circulacion,NO APLICA,8900,70.74
+tarjeta_circulacion,NO VIGENTE,764,6.07
+tarjeta_circulacion,VIGENTE,2913,23.15
+seguro,ERROR DE BUSQUEDA,166,1.32
+seguro,NO APLICA,8904,70.77
+seguro,NO TIENE SEGURO,1767,14.04
+seguro,TIENE SEGURO,1744,13.86
+adeudos_tenencia,No,4733,37.62
+adeudos_tenencia,Sí,7844,62.35
+adeudos_tenencia,NA,4,0.03
+infracciones,CON INFRACCIONES,2229,17.72
+infracciones,SIN ADEUDOS,10348,82.25
+infracciones,NA,4,0.03
