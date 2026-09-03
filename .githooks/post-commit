@@ -1,0 +1,28 @@
+#!/bin/sh
+# ==============================================================================
+# Puente código -> Obsidian
+# Regenera "Bitácora de código.md" en la bóveda de Obsidian tras cada commit.
+# Nunca bloquea el commit: si algo falla, solo avisa.
+# ==============================================================================
+
+repo="$(git rev-parse --show-toplevel)"
+script="$repo/syntax/tools/generar_bitacora_obsidian.R"
+
+[ -f "$script" ] || exit 0
+
+# Localizar Rscript: PATH -> ruta conocida -> versión más reciente instalada
+if command -v Rscript >/dev/null 2>&1; then
+  RSCRIPT="Rscript"
+elif [ -x "/c/Program Files/R/R-4.5.1/bin/Rscript.exe" ]; then
+  RSCRIPT="/c/Program Files/R/R-4.5.1/bin/Rscript.exe"
+else
+  RSCRIPT="$(ls -d "/c/Program Files/R"/R-*/bin/Rscript.exe 2>/dev/null | sort -V | tail -n 1)"
+fi
+
+if [ -z "$RSCRIPT" ]; then
+  echo "[puente] Rscript no encontrado; se omite la bitácora de Obsidian." >&2
+  exit 0
+fi
+
+"$RSCRIPT" "$script" || echo "[puente] Falló la generación de la bitácora (el commit sí se hizo)." >&2
+exit 0
