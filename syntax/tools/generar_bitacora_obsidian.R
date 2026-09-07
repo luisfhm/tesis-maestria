@@ -31,6 +31,14 @@ suppressWarnings(suppressMessages({
   library(stringr)
 }))
 
+# El hook de git puede invocar R sin locale UTF-8, lo que rompe la detección de
+# rutas con acentos (p. ej. "Educación"). Se intenta forzar un locale utilizable.
+suppressWarnings(
+  for (loc in c("es_MX.UTF-8", "Spanish_Mexico.utf8", "en_US.UTF-8", "C.UTF-8")) {
+    if (Sys.setlocale("LC_CTYPE", loc) != "") break
+  }
+)
+
 # ------------------------------------------------------------------------------
 # 0. Configuración
 # ------------------------------------------------------------------------------
@@ -56,7 +64,11 @@ if (!length(raiz) || !nzchar(raiz[1])) {
 }
 raiz <- normalizePath(raiz[1], winslash = "/", mustWork = FALSE)
 
-if (!dir_exists(ruta_obsidian)) {
+# dir_exists() de fs puede dar falso negativo con rutas acentuadas y locale
+# incompleto; se complementa con la comprobación de base R.
+obsidian_ok <- isTRUE(dir_exists(ruta_obsidian)) || dir.exists(ruta_obsidian)
+
+if (!obsidian_ok) {
   message("[puente] No existe la carpeta de Obsidian: ", ruta_obsidian)
   message("[puente] Define TESIS_OBSIDIAN_DIR o crea la carpeta. Se omite.")
   quit(save = "no", status = 0)
