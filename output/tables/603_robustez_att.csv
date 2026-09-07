@@ -1,0 +1,25 @@
+variante,outcome,familia,trato,ventana_pre,ref,att,ee,efecto_pct,p
+OLS · binario · -10 · 500m,n_victimas,ols,trat_bin,10,-1,0.0461,0.0207,12.6,0.0258
+OLS · binario · -10 · 500m,n_fallecidos,ols,trat_bin,10,-1,4e-4,0.0076,0.7,0.9626
+OLS · binario · -10 · 500m,n_infracciones,ols,trat_bin,10,-1,62.1897,70.9611,19.9,0.3808
+Poisson · binario · -10 · 500m,n_victimas,poisson,trat_bin,10,-1,-0.0054,0.0601,-0.5,0.9284
+Poisson · binario · -10 · 500m,n_fallecidos,poisson,trat_bin,10,-1,-0.2094,0.153,-18.9,0.1711
+Poisson · binario · -10 · 500m,n_infracciones,poisson,trat_bin,10,-1,0.3016,0.2124,35.2,0.1555
+OLS · área expuesta · -10 · 500m,n_victimas,ols,trat_area,10,-1,0.1096,0.0387,30,0.0046
+OLS · área expuesta · -10 · 500m,n_fallecidos,ols,trat_area,10,-1,0.0029,0.0129,5.5,0.8205
+OLS · área expuesta · -10 · 500m,n_infracciones,ols,trat_area,10,-1,71.5949,88.2439,23,0.4172
+OLS · asinh(nº disp.) · -10 · 500m,n_victimas,ols,trat_disp,10,-1,0.042,0.0164,11.5,0.0103
+OLS · asinh(nº disp.) · -10 · 500m,n_fallecidos,ols,trat_disp,10,-1,3e-4,0.0055,0.6,0.9548
+OLS · asinh(nº disp.) · -10 · 500m,n_infracciones,ols,trat_disp,10,-1,38.2188,32.6693,12.3,0.2421
+OLS · binario · -8 · 500m,n_victimas,ols,trat_bin,8,-1,0.0375,0.0215,10,0.0817
+OLS · binario · -8 · 500m,n_fallecidos,ols,trat_bin,8,-1,-7e-4,0.0079,-1.4,0.9258
+OLS · binario · -8 · 500m,n_infracciones,ols,trat_bin,8,-1,61.942,69.2118,20,0.3708
+OLS · binario · -12 · 500m,n_victimas,ols,trat_bin,12,-1,0.0363,0.0191,9.6,0.0583
+OLS · binario · -12 · 500m,n_fallecidos,ols,trat_bin,12,-1,0.0022,0.0072,4.3,0.7579
+OLS · binario · -12 · 500m,n_infracciones,ols,trat_bin,12,-1,62.1897,70.9611,19.9,0.3808
+OLS · binario · -10 · 250m,n_victimas,ols,trat_bin,10,-1,0.0869,0.0269,21.5,0.0012
+OLS · binario · -10 · 250m,n_fallecidos,ols,trat_bin,10,-1,0.0079,0.0098,14.8,0.4179
+OLS · binario · -10 · 250m,n_infracciones,ols,trat_bin,10,-1,73.4839,106.8137,16.1,0.4915
+Poisson · binario · -10 · 250m,n_victimas,poisson,trat_bin,10,-1,0.0799,0.0655,8.3,0.2227
+Poisson · binario · -10 · 250m,n_fallecidos,poisson,trat_bin,10,-1,-0.05,0.1734,-4.9,0.7731
+Poisson · binario · -10 · 250m,n_infracciones,poisson,trat_bin,10,-1,0.1979,0.2337,21.9,0.3973

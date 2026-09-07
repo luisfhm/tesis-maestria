@@ -1,0 +1,137 @@
+\chapter{Resultados}
+\label{chap:resultados}
+
+% ==========================================================================
+% CAMBIO RESPECTO A 2024
+% 2024: primera etapa F=19; IV = +0.716 (1% más multas -> 0.716% más accidentes),
+%       significativo al 1%; conclusión: las multas se asocian con MÁS accidentes.
+% Ahora: nulo robusto sobre víctimas; el efecto lineal aparente desaparece con
+%       Poisson; los fallecidos no se mueven; el "mecanismo" de más enforcement
+%       es débil y transitorio.
+% ==========================================================================
+
+\section{Tendencias previas}
+\label{sec:pretendencias}
+
+La Figura~\ref{fig:pretendencias} contrasta el estudio de evento de los
+incidentes C5 y el de las víctimas de tránsito para los tres cambios de política
+considerados en la fase de rediseño (febrero de 2021, abril de 2022 y septiembre
+de 2023).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{509_pretendencias_c5_vs_victimas.png}
+  \caption{Estudio de evento para incidentes C5 (arriba) y víctimas de tránsito
+  (abajo), en los tres cambios de política. \emph{buffer} de 500~m. En cada
+  panel se anota el $p$-valor de la prueba conjunta de tendencias previas.}
+  \label{fig:pretendencias}
+\end{figure}
+
+Con \textbf{incidentes C5} la prueba conjunta se rechaza en los tres eventos y en
+todos los \emph{buffers} ($p \approx 10^{-16}$): las colonias cercanas a la
+infraestructura vienen en una trayectoria creciente respecto a las lejanas, con
+independencia del evento. Este \emph{outcome} no permite una interpretación
+causal y se reserva como referencia secundaria.
+
+Con \textbf{víctimas de tránsito} la prueba conjunta no se rechaza en abril de
+2022 ni en septiembre de 2023 ($p = 0.11$ y $0.29$ respectivamente). El resto del
+análisis se ancla en abril de 2022, el evento con primera etapa plausible
+(Sección~\ref{sec:mecanismo}) y con más ventana posterior disponible.
+
+\section{Efecto sobre las víctimas de tránsito}
+
+La Figura~\ref{fig:victimas} presenta el estudio de evento de abril de 2022 para
+el total de víctimas y para las víctimas fallecidas, en los tres \emph{buffers}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{510_victimas.png}
+  \caption{Estudio de evento de la renovación de la Policía de Tránsito
+  (abril de 2022). \emph{Outcome}: víctimas de hechos de tránsito.}
+  \label{fig:victimas}
+\end{figure}
+
+En el \emph{buffer} más estrecho (250~m) se observa un aumento transitorio del
+total de víctimas en los primeros meses posteriores al evento, que se desvanece
+hacia el mes $+6$. El efecto promedio posterior estimado por mínimos cuadrados
+es de $+12$ a $+21\%$ según el \emph{buffer} (Tabla~\ref{tab:did}), marginalmente
+significativo. Las \textbf{víctimas fallecidas no muestran ningún efecto} en
+ninguna especificación ni horizonte.
+
+\begin{table}[H]
+  \centering
+  \caption{Efecto promedio posterior (diferencia en diferencias agrupada),
+  abril de 2022, ventana $-10/+10$.}
+  \label{tab:did}
+  \begin{tabular}{llrrr}
+  \toprule
+  \emph{Outcome} & \emph{buffer} & Efecto (\%) & $p$ & $p$ tend. previas \\
+  \midrule
+  Víctimas totales & 250 m  & $+21.5$ & 0.001 & 0.39 \\
+  Víctimas totales & 500 m  & $+12.6$ & 0.03  & 0.17 \\
+  Víctimas totales & 1000 m & $+11.8$ & 0.01  & 0.19 \\
+  Víctimas fallecidas & 250 m  & $+14.8$ & 0.42 & 0.17 \\
+  Víctimas fallecidas & 500 m  & $+0.7$  & 0.96 & 0.29 \\
+  Víctimas fallecidas & 1000 m & $-7.6$  & 0.55 & 0.31 \\
+  \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Robustez}
+\label{sec:robustez}
+
+La Figura~\ref{fig:robustez} recopila el efecto promedio posterior bajo distintas
+especificaciones: modelo lineal frente a Poisson de efectos fijos, tratamiento
+binario frente a continuo, y ventanas previas alternativas.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{603_robustez_att.png}
+  \caption{Robustez del efecto promedio posterior (abril de 2022). Puntos
+  negros: $p<0.05$.}
+  \label{fig:robustez}
+\end{figure}
+
+El resultado central es que \textbf{el efecto aparente sobre las víctimas totales
+no es robusto}. Bajo un modelo de conteo (Poisson con efectos fijos de colonia y
+mes), que es la especificación adecuada para un \emph{outcome} con 89\% de
+observaciones en cero, el efecto desaparece ($-0.5\%$, $p = 0.93$ con
+\emph{buffer} de 500~m; $+8\%$, $p = 0.22$ con 250~m). El efecto positivo que
+aparece con mínimos cuadrados está impulsado por unas pocas colonias de vías
+primarias con incrementos grandes en términos absolutos. Las víctimas fallecidas
+permanecen sin efecto en todas las especificaciones.
+
+\section{Mecanismo: fiscalización diferencial}
+\label{sec:mecanismo}
+
+La Figura~\ref{fig:mecanismo} muestra el estudio de evento de las infracciones
+alrededor de abril de 2022.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{510_mecanismo_multas.png}
+  \caption{Mecanismo: infracciones cerca de la infraestructura de fiscalización
+  alrededor de abril de 2022.}
+  \label{fig:mecanismo}
+\end{figure}
+
+Se observa un aumento transitorio de las infracciones cerca de la infraestructura
+en los primeros meses posteriores a la reforma (del orden de $+15$ a $+35\%$ en
+el estudio de evento para $k = 1,\dots,3$, más claro en el \emph{buffer} de
+250~m), que regresa a su nivel base hacia el mes $+5$. El efecto promedio
+posterior no es estadísticamente significativo ($p \approx 0.3$--$0.6$). La
+evidencia de una fiscalización diferencial es, por tanto, \textbf{débil y de
+corta duración}.
+
+\section{Síntesis}
+
+No se encuentra evidencia robusta de que la renovación de la Policía de Tránsito
+de abril de 2022 haya reducido las víctimas de hechos de tránsito en las zonas
+con infraestructura de fiscalización. Las víctimas fallecidas no cambian en
+ninguna especificación; el aumento aparente en víctimas totales no sobrevive a un
+modelo de conteo y coincide en momento y duración con el repunte transitorio de
+las infracciones, lo que sugiere un efecto de reporte más que un deterioro real
+de la seguridad vial. La propia intervención —una fiscalización diferencial
+inducida por la reforma— es débil y transitoria, por lo que el resultado nulo
+debe leerse como ausencia de evidencia de efecto en un contexto donde el
+tratamiento es en sí mismo tenue, más que como un cero estimado con precisión.

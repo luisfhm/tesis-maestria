@@ -1,0 +1,16 @@
+outcome,etiqueta,rol,buffer_m,n_tratadas,media_tratada_pre,att,ee,att_pct,p_att,wald_pre_p
+n_victimas,Víctimas de tránsito (FGJ),principal,250,215,0.404,0.0869,0.0269,21.5,0.0012,0.393
+n_victimas,Víctimas de tránsito (FGJ),principal,500,328,0.366,0.0461,0.0207,12.6,0.0258,0.171
+n_victimas,Víctimas de tránsito (FGJ),principal,1000,590,0.298,0.0352,0.0143,11.8,0.0139,0.193
+n_fallecidos,Víctimas fallecidas,principal,250,215,0.053,0.0079,0.0098,14.8,0.4179,0.169
+n_fallecidos,Víctimas fallecidas,principal,500,328,0.053,4e-4,0.0076,0.7,0.9626,0.285
+n_fallecidos,Víctimas fallecidas,principal,1000,590,0.042,-0.0032,0.0053,-7.6,0.5458,0.31
+n_incidentes,Incidentes C5,secundario,250,215,21.727,2.1748,0.3815,10,0,2.57e-10
+n_incidentes,Incidentes C5,secundario,500,328,19.444,2.0303,0.2865,10.4,0,1.05e-15
+n_incidentes,Incidentes C5,secundario,1000,590,15.837,1.7232,0.1949,10.9,0,1.58e-18
+n_infracciones,Infracciones (total),mecanismo,250,215,457.336,73.4839,106.8137,16.1,0.4915,0.394
+n_infracciones,Infracciones (total),mecanismo,500,328,311.878,62.1897,70.9611,19.9,0.3808,0.33
+n_infracciones,Infracciones (total),mecanismo,1000,590,249.362,23.0785,40.4607,9.3,0.5684,0.27
+n_infracciones_velocidad,Infracciones de velocidad,mecanismo,250,215,364.815,62.8411,106.0598,17.2,0.5535,0.169
+n_infracciones_velocidad,Infracciones de velocidad,mecanismo,500,328,239.137,43.1864,69.5967,18.1,0.5349,0.206
+n_infracciones_velocidad,Infracciones de velocidad,mecanismo,1000,590,203.805,11.174,39.695,5.5,0.7783,0.243

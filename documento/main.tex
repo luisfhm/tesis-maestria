@@ -1,0 +1,156 @@
+%==============================================================================
+%  Tesis — Maestría en Economía Aplicada (ITAM)
+%  Andamio LaTeX reutilizado de la tesina de licenciatura del autor.
+%  Documento de trabajo: reemplaza la versión de 2024 (Paper_Inv_Aplicada_II).
+%==============================================================================
+
+\documentclass[11pt, oneside]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{bbm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage{enumerate}
+\usepackage{subcaption}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+\usepackage[paperwidth=17cm, paperheight=22.5cm, bottom=2.5cm, right=2.5cm]{geometry}
+
+\graphicspath{{imagenes/}}
+
+% Formato heredado de la tesina
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+\linespread{1.25}
+
+\usepackage[justification=centering, font=bf, labelsep=period, skip=5pt]{caption}
+\newcommand{\imagesource}[1]{{\footnotesize Fuente: #1}}
+
+\definecolor{mycitecolor}{RGB}{0,0,255}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=mycitecolor,
+  citecolor=mycitecolor,
+  urlcolor=black,
+}
+
+\begin{document}
+
+%------------------------------------------------------------------------------
+%  PORTADA
+%------------------------------------------------------------------------------
+\begin{titlepage}
+\begin{center}
+
+\textsc{\Large Instituto Tecnológico Autónomo de México}\\[2em]
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.50]{itam_logo.png}
+\end{center}
+\end{figure}
+
+\textbf{\LARGE EL EFECTO DE LAS MULTAS SOBRE LOS ACCIDENTES DE TRÁFICO}\\[2em]
+% TODO: revisar título a la luz del rediseño (enforcement / renovación 2022 / víctimas)
+
+\textsc{\large Tesis}\\[1em]
+\textsc{\large que para obtener el grado de}\\[1em]
+\textsc{\LARGE Maestro en Economía Aplicada}\\[1em]
+\textsc{\large Presenta}\\[1em]
+\textsc{\LARGE Luis Fernando Hernández Mendoza}\\[1em]
+\textsc{\large Asesor}\\[1em]
+\textsc{\LARGE Dr. Horacio Alejandro Larreguy Arbesú}\\[2em]
+
+\end{center}
+\vspace*{\fill}
+\textsc{Ciudad de México \hspace*{\fill} 2026}
+\end{titlepage}
+
+%------------------------------------------------------------------------------
+%  DECLARACIÓN
+%------------------------------------------------------------------------------
+\thispagestyle{empty}
+\vspace*{\fill}
+\begingroup
+\noindent
+«Con fundamento en los artículos 21 y 27 de la Ley Federal del Derecho de Autor
+y como titular de los derechos moral y patrimonial de la obra titulada
+``\textbf{El efecto de las multas sobre los accidentes de tráfico}'', otorgo de
+manera gratuita y permanente al Instituto Tecnológico Autónomo de México y a la
+Biblioteca Raúl Bailléres Jr., la autorización para que fijen la obra en
+cualquier medio, incluido el electrónico, y la divulguen entre sus usuarios,
+profesores, estudiantes o terceras personas, sin que pueda percibir por tal
+divulgación una contraprestación.»
+
+\centering
+\vspace{5em}
+\rule[1em]{20em}{0.5pt}\\ \textsc{Fecha}
+\vspace{8em}
+\rule[1em]{20em}{0.5pt}\\ \textsc{Luis Fernando Hernández Mendoza}
+\endgroup
+\vspace*{\fill}
+
+%------------------------------------------------------------------------------
+%  FRONTMATTER
+%------------------------------------------------------------------------------
+\pagestyle{plain}
+\frontmatter
+
+\chapter*{Agradecimientos}
+% TODO
+
+\chapter*{Resumen}
+\noindent
+% TODO: 1 párrafo. Borrador: Evalúo si el aumento de la fiscalización vial
+% asociado a la renovación de la Policía de Tránsito de la Ciudad de México
+% (abril de 2022) redujo las víctimas de hechos de tránsito. Uso un panel
+% colonia-mes y comparo la evolución de las colonias expuestas a la
+% infraestructura de fiscalización con las no expuestas, mediante un estudio de
+% evento con efectos fijos de colonia y mes. No encuentro evidencia robusta de
+% un efecto sobre las víctimas: los fallecidos no cambian en ninguna
+% especificación y el aumento aparente en víctimas totales no sobrevive a un
+% modelo de conteo. La fiscalización diferencial inducida por la reforma es
+% además débil y transitoria.
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+%------------------------------------------------------------------------------
+%  CUERPO
+%------------------------------------------------------------------------------
+\mainmatter
+\pagestyle{plain}
+
+\include{capitulos/00_introduccion}
+\include{capitulos/01_literatura}
+\include{capitulos/02_contexto}
+\include{capitulos/03_datos}
+\include{capitulos/04_estrategia_empirica}
+\include{capitulos/05_resultados}
+\include{capitulos/06_conclusiones}
+
+%------------------------------------------------------------------------------
+%  BIBLIOGRAFÍA
+%------------------------------------------------------------------------------
+\chapter*{Referencias}
+\addcontentsline{toc}{chapter}{Referencias}
+\bibliographystyle{apalike}
+\bibliography{referencias/ref}
+
+\end{document}

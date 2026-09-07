@@ -1,0 +1,127 @@
+\chapter{Estrategia empírica}
+\label{chap:estrategia}
+
+% ==========================================================================
+% CAMBIO RESPECTO A LA VERSIÓN 2024
+% 2024: unidad código postal-mes; instrumento T_i = "infracciones por encima
+%       de la mediana hasta un año antes"; DiD + IV; forma reducida
+%       ln(acc+1) ~ T_i + Post_t + T_i·Post_t.
+% Ahora: unidad colonia-mes; tratamiento = exposición espacial a la
+%       infraestructura de fiscalización; estudio de evento mes a mes; sin IV
+%       (las multas entran como mecanismo, no como primera etapa).
+% ==========================================================================
+
+\section{Evento y unidad de análisis}
+
+El cambio de política que explota este trabajo es la \textbf{renovación de la
+Policía de Tránsito de la Ciudad de México de abril de 2022}: la creación de un
+cuerpo especializado, con procesos digitalizados y agentes facultados para
+infraccionar. A diferencia de la versión previa de esta investigación, que
+tomaba la reforma del Reglamento de Tránsito como un cambio homogéneo en toda la
+ciudad, aquí el interés está en su \emph{implementación diferencial en el
+espacio}: la hipótesis es que una reforma de fiscalización se aplica con más
+intensidad donde ya existe infraestructura operativa.
+
+La unidad de observación es la \textbf{colonia-mes}. Se utiliza la división en
+unidades territoriales del Instituto Electoral de la Ciudad de México
+(1{,}814 unidades). La unidad se define administrativamente y es independiente
+de si la colonia resulta tratada o no. Los \emph{outcomes} se agregan a este
+mismo nivel.
+
+\section{Definición del tratamiento}
+
+Para cada colonia $i$ se construye una medida de \textbf{exposición a la
+infraestructura de fiscalización} (radares fijos y móviles, y equipos
+asociados) a partir del inventario del año anterior al evento (2021). Se
+consideran tres definiciones, que se reportan como análisis de sensibilidad al
+\emph{buffer}:
+
+\begin{equation}
+\text{tratada}_i(b) = \mathbbm{1}\{\text{existe al menos un equipo a menos de } b \text{ metros de la colonia } i\},
+\qquad b \in \{250, 500, 1000\}.
+\end{equation}
+
+Como robustez se emplean también medidas continuas de exposición: el número de
+equipos dentro del \emph{buffer} y la proporción del área de la colonia dentro
+de $b$ metros de algún equipo. El número de colonias tratadas va de
+aproximadamente 215 ($b=250$ m) a 590 ($b=1000$ m).
+
+\section{Especificación}
+
+Para el evento del mes $E$ se estima un estudio de evento mes a mes:
+
+\begin{equation}
+\label{eq:event_study}
+y_{it} \;=\; \alpha_i \;+\; \lambda_t \;+\;
+\sum_{k \neq -1} \beta_k \,\bigl(\mathbbm{1}\{\tau_{it} = k\} \times \text{tratada}_i\bigr)
+\;+\; \varepsilon_{it},
+\end{equation}
+
+donde $\tau_{it}$ es el número de meses entre el mes $t$ y el evento $E$ (de modo
+que $\tau = 0$ en abril de 2022), $k$ recorre esos valores omitiendo $k=-1$
+(marzo de 2022) como periodo de referencia, $\alpha_i$ son efectos fijos de
+colonia, $\lambda_t$ efectos fijos de mes-año, y $y_{it}$ el \emph{outcome} de
+interés. Los errores estándar se agrupan a nivel colonia.
+
+La ventana del análisis es de $-10$ a $+10$ meses. El límite inferior evita el
+periodo con problemas de cobertura en la base de infracciones (abril a junio de
+2021) y mantiene el análisis fuera de la fase aguda de la pandemia. El límite
+superior es el máximo que permite la fuente de infracciones para el evento de
+2022.
+
+Además del estudio de evento se reporta un efecto promedio posterior mediante
+una diferencia en diferencias agrupada:
+
+\begin{equation}
+\label{eq:did}
+y_{it} \;=\; \alpha_i \;+\; \lambda_t \;+\; \delta \,\bigl(\text{tratada}_i \times \text{Post}_t\bigr) \;+\; \varepsilon_{it},
+\end{equation}
+
+con $\text{Post}_t = \mathbbm{1}\{\tau_{it} \geq 0\}$.
+
+\section{Outcomes}
+
+\begin{itemize}
+  \item \textbf{Principal.} Víctimas de hechos de tránsito registradas en
+        carpetas de investigación de la Fiscalía General de Justicia: lesiones y
+        homicidios culposos por tránsito vehicular. Se analizan por separado el
+        total de víctimas y las víctimas fallecidas. Esta fuente cubre hasta
+        julio de 2024, lo que permite observar hasta $+10$ meses después del
+        evento.
+  \item \textbf{Secundario.} Incidentes viales reportados al C5. Se reporta con
+        la advertencia de que, para este \emph{outcome}, las tendencias previas
+        no son planas (Sección~\ref{sec:pretendencias}).
+  \item \textbf{Mecanismo.} Infracciones de tránsito, totales y de exceso de
+        velocidad (artículo 9). No constituyen una primera etapa ni se utiliza
+        un estimador de variables instrumentales: sirven únicamente para
+        documentar si la reforma efectivamente aumentó la actividad de
+        fiscalización de forma diferencial cerca de la infraestructura. Un
+        eventual efecto disuasivo sobre las víctimas puede operar sin pasar por
+        la emisión de multas.
+\end{itemize}
+
+\section{Supuesto de identificación}
+
+La identificación descansa en el supuesto de \textbf{tendencias paralelas}: en
+ausencia de la reforma, la evolución del \emph{outcome} en las colonias
+expuestas a la infraestructura y en las no expuestas habría sido la misma. Este
+supuesto se evalúa con la prueba conjunta de que los coeficientes previos al
+evento ($\beta_k$ con $k < -1$) son cero (prueba de Wald, 9 restricciones,
+errores agrupados por colonia), y visualmente con el propio estudio de evento.
+
+\section{Amenazas a la identificación}
+
+\begin{enumerate}
+  \item \textbf{Ubicación no aleatoria de la infraestructura.} Los equipos de
+        fiscalización se colocan en vías primarias, que tienen una dinámica de
+        tráfico propia. Si esa dinámica evoluciona distinto que en el resto de
+        la ciudad, se viola el supuesto de tendencias paralelas. Esto es
+        precisamente lo que ocurre con el \emph{outcome} de incidentes C5.
+  \item \textbf{Efectos de reporte.} Una mayor presencia policial puede
+        aumentar la probabilidad de que una lesión de tránsito se registre
+        formalmente como carpeta de investigación, sin que haya un cambio real
+        en la siniestralidad. Las víctimas fallecidas son mucho menos sensibles
+        a este canal.
+  \item \textbf{Otros cambios simultáneos.} Se consideran otros eventos de
+        política vial alrededor de abril de 2022 (Sección~\ref{sec:contexto}).
+\end{enumerate}

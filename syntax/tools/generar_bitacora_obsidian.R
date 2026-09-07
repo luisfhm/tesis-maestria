@@ -372,7 +372,8 @@ pendientes_md <- {
 
 bitacora <- c(
   "---",
-  "type: reference",
+  "type: bitacora",
+  "status: activa",
   "tags:",
   "  - tesis",
   "  - codigo",

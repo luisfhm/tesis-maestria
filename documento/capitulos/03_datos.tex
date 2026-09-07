@@ -1,0 +1,72 @@
+\chapter{Datos y variables}
+\label{chap:datos}
+
+% ==========================================================================
+% BASE: capítulo 3 de la versión 2024 (pp. 12-16): panel código postal-mes,
+% descriptivos, promedios por alcaldía, CP con más infracciones/incidentes.
+% AJUSTES:
+%  - Unidad: colonia (unidad territorial IECM), no código postal.
+%  - Nueva fuente principal de outcome: víctimas FGJ (2019-jul 2024).
+%  - Nueva construcción del tratamiento: exposición a radares por buffer.
+%  - Documentar la auditoría de la muestra (Horacio: "mejorar construcción y
+%    documentación de la muestra").
+%  - Documentar los problemas de cobertura de infracciones (abr-jun 2021).
+% ==========================================================================
+
+\section{Fuentes}
+
+\begin{itemize}
+  \item \textbf{Víctimas de hechos de tránsito (FGJ).} Víctimas registradas en
+        carpetas de investigación de la Fiscalía General de Justicia de la
+        Ciudad de México, 2019 a julio de 2024. Se conservan las lesiones y
+        homicidios culposos por tránsito vehicular
+        (\textasciitilde 27{,}000 víctimas, de las cuales \textasciitilde 4{,}400
+        fallecidas). El 88\% cuenta con coordenadas.
+  \item \textbf{Incidentes viales C5.} Serie georreferenciada de incidentes
+        reportados a los sistemas de atención de emergencias, 2014 a febrero de
+        2024. \emph{Outcome} secundario.
+  \item \textbf{Infracciones de tránsito.} Base histórica de infracciones al
+        Reglamento de Tránsito, enero de 2020 a abril de 2023. El artículo 9
+        (exceso de velocidad) concentra cerca del 77\% de los registros. Sirve
+        como medida de mecanismo.
+  \item \textbf{Infraestructura de fiscalización.} Inventario anual de radares
+        fijos y móviles y equipos asociados, 2019 a 2024, georreferenciado.
+  \item \textbf{Geografía.} Unidades territoriales del Instituto Electoral de la
+        Ciudad de México (1{,}814 unidades).
+\end{itemize}
+
+\section{Panel colonia-mes}
+
+Se construye un panel balanceado de 1{,}814 colonias por 103 meses (enero de
+2016 a julio de 2024). Cada \emph{outcome} se agrega al nivel colonia-mes por
+asignación espacial (punto en polígono) o, para las infracciones sin
+coordenadas a partir de mayo de 2021, por coincidencia de nombre de colonia.
+Cada fuente lleva un indicador de cobertura temporal; fuera de su periodo de
+cobertura los conteos se dejan como ausentes, no como cero.
+
+\section{Construcción de la exposición a la infraestructura}
+
+% TODO. Describir el cálculo de 310_construir_exposicion_radares.R:
+%  - Para cada colonia y cada año 2019-2024, y cada buffer b in {250,500,1000,1500}:
+%    número de equipos a <= b m, distancia al más cercano, % del área expuesta.
+%  - Tabla: colonias tratadas por buffer y año.
+
+\section{Descriptivos}
+
+% TODO. Actualizar los cuadros de 2024 a colonia y añadir víctimas:
+%  - Cuadro de descriptivos (media, percentiles) de incidentes, víctimas,
+%    infracciones a nivel colonia-mes.
+%  - Nota clave: las víctimas son un outcome disperso (media 0.16 por
+%    colonia-mes, 89% de ceros); esto motiva el modelo de conteo en la robustez.
+%  - Comparación tratadas vs. control en el periodo previo.
+
+\section{Auditoría de la muestra}
+
+% TODO. Documentar:
+%  - Tasas de asignación a colonia por fuente y año (víctimas 88%,
+%    infracciones 65% global — 97% en 2020, ~55% en 2022-23 por la
+%    subdivisión del catálogo IECM en secciones).
+%  - Meses excluidos de la base de infracciones: abril de 2021 (ausente),
+%    mayo y junio de 2021 (\textasciitilde 67\% de registros con colonia
+%    ``DESCONOCIDO'' en la fuente).
+%  - Tratamiento del periodo COVID.
