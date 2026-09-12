@@ -47,6 +47,29 @@ mismo débil*, más que como un cero preciso.
 Problemas de datos corregidos: se excluyen abr/may/jun-2021 de la cobertura de
 infracciones (fuente incompleta o con colonia = DESCONOCIDO en ~67%).
 
+### Robustez — réplica en septiembre de 2023 (2026-09-12, a solicitud de Horacio)
+
+Mismo diseño (ventana −10/+10, buffers 250/500/1000 m, inventario 2022) aplicado
+al evento de septiembre de 2023 (reforma para motociclistas). **No se estima el
+mecanismo**: la fuente de infracciones termina en abril de 2023, antes del
+evento — ni siquiera el mes de referencia (agosto 2023) tiene cobertura.
+
+| Outcome | Pre-tendencias | ATT (MCO) | Robusto a Poisson |
+|---|---|---|---|
+| Víctimas totales | ✅ p 0.33–0.84 | −4 a +4%, nunca significativo | ✅ sigue sin efecto |
+| Fallecidos | ✅ p 0.08–0.38 | +10 a +36%, marginal en algunas MCO | ✅ **no significativo** (p 0.43–0.52) |
+| Incidentes C5 | ❌ p ≈ 1e-7 a 1e-11 | +2 a +3.4% | — no se usa |
+
+Implementación: `syntax/05_modelos/511_evento_septiembre2023.R`,
+`syntax/06_robustez/604_robustez_septiembre2023.R`.
+
+**Conclusión (dos eventos):** el resultado nulo sobre víctimas de tránsito se
+repite en dos cambios de política distintos (abr-2022 y sep-2023), ambos con
+pre-tendencias válidas. Solo bajo MCO aparecen efectos aislados y no siempre en
+la misma dirección (víctimas totales al alza en abr-2022, fallecidos al alza en
+sep-2023); ninguno sobrevive a Poisson. Refuerza que la conclusión no depende de
+un solo evento.
+
 ---
 
 ## Contexto (corrida previa, 2026-09-06)

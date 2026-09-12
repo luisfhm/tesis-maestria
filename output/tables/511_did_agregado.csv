@@ -1,0 +1,10 @@
+outcome,etiqueta,rol,buffer_m,n_tratadas,n_obs,media_tratada_pre,att,ee,att_pct,p_att,wald_pre_p
+n_victimas,Víctimas de tránsito (FGJ),principal,250,200,38094,0.462,0.0016,0.0233,0.3,0.9458,0.532
+n_victimas,Víctimas de tránsito (FGJ),principal,500,307,38094,0.404,-5e-4,0.0192,-0.1,0.9805,0.33
+n_victimas,Víctimas de tránsito (FGJ),principal,1000,550,38094,0.324,0.0121,0.0141,3.7,0.3912,0.84
+n_fallecidos,Víctimas fallecidas,principal,250,200,38094,0.06,0.0162,0.0093,26.8,0.0814,0.0768
+n_fallecidos,Víctimas fallecidas,principal,500,307,38094,0.058,0.0135,0.0083,23.2,0.1046,0.384
+n_fallecidos,Víctimas fallecidas,principal,1000,550,38094,0.044,0.016,0.0064,36,0.0127,0.267
+n_incidentes,Incidentes C5,secundario,250,200,29024,24.284,0.837,0.3397,3.4,0.0137,1.37e-7
+n_incidentes,Incidentes C5,secundario,500,307,29024,21.677,0.5867,0.2558,2.7,0.0218,2.81e-9
+n_incidentes,Incidentes C5,secundario,1000,550,29024,17.928,0.3556,0.1868,2,0.057,1.16e-11

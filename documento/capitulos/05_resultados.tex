@@ -123,6 +123,44 @@ posterior no es estadísticamente significativo ($p \approx 0.3$--$0.6$). La
 evidencia de una fiscalización diferencial es, por tanto, \textbf{débil y de
 corta duración}.
 
+\section{Réplica en un segundo evento: septiembre de 2023}
+\label{sec:replica_sep2023}
+
+Para que la conclusión no dependa de un único cambio de política, se repite el
+mismo diseño para la \textbf{reforma para motociclistas de septiembre de
+2023}, evento que también cuenta con tendencias previas válidas para las
+víctimas de tránsito (Sección~\ref{sec:pretendencias}). Se usa el inventario de
+infraestructura de 2022 y la misma ventana $-10/+10$. No se estima el mecanismo
+de infracciones: la fuente termina en abril de 2023, antes de este evento, por
+lo que ni siquiera el mes de referencia cuenta con cobertura.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{511_victimas.png}
+  \caption{Estudio de evento de la reforma para motociclistas (septiembre de
+  2023). \emph{Outcome}: víctimas de hechos de tránsito.}
+  \label{fig:victimas_sep2023}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{604_robustez_att.png}
+  \caption{Robustez del efecto promedio posterior, septiembre de 2023.}
+  \label{fig:robustez_sep2023}
+\end{figure}
+
+El resultado es consistente con abril de 2022: las víctimas totales no muestran
+efecto en ninguna especificación ($-4$ a $+4\%$, nunca significativo). Las
+víctimas fallecidas muestran puntos estimados positivos bajo mínimos cuadrados
+($+10$ a $+36\%$, marginalmente significativos en un par de especificaciones),
+pero \textbf{ninguno sobrevive al modelo de conteo} ($p = 0.43$--$0.52$ con
+Poisson). Los incidentes C5 vuelven a mostrar un rechazo fuerte de las
+pre-tendencias y no se interpretan.
+
+Que el resultado nulo se repita en dos eventos distintos —con mecanismos
+institucionales diferentes y separados por año y medio— hace más creíble que la
+ausencia de efecto no es una particularidad de abril de 2022.
+
 \section{Síntesis}
 
 No se encuentra evidencia robusta de que la renovación de la Policía de Tránsito
@@ -135,3 +173,9 @@ de la seguridad vial. La propia intervención —una fiscalización diferencial
 inducida por la reforma— es débil y transitoria, por lo que el resultado nulo
 debe leerse como ausencia de evidencia de efecto en un contexto donde el
 tratamiento es en sí mismo tenue, más que como un cero estimado con precisión.
+
+La réplica en septiembre de 2023 (Sección~\ref{sec:replica_sep2023}) refuerza
+esta lectura: en un evento distinto, con otro mecanismo institucional, el mismo
+diseño vuelve a arrojar un nulo robusto una vez que se controla adecuadamente la
+dispersión del conteo de víctimas. La ausencia de efecto no parece, entonces,
+una particularidad de un solo cambio de política.

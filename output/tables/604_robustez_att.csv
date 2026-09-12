@@ -1,0 +1,17 @@
+variante,outcome,familia,trato,ventana_pre,ref,att,ee,efecto_pct,p
+OLS · binario · -10 · 500m,n_victimas,ols,trat_bin,10,-1,-5e-4,0.0192,-0.1,0.9805
+OLS · binario · -10 · 500m,n_fallecidos,ols,trat_bin,10,-1,0.0135,0.0083,23.2,0.1046
+Poisson · binario · -10 · 500m,n_victimas,poisson,trat_bin,10,-1,-0.0438,0.057,-4.3,0.4423
+Poisson · binario · -10 · 500m,n_fallecidos,poisson,trat_bin,10,-1,0.095,0.1486,10,0.5227
+OLS · área expuesta · -10 · 500m,n_victimas,ols,trat_area,10,-1,-0.0155,0.0274,-3.8,0.5715
+OLS · área expuesta · -10 · 500m,n_fallecidos,ols,trat_area,10,-1,0.0108,0.0126,18.6,0.3923
+OLS · asinh(nº disp.) · -10 · 500m,n_victimas,ols,trat_disp,10,-1,7e-4,0.0125,0.2,0.954
+OLS · asinh(nº disp.) · -10 · 500m,n_fallecidos,ols,trat_disp,10,-1,0.0075,0.0054,13,0.1608
+OLS · binario · -8 · 500m,n_victimas,ols,trat_bin,8,-1,-0.0055,0.0205,-1.4,0.7876
+OLS · binario · -8 · 500m,n_fallecidos,ols,trat_bin,8,-1,0.0118,0.0091,20,0.1935
+OLS · binario · -12 · 500m,n_victimas,ols,trat_bin,12,-1,-0.0064,0.0186,-1.5,0.7318
+OLS · binario · -12 · 500m,n_fallecidos,ols,trat_bin,12,-1,0.0079,0.0081,12.2,0.3321
+OLS · binario · -10 · 250m,n_victimas,ols,trat_bin,10,-1,0.0016,0.0233,0.3,0.9458
+OLS · binario · -10 · 250m,n_fallecidos,ols,trat_bin,10,-1,0.0162,0.0093,26.8,0.0814
+Poisson · binario · -10 · 250m,n_victimas,poisson,trat_bin,10,-1,-0.0375,0.0588,-3.7,0.5232
+Poisson · binario · -10 · 250m,n_fallecidos,poisson,trat_bin,10,-1,0.1205,0.1535,12.8,0.4324
