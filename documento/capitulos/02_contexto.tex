@@ -1,57 +1,167 @@
 \chapter{Contexto}
 \label{sec:contexto}
 
-% ==========================================================================
-% BASE: capítulo 2 de la versión 2024 (pp. 6-11): serie de accidentes,
-% accidentes de motocicleta, mapas de calor de accidentes e infracciones,
-% sistema de puntos (Fotocívicas).
-% AJUSTES:
-%  - Construir una línea del tiempo explícita de la política vial 2019-2024
-%    (ver docs/01_linea_tiempo_politica_vial.md del repositorio).
-%  - Centrar la narrativa en la reforma de abril de 2022 (renovación de la
-%    Policía de Tránsito) como evento principal, no en el Reglamento de 2022
-%    como shock homogéneo.
-%  - Describir la infraestructura de fiscalización (radares fijos/móviles,
-%    Fotocívicas) y su evolución 2019-2024.
-%  - Reubicar septiembre 2023 (reforma motociclistas) como evento evaluado y
-%    descartado por falta de ventana / variación espacial.
-% ==========================================================================
-
 \section{La política de fiscalización vial en la Ciudad de México}
+\label{sec:contexto_politica}
 
-% TODO. Puntos a cubrir:
-%  - 2019: transición de fotomultas a Fotocívicas (sanción por puntos, no
-%    económica). Implicaciones para el incentivo.
-%  - Infraestructura: ~90-105 radares fijos y ~20 móviles por año (2019-2024);
-%    ~110 sitios de Fotocívicas al corte de diciembre 2022.
-%  - 2021: cambios en las facultades de infracción.
-%  - Abril 2022: renovación de la Policía de Tránsito. Cuerpo especializado,
-%    digitalización, agentes facultados para infraccionar. ESTE es el evento.
-%  - 2023: operativos y reforma dirigidos a motociclistas.
+En abril de 2019 la Ciudad de México sustituyó el esquema de fotomultas —una
+sanción puramente económica por exceso de velocidad captada por cámara— por el
+sistema Fotocívicas, en el que la infracción se traduce en la pérdida de
+puntos sobre la licencia de conducir y solo de forma secundaria en una multa
+monetaria. El cambio es relevante para esta tesis porque altera el incentivo
+que enfrenta el conductor: \citet{quintero2023}, en un análisis de series de
+tiempo interrumpido para la Ciudad de México, documentan que las políticas de
+tránsito con consecuencia económica directa (2015) se asociaron a una
+reducción de la mortalidad vial, mientras que el sistema de puntos sin costo
+económico inmediato (2019) se asoció más bien a un incremento. Este
+antecedente anticipa que el vínculo entre fiscalización y víctimas no es
+mecánico, y es consistente con el resultado nulo que se documenta en el
+capítulo~\ref{chap:resultados}.
+
+La infraestructura física de fiscalización —radares fijos y móviles que
+alimentan Fotocívicas— se mantuvo relativamente estable en el periodo de
+estudio: pasó de 116 dispositivos en 2019 (89 fijos y 27 móviles) a 109 en
+2020 y 2021, 105 en 2022 y 121 en 2023, con una composición dominada en todos
+los años por los radares fijos (entre 79 y 103 unidades). El diseño empírico
+de esta tesis usa como definición del \emph{tratamiento} el inventario de
+2021 —91 radares fijos y 18 móviles, geolocalizados— por ser el más cercano y
+predeterminado respecto al evento principal (sección~\ref{sec:eventos}).
+
+Sobre esta infraestructura relativamente estable se superponen cambios en
+\emph{quién} puede infraccionar y \emph{cómo}. En febrero de 2021 se
+modificaron las facultades de infracción de los agentes de tránsito. El
+cambio de mayor relevancia para esta tesis ocurrió en abril de 2022, cuando
+la Secretaría de Seguridad Ciudadana puso en marcha el Programa de Renovación
+de la Policía de Tránsito \citep{elfinanciero2022}. El programa sustituyó a
+la generalidad de policías preventivos —que hasta entonces podían
+infraccionar— por un cuerpo reducido y especializado (100 elementos en su
+arranque), identificados con un brazalete y obligados a levantar cada
+infracción con un dispositivo electrónico y aplicación móvil, en vez del
+talonario físico. En el mismo periodo entró en vigor un nuevo reglamento de
+tránsito que, en paralelo, redujo el número de oficiales autorizados para
+infraccionar y acotó los motivos por los que un vehículo puede ser remitido
+al corralón \citep{galvan2022}. Ambos cambios describen la misma reforma
+desde ángulos distintos: menos agentes, pero con mayor capacidad de
+fiscalización efectiva por agente al estar digitalizados y ser trazables.
+Es esta reforma —no el reglamento de 2022 como choque homogéneo citywide— la
+que se usa como evento en el diseño empírico, precisamente porque su
+implementación fue gradual y territorialmente desigual, lo que genera
+variación explotable entre colonias.
+
+Un tercer momento relevante es septiembre de 2023, cuando entró en vigor una
+reforma dirigida específicamente a motociclistas (uso obligatorio de
+aditamentos luminosos, visor y chamarra o peto de protección), tras un
+periodo de intensificación de operativos que comenzó en enero de ese año.
+Esta reforma se evalúa como evento candidato en la
+sección~\ref{sec:eventos} y se usa como replicación de robustez en el
+capítulo~\ref{chap:resultados}, aunque finalmente no es el evento principal
+por las razones que se detallan ahí.
 
 \section{Evolución de la siniestralidad}
+\label{sec:contexto_siniestralidad}
 
-% TODO. Reutilizar de 2024 (actualizando el periodo a 2024):
-%  - Serie mensual de incidentes / víctimas.
-%  - Composición por tipo de usuario (peatón, motociclista).
-%  - 2022 fue año récord de muertes viales en la CDMX (Navarrete, 2023).
-%  - Efecto de la pandemia sobre movilidad y siniestros en 2020.
+La figura~\ref{fig:serie_victimas} muestra la serie mensual de víctimas de
+hechos de tránsito registradas por la Fiscalía General de Justicia de la
+Ciudad de México (FGJ CDMX) entre enero de 2019 —primer mes con cobertura
+sistemática en los registros— y julio de 2024. Se observan tres rasgos
+relevantes para el diseño empírico. Primero, la caída de movilidad asociada a
+la pandemia de COVID-19 se refleja en un mínimo de víctimas hacia mediados de
+2020, seguida de una recuperación gradual conforme se normalizó la
+movilidad. Segundo, 2022 fue un año particularmente severo: la ciudad
+registró 719 víctimas mortales, con los motociclistas como el grupo más
+afectado (39\,\% de los fallecidos), seguidos de peatones (29\,\%), pasajeros
+(17\,\%), conductores (9\,\%) y ciclistas (5\,\%) \citep{navarrete2023}. Este
+repunte es contemporáneo a la renovación de la Policía de Tránsito descrita
+en la sección anterior, lo que motiva usar ese evento como referencia
+temporal del diseño. Tercero, ni las víctimas totales ni los fallecidos
+muestran una caída sostenida después de abril de 2022; si acaso, la
+tendencia de mediano plazo es ligeramente ascendente hacia 2023-2024. Esta
+observación anticipa, de forma puramente descriptiva, el resultado nulo que
+se documenta formalmente en el capítulo~\ref{chap:resultados}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{401_serie_victimas_2019_2024.png}
+  \caption{Víctimas de hechos de tránsito en la Ciudad de México, 2019-2024.
+  Las líneas verticales marcan los tres eventos candidatos discutidos en la
+  sección~\ref{sec:eventos}.}
+  \imagesource{elaboración propia con datos de la FGJ CDMX.}
+  \label{fig:serie_victimas}
+\end{figure}
 
 \section{Distribución espacial de la fiscalización}
+\label{sec:contexto_espacial}
 
-% TODO. Reutilizar los mapas de calor de 2024, actualizados:
-%  - Las infracciones se concentran fuertemente en pocas zonas (vías primarias
-%    de Miguel Hidalgo, Cuauhtémoc, Venustiano Carranza, Álvaro Obregón).
-%  - Los incidentes / víctimas se distribuyen de forma más homogénea.
-%  - Esta asimetría motiva los efectos fijos de colonia y es la base del
-%    diseño de exposición espacial.
+El diseño de exposición espacial que se define en el
+capítulo~\ref{chap:estrategia} descansa en una asimetría empírica entre
+dónde ocurre la fiscalización y dónde ocurren las víctimas. La
+figura~\ref{fig:mapa_infracciones} muestra que las infracciones de tránsito
+2020-2023 se concentran de forma extrema en un número reducido de colonias
+—principalmente corredores viales primarios de Miguel Hidalgo, Cuauhtémoc,
+Álvaro Obregón y Venustiano Carranza—: el 10\,\% de las colonias con más
+infracciones concentra el 98.8\,\% del total registrado. En contraste, la
+figura~\ref{fig:mapa_victimas} muestra que las víctimas de tránsito
+2019-2024 se distribuyen de forma considerablemente más homogénea en el
+territorio: el mismo umbral del 10\,\% de colonias más afectadas concentra
+apenas el 44.3\,\% de las víctimas.
+
+Esta asimetría espacial es, en buena medida, lo que justifica la elección
+del diseño empírico: si la fiscalización estuviera distribuida de forma tan
+concentrada como las infracciones, casi toda la variación identificante
+provendría de un puñado de colonias atípicas. El uso de efectos fijos de
+colonia junto con una definición de tratamiento basada en buffers de
+distancia a la infraestructura de radares (en vez de, por ejemplo,
+infracciones per cápita) busca precisamente evitar que la estimación quede
+dominada por esas colonias de muy alta concentración de multas.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{402_mapa_infracciones_colonia.png}
+  \caption{Concentración espacial de las infracciones de tránsito por
+  colonia, 2020-2023.}
+  \imagesource{elaboración propia con datos de infracciones de tránsito y
+  el catálogo de colonias del IECM.}
+  \label{fig:mapa_infracciones}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{403_mapa_victimas_colonia.png}
+  \caption{Distribución espacial de las víctimas de tránsito por colonia,
+  2019-jul 2024.}
+  \imagesource{elaboración propia con datos de la FGJ CDMX y el catálogo de
+  colonias del IECM.}
+  \label{fig:mapa_victimas}
+\end{figure}
 
 \section{Eventos candidatos considerados}
+\label{sec:eventos}
 
-% TODO. Tabla / párrafo con los tres eventos evaluados y por qué se elige
-% abril 2022:
-%  - Feb 2021: fiscalización deprimida por la pandemia; no interpretable.
-%  - Abr 2022: primera etapa plausible, tendencias previas válidas para
-%    víctimas. EVENTO PRINCIPAL.
-%  - Sep 2023: sin cobertura de multas posterior; variación espacial débil;
-%    ventana corta con C5.
+La línea del tiempo de política vial 2019-2024 ofrece más de un candidato
+plausible para un diseño de evento. Se evaluaron tres:
+
+\begin{itemize}
+  \item \textbf{Febrero de 2021} — modificación de las facultades de
+  infracción de los agentes de tránsito. Se descarta como evento principal
+  porque coincide con la fase de recuperación post-COVID de la movilidad, lo
+  que hace difícil separar el efecto de la reforma del efecto mecánico de
+  más autos en circulación; además, la fiscalización está deprimida en ese
+  periodo y el diseño no supera la prueba conjunta de tendencias previas
+  (sección~\ref{sec:pretendencias}).
+  \item \textbf{Abril de 2022} — renovación de la Policía de Tránsito. Es el
+  único de los tres eventos con una primera etapa plausible (más
+  fiscalización, aunque débil y transitoria) y con tendencias previas
+  válidas para el outcome de víctimas. Se adopta como \textbf{evento
+  principal} del diseño.
+  \item \textbf{Septiembre de 2023} — reforma dirigida a motociclistas. Se
+  descarta como evento principal por dos razones: la cobertura de
+  infracciones en los datos administrativos termina en abril de 2023, por lo
+  que no hay outcome de mecanismo posterior al evento; y la variación
+  espacial de la exposición es más débil que en abril de 2022. Se usa, en
+  cambio, como \textbf{replicación de robustez} en el
+  capítulo~\ref{chap:resultados}.
+\end{itemize}
+
+El capítulo~\ref{chap:estrategia} retoma el evento de abril de 2022 y define
+formalmente el tratamiento, la especificación de estudio de evento y los
+supuestos de identificación del diseño.

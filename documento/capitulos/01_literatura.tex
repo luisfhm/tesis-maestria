@@ -1,26 +1,16 @@
 \chapter{Revisión de literatura}
 \label{chap:literatura}
 
-% ==========================================================================
-% BASE: capítulo 1 de la versión 2024 (pp. 4-5). Es de los capítulos más
-% reutilizables. Referencias ya en referencias/ref.bib.
-% AJUSTES PENDIENTES (comentario de Horacio: "ampliar literatura"):
-%  - Añadir literatura sobre evaluación de reformas de enforcement / policía
-%    (no solo multas): efecto de más agentes / operativos sobre siniestralidad.
-%  - Añadir literatura sobre efectos de reporte en datos administrativos de
-%    siniestros y víctimas.
-%  - Añadir literatura de diseño: event study, DiD espacial, tratamiento por
-%    buffer / exposición a infraestructura.
-%  - Quintero Valverde et al. (2023) es la referencia local más cercana
-%    (interrupted time-series de políticas de seguridad vial en CDMX 2015-2019):
-%    desarrollar.
-% ==========================================================================
-
 \noindent
 La relación entre fiscalización de tránsito y siniestralidad ha sido estudiada
-desde perspectivas y contextos diversos, con resultados heterogéneos.
+desde perspectivas y contextos diversos, con resultados heterogéneos. Esta
+tesis se sitúa en la intersección de dos literaturas: la que relaciona el
+volumen de multas con la siniestralidad, y la más amplia —y más cercana al
+diseño de este trabajo— sobre disuasión (\emph{deterrence}) a través de la
+presencia y capacidad de fiscalización de la autoridad.
 
-% --- Correlación multas-siniestros (reutilizable de 2024) ---
+\section{Multas y siniestralidad}
+
 Varios trabajos documentan una asociación positiva entre historial de
 infracciones y riesgo de siniestro a nivel individual. \citet{factor2014}
 encuentra, con regresiones logísticas sobre datos de Israel, que quienes han
@@ -29,25 +19,80 @@ recibido multas en el pasado son más propensos a sufrir hechos de tránsito.
 exceso de velocidad y la conducción distraída se asocian a mayor riesgo de
 siniestros fatales.
 
-% --- Evidencia causal (reutilizable) ---
 En el plano causal, \citet{luca2015} usa un diseño de variables instrumentales a
 partir del programa ``Click-it-or-Ticket'' en Massachusetts y concluye que las
 multas ayudan a generar conciencia entre los conductores. \citet{makowsky2011}
 encuentran, para municipios de Estados Unidos con restricciones
 presupuestales, que un mayor volumen de multas se asocia con menos siniestros.
-\citet{mphela2013} reporta, para Botswana, un efecto de la aplicación de la ley
-sobre las muertes viales.
+\citet{mphela2013} reporta, para Botswana, que el efecto de la aplicación de la
+ley sobre las muertes viales es limitado, y sugiere que elevar la edad mínima
+para obtener licencia podría ser más efectivo que endurecer las sanciones
+económicas.
 
-% --- Contexto local (desarrollar) ---
-Para la Ciudad de México, \citet{quintero2023} evalúan un conjunto de políticas
-de seguridad vial entre 2015 y 2019 mediante series de tiempo interrumpidas.
-% TODO: resumir sus hallazgos y ubicar esta tesis respecto a ese trabajo.
+\section{Enforcement policial y disuasión}
 
-% --- Hueco que llena esta tesis ---
-% TODO redactar. Puntos:
-%  - La mayoría de la evidencia se centra en el volumen de multas, no en
-%    reformas institucionales de la policía de tránsito.
-%  - Poca evidencia para América Latina y para unidades espaciales finas.
-%  - Este trabajo aporta un diseño de exposición espacial a la infraestructura
-%    de fiscalización, con un outcome de víctimas (no solo de reportes de
-%    incidente) y atención explícita a los efectos de reporte.
+Un cuerpo distinto de literatura —más cercano al diseño de esta tesis— no mide
+el efecto de la multa individual, sino el de la \emph{capacidad de
+fiscalización} de la autoridad, sea esta medida en agentes, patrullas u
+operativos. El marco teórico de referencia es \citet{becker1968}: la
+probabilidad percibida de ser sancionado, y no solo la severidad de la
+sanción, es lo que determina el efecto disuasivo sobre el comportamiento. Esta
+distinción es relevante para esta tesis porque el diseño empírico evalúa un
+cambio en la \emph{capacidad de fiscalización} (número y digitalización de
+agentes autorizados para infraccionar) más que en el monto de las multas.
+
+La evidencia empírica más cercana a este trabajo es \citet{deangelohansen2014},
+quienes explotan un recorte presupuestal que redujo en 35\,\% el número de
+oficiales de la patrulla carretera de Oregón en 2003. Encuentran que la caída
+en infracciones emitidas estuvo acompañada de un aumento significativo en
+lesiones y muertes viales, y estiman que cada \$309{,}000 dólares de gasto
+adicional en patrullaje carretero previene una muerte vial. El diseño de
+\citeauthor{deangelohansen2014} es, en esencia, el espejo del de esta
+tesis: en vez de una reducción de agentes, aquí se explota un aumento
+diferencial en la capacidad de fiscalización, y en vez de variación temporal
+pura, se explota variación espacial en la exposición a la infraestructura de
+fiscalización. \citet{chalfinmccrary2017}, en una revisión exhaustiva de la
+literatura de disuasión criminal, documentan un patrón consistente con este
+resultado: existe evidencia sólida de que el comportamiento responde a la
+presencia y capacidad de la policía, pero mucho menos evidencia de que
+responda a la severidad de la sanción en sí misma —una distinción que motiva
+tratar las multas como \emph{mecanismo} y no como la variable de interés
+central de este trabajo (Sección~\ref{sec:estrategia_outcomes}).
+
+\section{Evidencia para la Ciudad de México}
+
+La referencia local más cercana a esta tesis es \citet{quintero2023}, quienes
+evalúan mediante un diseño de series de tiempo interrumpido controlado (CITS)
+un conjunto de políticas de seguridad vial de la Ciudad de México entre 2015 y
+2019. Encuentran resultados opuestos según el tipo de sanción: las políticas
+de 2015 —métodos automáticos de detección de exceso de velocidad, uso del
+celular o giros prohibidos, con consecuencia económica directa (fotomultas)—
+se asocian a una \emph{disminución} de la mortalidad vial, mientras que la
+política de 2019 —el sistema de puntos sin consecuencia económica inmediata
+(Fotocívicas, Sección~\ref{sec:contexto_politica})— se asocia a un
+\emph{incremento}. Este hallazgo es un antecedente directo para esta tesis:
+sugiere que la naturaleza de la sanción (económica vs. administrativa) importa
+tanto como su volumen, y anticipa que el vínculo entre más fiscalización y
+menos víctimas no es automático en el contexto específico de la Ciudad de
+México.
+
+\section{Aporte de esta tesis}
+
+Esta tesis se distingue de la literatura revisada en tres puntos. Primero, la
+mayoría de la evidencia sobre multas y siniestralidad —incluida la versión
+2024 de este mismo proyecto— se concentra en el volumen de infracciones como
+variable de interés y trata a la policía como un agente pasivo que solo
+multa; aquí, siguiendo más de cerca a \citet{deangelohansen2014}, el objeto de
+estudio es un cambio institucional en la capacidad de fiscalización, y las
+multas se usan únicamente como evidencia de que ese cambio se tradujo en más
+actividad de enforcement. Segundo, la evidencia para América Latina y, en
+particular, para unidades espaciales finas dentro de una misma ciudad es
+escasa: \citet{quintero2023} evalúa políticas a nivel ciudad; este trabajo
+explota variación \emph{dentro} de la Ciudad de México mediante exposición
+espacial a la infraestructura de fiscalización. Tercero, esta tesis pone
+atención explícita a los efectos de reporte en los datos administrativos de
+víctimas —una amenaza a la identificación que rara vez se discute
+formalmente en esta literatura— al usar fallecidos, un desenlace mucho menos
+sensible a la probabilidad de que un hecho se registre formalmente, como
+verificación de robustez del resultado principal
+(Sección~\ref{sec:contexto_espacial} y capítulo~\ref{chap:resultados}).

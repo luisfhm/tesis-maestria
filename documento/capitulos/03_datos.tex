@@ -15,25 +15,32 @@
 
 \section{Fuentes}
 
-\begin{itemize}
-  \item \textbf{Víctimas de hechos de tránsito (FGJ).} Víctimas registradas en
-        carpetas de investigación de la Fiscalía General de Justicia de la
-        Ciudad de México, 2019 a julio de 2024. Se conservan las lesiones y
-        homicidios culposos por tránsito vehicular
-        (\textasciitilde 27{,}000 víctimas, de las cuales \textasciitilde 4{,}400
-        fallecidas). El 88\% cuenta con coordenadas.
-  \item \textbf{Incidentes viales C5.} Serie georreferenciada de incidentes
-        reportados a los sistemas de atención de emergencias, 2014 a febrero de
-        2024. \emph{Outcome} secundario.
-  \item \textbf{Infracciones de tránsito.} Base histórica de infracciones al
-        Reglamento de Tránsito, enero de 2020 a abril de 2023. El artículo 9
-        (exceso de velocidad) concentra cerca del 77\% de los registros. Sirve
-        como medida de mecanismo.
-  \item \textbf{Infraestructura de fiscalización.} Inventario anual de radares
-        fijos y móviles y equipos asociados, 2019 a 2024, georreferenciado.
-  \item \textbf{Geografía.} Unidades territoriales del Instituto Electoral de la
-        Ciudad de México (1{,}814 unidades).
-\end{itemize}
+El \emph{outcome} principal proviene de las carpetas de investigación de la
+Fiscalía General de Justicia de la Ciudad de México (FGJ), que registran a
+cada persona involucrada en un hecho de tránsito entre enero de 2019 y julio
+de 2024. De este universo se conservan únicamente las lesiones y los
+homicidios culposos por tránsito vehicular, lo que deja alrededor de
+27{,}000 víctimas, de las cuales cerca de 4{,}400 fallecieron; el 88\% de los
+registros cuenta con coordenadas propias, y el resto se ubica por coincidencia
+de nombre de colonia. Como \emph{outcome} secundario se usa la serie
+georreferenciada de incidentes viales reportados a los sistemas de atención de
+emergencias del C5, disponible de forma continua desde 2014 hasta febrero de
+2024; a diferencia de las víctimas, este registro no distingue gravedad ni
+depende de que se abra una carpeta de investigación, por lo que sirve como
+punto de comparación frente a un posible efecto de reporte
+(Sección~\ref{sec:contexto_espacial}).
+
+El mecanismo del diseño —si la reforma efectivamente incrementó la actividad
+de fiscalización— se documenta con la base histórica de infracciones al
+Reglamento de Tránsito, que cubre de enero de 2020 a abril de 2023 y en la que
+el artículo 9 (exceso de velocidad) concentra por sí solo cerca del 77\% de
+los registros. El tratamiento, por su parte, se construye a partir del
+inventario anual de radares fijos y móviles y equipos asociados de
+Fotocívicas, disponible de 2019 a 2024 y georreferenciado equipo por equipo,
+según se describe en la sección siguiente. Todas estas fuentes se agregan
+sobre la misma malla territorial: las 1{,}814 unidades del catálogo de
+colonias del Instituto Electoral de la Ciudad de México, que es también la
+unidad de observación del panel.
 
 \section{Panel colonia-mes}
 
@@ -45,28 +52,129 @@ Cada fuente lleva un indicador de cobertura temporal; fuera de su periodo de
 cobertura los conteos se dejan como ausentes, no como cero.
 
 \section{Construcción de la exposición a la infraestructura}
+\label{sec:datos_exposicion}
 
-% TODO. Describir el cálculo de 310_construir_exposicion_radares.R:
-%  - Para cada colonia y cada año 2019-2024, y cada buffer b in {250,500,1000,1500}:
-%    número de equipos a <= b m, distancia al más cercano, % del área expuesta.
-%  - Tabla: colonias tratadas por buffer y año.
+Para cada colonia y cada año entre 2019 y 2024 se calcula, a partir del
+inventario georreferenciado de radares fijos y móviles, tres medidas de
+exposición: el número de equipos a menos de $b$ metros del polígono de la
+colonia, la distancia al equipo más cercano, y la proporción del área de la
+colonia que cae dentro de ese radio. Estas tres medidas se calculan para
+cuatro definiciones de \emph{buffer} ($b \in \{250, 500, 1000, 1500\}$
+metros), y de la primera de ellas se deriva el indicador binario
+$\text{tratada}_i(b)$ que se usa como definición principal del tratamiento en
+el capítulo~\ref{chap:estrategia}.
+
+El diseño usa el inventario de 2021 —el más cercano y predeterminado respecto
+al evento de abril de 2022— para fijar qué colonias cuentan como tratadas. La
+tabla~\ref{tab:tratamiento_buffer} muestra que esta definición es, como es de
+esperarse, sensible al radio elegido: pasa de 215 colonias tratadas (11.9\,\%
+del total) con $b=250$\,m a 837 (46.1\,\%) con $b=1500$\,m. El capítulo de
+resultados reporta el efecto para $b \in \{250, 500, 1000\}$ como análisis de
+sensibilidad. Vale la pena notar que, aunque el número de radares por año
+fluctúa moderadamente (Sección~\ref{sec:contexto_politica}), el conjunto de
+colonias tratadas con $b=500$\,m se mantiene relativamente estable entre 2019
+y 2024 (16.9\,\% a 20.2\,\%): la infraestructura se reubica poco de un año a
+otro, lo que hace razonable fijar el inventario de 2021 como definición de
+tratamiento predeterminada al evento.
+
+\begin{table}[H]
+  \centering
+  \caption{Colonias tratadas por definición de \emph{buffer}, inventario 2021}
+  \label{tab:tratamiento_buffer}
+  \begin{tabular}{lrrr}
+    \toprule
+    Buffer & Colonias tratadas & Total & \% tratadas \\
+    \midrule
+    250 m  & 215 & 1{,}814 & 11.9\,\% \\
+    500 m  & 328 & 1{,}814 & 18.1\,\% \\
+    1{,}000 m & 590 & 1{,}814 & 32.5\,\% \\
+    1{,}500 m & 837 & 1{,}814 & 46.1\,\% \\
+    \bottomrule
+  \end{tabular}
+  \imagesource{elaboración propia con el inventario de radares y el catálogo
+  de colonias del IECM.}
+\end{table}
 
 \section{Descriptivos}
+\label{sec:datos_descriptivos}
 
-% TODO. Actualizar los cuadros de 2024 a colonia y añadir víctimas:
-%  - Cuadro de descriptivos (media, percentiles) de incidentes, víctimas,
-%    infracciones a nivel colonia-mes.
-%  - Nota clave: las víctimas son un outcome disperso (media 0.16 por
-%    colonia-mes, 89% de ceros); esto motiva el modelo de conteo en la robustez.
-%  - Comparación tratadas vs. control en el periodo previo.
+La tabla~\ref{tab:descriptivos} resume la distribución de los tres
+\emph{outcomes} y la variable de mecanismo a nivel colonia-mes, calculada
+únicamente dentro del periodo de cobertura de cada fuente. El rasgo más
+relevante para la estrategia empírica es la dispersión del \emph{outcome}
+principal: las víctimas de tránsito promedian apenas 0.16 por colonia-mes, con
+88.7\,\% de observaciones en cero, y los fallecidos son aún más raros
+(97.9\,\% de ceros). Esta concentración en cero es la razón por la que el
+capítulo~\ref{chap:resultados} contrasta el modelo lineal con un modelo de
+conteo (Poisson): una variable así de dispersa se presta a que un puñado de
+colonias con recuentos altos domine un ajuste por mínimos cuadrados, aun bajo
+efectos fijos. Las infracciones, en contraste, son mucho menos dispersas en
+proporción pero mucho más asimétricas en magnitud (máximo de 81{,}161 en una
+sola colonia-mes), reflejo directo de la concentración espacial documentada
+en la Sección~\ref{sec:contexto_espacial}.
+
+\begin{table}[H]
+  \centering
+  \caption{Descriptivos a nivel colonia-mes}
+  \label{tab:descriptivos}
+  \begin{tabular}{lrrrrrr}
+    \toprule
+    Variable & Media & DE & P50 & P90 & Máx. & \% cero \\
+    \midrule
+    Incidentes C5        & 9.81   & 14.74   & 4 & 28 & 192    & 25.1\,\% \\
+    Víctimas de tránsito  & 0.16   & 0.56    & 0 & 1  & 17     & 88.7\,\% \\
+    \quad de las cuales, fallecidos & 0.03 & 0.21 & 0 & 0 & 17 & 97.9\,\% \\
+    Infracciones          & 116.00 & 1{,}522.05 & 0 & 6 & 81{,}161 & 75.6\,\% \\
+    \bottomrule
+  \end{tabular}
+  \imagesource{elaboración propia. Cada variable se calcula solo dentro del
+  periodo de cobertura de su fuente (Sección~\ref{sec:datos_auditoria}).}
+\end{table}
+
+Antes de pasar al estudio de evento, vale la pena mirar simplemente los
+niveles: en el periodo previo a abril de 2022, las colonias que resultan
+tratadas con $b=500$\,m ya registraban, en promedio, casi el triple de
+víctimas (0.39 vs. 0.14 por mes) y de incidentes C5 (18.4 vs. 6.9), y más de
+doce veces las infracciones (528 vs. 43) que las colonias de control. Esta
+brecha de niveles no es sorprendente —la infraestructura de fiscalización se
+instala en vías primarias, que por definición concentran más tráfico y más
+siniestralidad— pero es la razón por la que el capítulo~\ref{chap:estrategia}
+identifica el efecto a partir de \emph{cambios} dentro de cada colonia
+(efectos fijos) y no de una comparación de niveles entre tratadas y control.
 
 \section{Auditoría de la muestra}
+\label{sec:datos_auditoria}
 
-% TODO. Documentar:
-%  - Tasas de asignación a colonia por fuente y año (víctimas 88%,
-%    infracciones 65% global — 97% en 2020, ~55% en 2022-23 por la
-%    subdivisión del catálogo IECM en secciones).
-%  - Meses excluidos de la base de infracciones: abril de 2021 (ausente),
-%    mayo y junio de 2021 (\textasciitilde 67\% de registros con colonia
-%    ``DESCONOCIDO'' en la fuente).
-%  - Tratamiento del periodo COVID.
+Cada fuente se asigna a una colonia con un método distinto, y con una tasa de
+éxito distinta. Las víctimas de tránsito se ubican por coordenadas en el
+88\,\% de los casos; el 12\,\% restante, sin coordenadas válidas, se
+descarta —una pérdida que no hay razón para suponer sistemáticamente
+correlacionada con el tratamiento—. Los incidentes C5 llegan ya
+georreferenciados de un procesamiento previo, con una tasa de asignación
+cercana al 100\,\%. Las infracciones son la fuente más problemática: solo el
+año 2020 trae coordenadas, con una asignación del 97\,\%; de 2021 en adelante
+la asignación depende de hacer coincidir el nombre de colonia reportado con el
+catálogo del IECM, y la tasa cae a alrededor de 55\,\% en 2022-2023 (65\,\%
+en el conjunto del periodo). La causa es que el catálogo del IECM subdivide
+varias colonias grandes en secciones —\texttt{GUERRERO I/II/III/IV},
+\texttt{DOCTORES I-V}, nueve secciones distintas de \texttt{POLANCO}— que no
+tienen contraparte en el nombre genérico que reportan las infracciones, y sin
+coordenadas no hay forma de desambiguar a cuál sección pertenece cada
+registro. Este problema afecta de forma desproporcionada a las colonias con
+más infraestructura de fiscalización (Miguel Hidalgo, Álvaro Obregón), lo que
+introduce un sesgo hacia el grupo tratado en cualquier estadístico agregado de
+infracciones no asignadas. Es una razón adicional, junto con la ausencia de
+outcome posterior para el evento de 2023, por la que las infracciones se usan
+en esta tesis únicamente como evidencia de mecanismo y no como variable de
+tratamiento ni como outcome principal.
+
+La base de infracciones tiene además dos huecos temporales que se excluyen
+explícitamente de su indicador de cobertura: abril de 2021, ausente por
+completo de la fuente, y mayo-junio de 2021, en los que cerca del 67\,\% de
+los registros del bimestre correspondiente (\texttt{2021\_b3}) llegan con la
+colonia marcada como \texttt{DESCONOCIDO}. Ambos son problemas de la fuente
+administrativa, no artefactos del procesamiento: se documentan aquí en vez de
+imputarse. Por esta razón, y para mantener el análisis fuera de la fase más
+aguda de la pandemia, la ventana del estudio de evento
+(Sección~\ref{sec:estrategia_outcomes}) no arranca sino hasta junio de 2021,
+diez meses antes del evento de abril de 2022.

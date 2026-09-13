@@ -1,27 +1,13 @@
 \chapter{Conclusiones}
 \label{chap:conclusiones}
 
-% ==========================================================================
-% BASE: conclusiones de la versión 2024 (pp. 25-26): "las multas se asocian con
-% más accidentes en la CDMX"; posibles explicaciones (educación vial, sistema
-% de puntos, mordidas, concentración espacial del enforcement).
-% AJUSTES: el hallazgo ya no es un efecto positivo estimado por IV, sino un
-% nulo robusto. Reorientar hacia:
-%  - qué se puede y qué no se puede concluir de un nulo en este contexto;
-%  - por qué el diseño previo (IV con instrumento de "infracciones sobre la
-%    mediana") no era creíble y qué se corrigió;
-%  - implicaciones de política más matizadas.
-% ==========================================================================
-
 \noindent
-% --- Qué se hizo ---
 Este trabajo evaluó si el aumento de la fiscalización vial asociado a la
 renovación de la Policía de Tránsito de la Ciudad de México (abril de 2022)
 redujo las víctimas de hechos de tránsito, comparando la evolución de las
 colonias expuestas a la infraestructura de fiscalización con la de las no
 expuestas.
 
-% --- Qué se encontró ---
 No se encuentra evidencia robusta de un efecto. Las víctimas fallecidas —el
 \emph{outcome} menos sensible a los efectos de reporte— no cambian en ninguna
 especificación. El aumento aparente en las víctimas totales bajo mínimos
@@ -29,25 +15,90 @@ cuadrados no sobrevive a un modelo de conteo y coincide en momento y duración
 con un repunte transitorio de las infracciones, lo que sugiere un efecto de
 registro más que un cambio real en la siniestralidad.
 
-% --- Cómo leer el nulo ---
-% TODO desarrollar. El nulo debe interpretarse con cautela: la propia
-% intervención (fiscalización diferencial inducida por la reforma) es débil y de
-% corta duración, por lo que el resultado es más "ausencia de evidencia de
-% efecto" que "efecto nulo estimado con precisión". Distinguir de una
-% conclusión de política fuerte.
+\section{Cómo leer el nulo}
 
-% --- Relación con la versión previa de esta investigación ---
-% TODO. La versión de 2024 estimaba un efecto positivo (más multas -> más
-% accidentes) con un diseño de variables instrumentales cuyo instrumento
-% ("haber tenido infracciones por encima de la mediana") no cumplía de forma
-% creíble la restricción de exclusión. El rediseño corrige la unidad de
-% análisis, abandona el IV y explicita las amenazas de identificación.
+Un resultado nulo admite al menos dos lecturas, y conviene ser explícito sobre
+cuál corresponde a este trabajo. La primera es que la fiscalización vial, bien
+implementada, no tiene capacidad de reducir víctimas de tránsito —un hallazgo
+fuerte, y de alguna forma sorprendente a la luz de \citet{deangelohansen2014},
+quien sí encuentra un efecto grande del enforcement policial sobre la
+mortalidad vial en su contexto—. La segunda, más modesta y más consistente
+con la evidencia reunida aquí, es que \emph{esta} intervención en particular
+—la renovación de la Policía de Tránsito— no generó una fiscalización
+diferencial lo bastante fuerte ni lo bastante sostenida como para mover el
+outcome, independientemente de si el mecanismo funcionaría con una
+intervención de mayor intensidad. El mecanismo (Sección~\ref{sec:mecanismo})
+muestra un incremento de apenas 10 a 35\,\% en infracciones cerca de la
+infraestructura, nunca estadísticamente significativo de forma individual, y
+concentrado en una ventana de aproximadamente cuatro meses antes de disiparse.
+Un primer paso tan débil deja poco margen para observar un efecto en el
+segundo. El nulo de esta tesis debe leerse, entonces, como \emph{ausencia de
+evidencia de un efecto bajo un tratamiento débil}, y no como una estimación
+precisa de un efecto verdaderamente cero. La réplica en septiembre de 2023
+(Sección~\ref{sec:replica_sep2023}) refuerza la robustez del patrón —el mismo
+nulo aparece en un segundo evento, con otra reforma y otra infraestructura de
+referencia— pero no resuelve esta ambigüedad de fondo, porque tampoco en ese
+caso hay evidencia de una fiscalización diferencial fuerte.
 
-% --- Implicaciones y trabajo futuro ---
-% TODO. Puntos:
-%  - Una reforma institucional de la policía de tránsito, por sí sola, no
-%    produjo una fiscalización diferencial fuerte ni sostenida.
-%  - Los efectos de reporte son un reto central para evaluar políticas de
-%    seguridad vial con datos administrativos.
-%  - Trabajo futuro: unidad de segmento vial; grupo de control por matching;
-%    outcomes actualizados de C5 que permitan evaluar eventos posteriores.
+\section{Relación con la versión previa de esta investigación}
+
+La versión anterior de este proyecto estimaba, con un diseño de variables
+instrumentales a nivel código postal, que un mayor volumen de multas se
+asociaba con \emph{más} accidentes de tránsito. El instrumento —haber
+recibido infracciones por encima de la mediana en el periodo previo— no
+satisfacía de forma creíble la restricción de exclusión: es difícil sostener
+que el historial de multas de una zona afecta la accidentalidad únicamente a
+través de las multas contemporáneas, y no a través de características de la
+zona (tipo de vialidad, volumen de tráfico, comportamiento de los
+conductores) correlacionadas con ambas variables. El rediseño que da lugar a
+esta tesis corrige tres decisiones de ese diseño original: cambia la unidad de
+análisis de código postal a colonia, que es la unidad administrativa sobre la
+que efectivamente varía la infraestructura de fiscalización; abandona el
+enfoque de variables instrumentales en favor de un estudio de evento con
+efectos fijos, sin pretender resolver la endogeneidad de las multas por la vía
+de un instrumento débil; y trata las multas explícitamente como
+\emph{mecanismo} —evidencia de que hubo más fiscalización— en vez de como la
+variable de interés central, desplazando esa posición a las víctimas de
+tránsito. El resultado cambia en consecuencia: de un efecto positivo y
+significativo, pero apoyado en un instrumento cuestionable, a un nulo robusto
+a la especificación, apoyado en una fuente de variación más transparente
+—dónde se ubica la infraestructura de fiscalización— aunque también más
+débil.
+
+\section{Implicaciones y trabajo futuro}
+
+Con las salvedades del nulo señaladas arriba, este trabajo deja tres
+implicaciones. Primero, una reforma institucional de la policía de tránsito
+—cambiar quién puede infraccionar y cómo, sin necesariamente ampliar de forma
+sostenida la infraestructura física de fiscalización— no es, por sí sola,
+garantía de una fiscalización diferencial fuerte; el mecanismo de esta tesis
+lo muestra de forma directa. Segundo, los efectos de reporte son un reto
+central, y con frecuencia subestimado, para evaluar políticas de seguridad
+vial con datos administrativos: el hecho de que el efecto aparente sobre
+víctimas totales desaparezca al usar fallecidos —y de que ambos coincidan en
+tiempo con el repunte de multas— es exactamente el patrón que produciría un
+cambio en la probabilidad de registro sin un cambio real en la
+siniestralidad, y cualquier evaluación de este tipo de política debería
+distinguir explícitamente entre ambos canales, como se hace aquí
+(Sección~\ref{sec:contexto_espacial}). Tercero, la literatura de disuasión
+policial \citep{chalfinmccrary2017,deangelohansen2014} sugiere que
+el margen relevante no es solo la fiscalización, sino su intensidad y su
+persistencia; un análisis que solo observe si hubo o no una reforma, sin
+medir directamente cuánto cambió la fiscalización efectiva, corre el riesgo de
+atribuir a la política un efecto —o una ausencia de efecto— que en realidad
+depende de qué tan bien se implementó.
+
+Quedan al menos tres líneas de trabajo futuro. La más directa es cambiar la
+unidad de análisis de colonia a segmento vial, lo que permitiría una
+definición de exposición más precisa que un buffer de distancia y reduciría
+el problema de que la infraestructura y la siniestralidad comparten
+determinantes a nivel colonia (Sección~\ref{sec:datos_descriptivos}). Una
+segunda línea es construir un grupo de control por \emph{matching} explícito
+sobre las características previas al evento, en vez de depender enteramente
+de los efectos fijos para absorber la diferencia de niveles entre colonias
+tratadas y no tratadas. Una tercera es extender la ventana posterior del
+análisis conforme se actualicen las fuentes de datos —en particular, C5 más
+allá de febrero de 2024 e infracciones más allá de abril de 2023— lo que
+permitiría evaluar con outcome de mecanismo eventos más recientes, como la
+propia reforma de motociclistas de septiembre de 2023, que en esta tesis solo
+pudo replicarse para el outcome de víctimas.

@@ -46,3 +46,20 @@ data/
 
 # Synology
 .SynologyWorkingDirectory/
+
+# ==============================================================================
+# LATEX (documento/) - artefactos de compilación, no el .pdf final
+# ==============================================================================
+
+documento/**/*.aux
+documento/*.aux
+documento/*.log
+documento/*.out
+documento/*.toc
+documento/*.lof
+documento/*.lot
+documento/*.bbl
+documento/*.blg
+documento/*.synctex.gz
+documento/*.fls
+documento/*.fdb_latexmk
